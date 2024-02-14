@@ -1,0 +1,14 @@
+case;BankName;BankCountryISO2;City;SWIFTBIC;RecordsToSkip;RecordsToTake;ExpError
+case1;;IN;Chennai;KKBKINBBXXX;1;5;null
+case2;;UK;Chennai;KKBKINBBXXX;1;5;[Country_Code2 is invalid]
+case3;%$^%;IN;Chennai;KKBKINBBXXX;1;5;null
+case4;INDUSIND;;Chennai;KKBKINBBXXX;1;5;[Bank Country ISO2 is mandatory]
+case5;PUNJAB;INA;Chennai;KKBKINBBXXX;1;5;[Invalid Bank Country ISO2,Country_Code2 is invalid]
+case6;BANK;123156;Chennai;KKBKINBBXXX;1;5;[Invalid Bank Country ISO2,Country_Code2 is invalid]
+case7;INDUSIND;IN;;KKBKINBBXXX;1;5;null
+case8;PUNJAB;IN;798513;;1;5;null
+case9;BANK;IN;Chennai;65465;1;5;null
+case10;INDUSIND;IN;Chennai;KKBKINBBXXX;;5;[RecordsToSkip is mandatory and should be greater than 0]
+case11;PUNJAB;IN;Chennai;KKBKINBBXXX;abc;5;[RecordsToSkip is mandatory and should be greater than 0]
+case12;BANK;IN;Chennai;KKBKINBBXXX;1;;[RecordsToTake is mandatory and should be greater than 0]
+case13;PUNJAB;IN;Chennai;KKBKINBBXXX;1;aa;[RecordsToTake is mandatory and should be greater than 0]

@@ -1,0 +1,1 @@
+{"SearchBankByNationalIDResponse":{"SearchBankByNationalIDResult":{"Banks":null,"OperationStatus":{"Errors":["NationalID is mandatory","Pagination is mandatory"],"Success":false},"PaginationTotal":null}}}

@@ -1,0 +1,347 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,grpThreads,allThreads,Latency,IdleTime
+1640070697670,546,case1_ToUser,200,OK,Web API 1-1,text,true,,888,1,1,546,0
+1640070698229,286,case2_ToUser,200,OK,Web API 1-1,text,true,,882,1,1,286,0
+1640070716035,988,case1_ToUser,200,OK,Web API 1-1,text,true,,889,1,1,988,0
+1640070717031,292,case2_ToUser,200,OK,Web API 1-1,text,true,,884,1,1,292,0
+1640070717327,296,case3_ToUser,200,OK,Web API 1-1,text,true,,879,1,1,296,0
+1640070717628,301,case4_ToUser,200,OK,Web API 1-1,text,true,,883,1,1,301,0
+1640070717932,298,case5_ToUser,200,OK,Web API 1-1,text,true,,891,1,1,298,0
+1640070718233,301,case6_ToUser,200,OK,Web API 1-1,text,true,,891,1,1,301,0
+1640070718539,294,case7_ToUser,200,OK,Web API 1-1,text,true,,882,1,1,294,0
+1640070718837,314,case8_ToUser,200,OK,Web API 1-1,text,true,,881,1,1,314,0
+1640070719155,318,case9_ToUser,200,OK,Web API 1-1,text,true,,893,1,1,318,0
+1640070719476,309,case10_ToUser,200,OK,Web API 1-1,text,true,,892,1,1,308,0
+1640070719788,314,case11_ToUser,200,OK,Web API 1-1,text,true,,880,1,1,314,0
+1640070720105,323,case12_ToUser,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:Card token is invalid but received Card token is invalid,86288 - Invalid wallet id",896,1,1,323,0
+1640070720433,303,case13_ToUser,200,OK,Web API 1-1,text,true,,882,1,1,303,0
+1640070720738,320,case14_ToUser,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:Card token is invalid but received Card token is invalid,86288 - Invalid wallet id",896,1,1,320,0
+1640070721062,323,case15_ToUser,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:Card token is mandatory but received Card token is mandatory,86288 - Invalid wallet id",899,1,1,323,0
+1640070721388,320,case16_ToUser,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:Card token is mandatory but received Card token is mandatory,86288 - Invalid wallet id",899,1,1,319,0
+1640070721711,345,case17_ToUser,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:Card token is invalid but received Card token is invalid,86288 - Invalid wallet id",896,1,1,345,0
+1640070722057,317,case18_ToUser,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:Invalid Beneficiary Check Country Code ISO2,Beneficiary Check City is mandatory,Beneficiary Check Memo is mandatory but received Invalid Beneficiary Check Country Code ISO2,Beneficiary Check City is mandatory,Beneficiary Check Memo is mandatory,86288 - Invalid wallet id",931,1,1,317,0
+1640070722377,316,case19_ToUser,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:Invalid Beneficiary Check Country Code ISO2,Beneficiary Check Name is mandatory,Beneficiary Check City is mandatory but received Invalid Beneficiary Check Country Code ISO2,Beneficiary Check Name is mandatory,Beneficiary Check City is mandatory,86288 - Invalid wallet id",932,1,1,316,0
+1640070722695,316,case20_ToUser,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:Invalid Beneficiary Check Country Code ISO2,Beneficiary Check City is mandatory,Beneficiary Postal Code is mandatory but received Invalid Beneficiary Check Country Code ISO2,Beneficiary Check City is mandatory,Beneficiary Postal Code is mandatory,86288 - Invalid wallet id",934,1,1,316,0
+1640070723014,344,case21_ToUser,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:PAT17126580 Gift Card EmailID is mandatory,Amount must be : 10 but received PAT17126580 Gift Card EmailID is mandatory,Amount must be : 10,86288 - Invalid wallet id",931,1,1,344,0
+1640070723361,370,case22_ToUser,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:PAT17126580 Prepaid Visa EmailID is mandatory,Amount must be between : 5 and 1000 but received PAT17126580 Prepaid Visa EmailID is mandatory,Amount must be between : 5 and 1000,86288 - Invalid wallet id",942,1,1,369,0
+1640070723733,331,case23_ToUser,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:PAT17126580 - User BankID is mandatory but received PAT17126580 - User BankID is mandatory,86288 - Invalid wallet id",914,1,1,331,0
+1640070724067,312,case24_ToUser,200,OK,Web API 1-1,text,true,,1009,1,1,312,0
+1640070724383,369,case1_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:2314 - Invalid wallet id,Current funds are insufficient to process request but received Cannot process payment for this id - SPN1986817. Beneficiary Account Number must be SPN Account Number.,2314 - Invalid wallet id,85304 - Invalid beneficiary wallet id,SPN1986817 - card token is invalid,Current funds are insufficient to process request,SPN1986817 - Invalid ID",1088,1,1,369,0
+1640070724759,313,case2_ToCompany,200,OK,Web API 1-1,text,true,,986,1,1,313,0
+1640070725077,300,case3_ToCompany,200,OK,Web API 1-1,text,true,,975,1,1,300,0
+1640070725381,298,case4_ToCompany,200,OK,Web API 1-1,text,true,,970,1,1,298,0
+1640070725682,301,case5_ToCompany,200,OK,Web API 1-1,text,true,,974,1,1,301,0
+1640070725986,297,case6_ToCompany,200,OK,Web API 1-1,text,true,,986,1,1,297,0
+1640070726286,350,case7_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:2314 - Invalid wallet id,SPN1986817 - card token is invalid,Current funds are insufficient to process request but received Cannot process payment for this id - SPN1986817. Beneficiary Account Number must be SPN Account Number.,2314 - Invalid wallet id,85304 - Invalid beneficiary wallet id,SPN1986817 - card token is invalid,Current funds are insufficient to process request,SPN1986817 - Invalid ID",1089,1,1,350,0
+1640070726640,295,case8_ToCompany,200,OK,Web API 1-1,text,true,,974,1,1,295,0
+1640070726938,296,case9_ToCompany,200,OK,Web API 1-1,text,true,,968,1,1,296,0
+1640070727236,294,case10_ToCompany,200,OK,Web API 1-1,text,true,,988,1,1,294,0
+1640070727533,295,case11_ToCompany,200,OK,Web API 1-1,text,true,,983,1,1,295,0
+1640070727831,298,case12_ToCompany,200,OK,Web API 1-1,text,true,,971,1,1,298,0
+1640070728131,294,case13_ToCompany,200,OK,Web API 1-1,text,true,,975,1,1,294,0
+1640070728428,321,case14_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:2314 - Invalid wallet id,SPN1986817 - card token is invalid,Current funds are insufficient to process request but received Cannot process payment for this id - SPN1986817. Beneficiary Account Number must be SPN Account Number.,2314 - Invalid wallet id,SPN1986817 - card token is invalid,Current funds are insufficient to process request,SPN1986817 - Invalid ID",1077,1,1,321,0
+1640070728752,369,case15_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:2314 - Invalid wallet id,SPN1986817 - card token is invalid,Current funds are insufficient to process request but received Cannot process payment for this id - SPN1986817. Beneficiary Account Number must be SPN Account Number.,2314 - Invalid wallet id,85304 - Invalid beneficiary wallet id,SPN1986817 - card token is invalid,Current funds are insufficient to process request,SPN1986817 - Invalid ID",1089,1,1,369,0
+1640070729125,348,case16_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:2314 - Invalid wallet id,SPN1986817 - card token is mandatory,Current funds are insufficient to process request but received Cannot process payment for this id - SPN1986817. Beneficiary Account Number must be SPN Account Number.,2314 - Invalid wallet id,85304 - Invalid beneficiary wallet id,SPN1986817 - card token is mandatory,Current funds are insufficient to process request,SPN1986817 - Invalid ID",1093,1,1,348,0
+1640070729478,350,case17_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:2314 - Invalid wallet id,SPN1986817 - card token is mandatory,Current funds are insufficient to process request but received Cannot process payment for this id - SPN1986817. Beneficiary Account Number must be SPN Account Number.,2314 - Invalid wallet id,85304 - Invalid beneficiary wallet id,SPN1986817 - card token is mandatory,Current funds are insufficient to process request,SPN1986817 - Invalid ID",1093,1,1,350,0
+1640070729833,345,case18_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:2314 - Invalid wallet id,SPN1986817 - card token is invalid,Current funds are insufficient to process request but received Cannot process payment for this id - SPN1986817. Beneficiary Account Number must be SPN Account Number.,2314 - Invalid wallet id,85304 - Invalid beneficiary wallet id,SPN1986817 - card token is invalid,Current funds are insufficient to process request,SPN1986817 - Invalid ID",1089,1,1,345,0
+1640070730184,352,case19_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:2314 - Invalid wallet id,Beneficiary Check City is mandatory,Current funds are insufficient to process request but received Cannot process payment for this id - SPN1986817. Beneficiary Account Number must be SPN Account Number.,2314 - Invalid wallet id,85304 - Invalid beneficiary wallet id,Beneficiary Check City is mandatory,Current funds are insufficient to process request,SPN1986817 - Invalid ID",1094,1,1,352,0
+1640070730540,341,case20_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:2314 - Invalid wallet id,Beneficiary Check State is mandatory,Current funds are insufficient to process request but received Cannot process payment for this id - SPN1986817. Beneficiary Account Number must be SPN Account Number.,2314 - Invalid wallet id,85304 - Invalid beneficiary wallet id,Beneficiary Check State is mandatory,Current funds are insufficient to process request,SPN1986817 - Invalid ID",1094,1,1,341,0
+1640070730884,349,case21_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:2314 - Invalid wallet id,Current funds are insufficient to process request but received Cannot process payment for this id - SPN1986817. Beneficiary Account Number must be SPN Account Number.,2314 - Invalid wallet id,85304 - Invalid beneficiary wallet id,Current funds are insufficient to process request,SPN1986817 - Invalid ID",1076,1,1,349,0
+1640070731237,343,case22_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:XTR94505 - Invalid Payment Method Id,2314 - Invalid wallet id,Current funds are insufficient to process request but received XTR94505 - Invalid Payment Method Id,Cannot process payment for this id - SPN1986817. Beneficiary Account Number must be SPN Account Number.,2314 - Invalid wallet id,85304 - Invalid beneficiary wallet id,Current funds are insufficient to process request,SPN1986817 - Invalid ID",1097,1,1,343,0
+1640070731585,351,case23_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:XTR94503 - Invalid Payment Method Id,2314 - Invalid wallet id,Current funds are insufficient to process request but received XTR94503 - Invalid Payment Method Id,Cannot process payment for this id - SPN1986817. Beneficiary Account Number must be SPN Account Number.,2314 - Invalid wallet id,85304 - Invalid beneficiary wallet id,Current funds are insufficient to process request,SPN1986817 - Invalid ID",1097,1,1,351,0
+1640070731940,381,case24_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:2314 - Invalid wallet id,SPN19134662 - Invalid Beneficiary Linked Bank ID,Current funds are insufficient to process request but received Cannot process payment for this id - SPN1986817. Beneficiary Account Number must be SPN Account Number.,2314 - Invalid wallet id,85304 - Invalid beneficiary wallet id,SPN19134662 - Invalid Beneficiary Linked Bank ID,Current funds are insufficient to process request,SPN1986817 - Invalid ID",1098,1,1,381,0
+1640070732325,294,case25_ToCompany,200,OK,Web API 1-1,text,true,,1061,1,1,294,0
+1640070732625,294,case1_userwithdraw,200,OK,Web API 1-1,text,true,,949,1,1,294,0
+1640070732923,303,case2_userwithdraw,200,OK,Web API 1-1,text,true,,968,1,1,303,0
+1640070733228,293,case3_userwithdraw,200,OK,Web API 1-1,text,true,,968,1,1,293,0
+1640070733523,359,case4_userwithdraw,200,OK,Web API 1-1,text,true,,950,1,1,359,0
+1640070733885,389,case5_userwithdraw,200,OK,Web API 1-1,text,true,,933,1,1,388,0
+1640070734276,337,case6_userwithdraw,200,OK,Web API 1-1,text,true,,969,1,1,337,0
+1640070734617,334,case7_userwithdraw,200,OK,Web API 1-1,text,true,,980,1,1,334,0
+1640070734954,342,case8_userwithdraw,200,OK,Web API 1-1,text,true,,958,1,1,342,0
+1640070735299,296,case9_userwithdraw,200,OK,Web API 1-1,text,true,,928,1,1,296,0
+1640070735598,388,case10_userwithdraw,200,OK,Web API 1-1,text,true,,958,1,1,387,0
+1640070735988,356,case11_userwithdraw,200,OK,Web API 1-1,text,true,,969,1,1,356,0
+1640070736346,291,case12_userwithdraw,200,OK,Web API 1-1,text,true,,968,1,1,291,0
+1640070736640,315,case13_userwithdraw,200,OK,Web API 1-1,text,true,,950,1,1,315,0
+1640070736959,338,case1_companywithdraw,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:XTR94505 - Invalid Payment Method Id,83084 - Invalid beneficiary wallet id,Current funds are insufficient to process request but received Not authorized to access this resource. Make One Time Password API Call to access this resource",932,1,1,338,0
+1640070737300,369,case2_companywithdraw,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:XTR94505 - Invalid Payment Method Id,83084 - Invalid beneficiary wallet id,Current funds are insufficient to process request but received Not authorized to access this resource. Make One Time Password API Call to access this resource",932,1,1,369,0
+1640070737672,303,case3_companywithdraw,200,OK,Web API 1-1,text,true,,968,1,1,303,0
+1640070737979,329,case4_companywithdraw,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:83084 - Invalid beneficiary wallet id,Current funds are insufficient to process request but received Not authorized to access this resource. Make One Time Password API Call to access this resource",932,1,1,329,0
+1640070738311,359,case5_companywithdraw,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:XTR94505 - Invalid Payment Method Id,83084 - Invalid beneficiary wallet id,Current funds are insufficient to process request but received Not authorized to access this resource. Make One Time Password API Call to access this resource",932,1,1,359,0
+1640070738674,330,case6_companywithdraw,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:XTR94507 - Invalid Payment Method Id,83084 - Invalid beneficiary wallet id,Current funds are insufficient to process request but received Not authorized to access this resource. Make One Time Password API Call to access this resource",932,1,1,330,0
+1640070739007,314,case7_companywithdraw,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:83084 - Invalid beneficiary wallet id,Beneficiary Linked BankID is mandatory,Current funds are insufficient to process request but received Not authorized to access this resource. Make One Time Password API Call to access this resource",932,1,1,314,0
+1640070739324,322,case8_companywithdraw,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:XTR94505 - Invalid Payment Method Id,83084 - Invalid beneficiary wallet id,Current funds are insufficient to process request but received Not authorized to access this resource. Make One Time Password API Call to access this resource",932,1,1,322,0
+1640070739649,316,case9_companywithdraw,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:XTR94503 - Invalid Payment Method Id,83084 - Invalid beneficiary wallet id,Current funds are insufficient to process request but received Not authorized to access this resource. Make One Time Password API Call to access this resource",932,1,1,316,0
+1640070739968,322,case10_companywithdraw,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:XTR94504 - Invalid Payment Method Id,83084 - Invalid beneficiary wallet id,Current funds are insufficient to process request but received Not authorized to access this resource. Make One Time Password API Call to access this resource",932,1,1,322,0
+1640070740293,298,case11_companywithdraw,200,OK,Web API 1-1,text,true,,933,1,1,298,0
+1640070740593,293,case12_companywithdraw,200,OK,Web API 1-1,text,true,,896,1,1,293,0
+1640070740889,294,_companywithdraw,401,Unauthorized,Web API 1-1,text,false,Error message expected to have:PAT17126580 Card Token is mandatory but received Not authorized to access this resource.,933,1,1,294,0
+1640070741187,293,case1_card,200,OK,Web API 1-1,text,true,,916,1,1,293,0
+1640070741482,296,case2_card,200,OK,Web API 1-1,text,true,,874,1,1,296,0
+1640070741780,302,case3_card,200,OK,Web API 1-1,text,true,,896,1,1,302,0
+1640070742084,291,case4_card,200,OK,Web API 1-1,text,true,,876,1,1,291,0
+1640070742377,302,case5_card,200,OK,Web API 1-1,text,true,,875,1,1,302,0
+1640070742681,298,case6_card,200,OK,Web API 1-1,text,true,,878,1,1,298,0
+1640070742982,559,case7_card,400,Bad Request,Web API 1-1,text,false,Error message expected to have:You can link maximum 3 Cards but received Invalid card details,874,1,1,559,0
+1640070743544,294,case8_card,200,OK,Web API 1-1,text,true,,872,1,1,294,0
+1640070743841,295,case9_card,200,OK,Web API 1-1,text,true,,871,1,1,295,0
+1640070744139,298,case10_card,200,OK,Web API 1-1,text,true,,916,1,1,298,0
+1640070744440,301,case11_card,200,OK,Web API 1-1,text,true,,876,1,1,301,0
+1640070744743,299,case12_card,200,OK,Web API 1-1,text,true,,878,1,1,299,0
+1640070745045,294,case13_card,200,OK,Web API 1-1,text,true,,875,1,1,294,0
+1640070745341,293,case14_card,200,OK,Web API 1-1,text,true,,875,1,1,292,0
+1640070745636,295,case15_card,200,OK,Web API 1-1,text,true,,884,1,1,295,0
+1640070745934,305,case16_card,200,OK,Web API 1-1,text,true,,875,1,1,305,0
+1640070746241,299,case17_card,200,OK,Web API 1-1,text,true,,919,1,1,299,0
+1640070746544,293,case18_card,200,OK,Web API 1-1,text,true,,916,1,1,293,0
+1640070746839,295,case19_card,200,OK,Web API 1-1,text,true,,884,1,1,295,0
+1640070747137,294,case20_card,200,OK,Web API 1-1,text,true,,973,1,1,294,0
+1640070747434,298,case21_card,200,OK,Web API 1-1,text,true,,878,1,1,298,0
+1640071047666,998,case1_ToUser,200,OK,Web API 1-1,text,true,,889,1,1,998,0
+1640071048667,297,case2_ToUser,200,OK,Web API 1-1,text,true,,883,1,1,297,0
+1640071048965,293,case3_ToUser,200,OK,Web API 1-1,text,true,,878,1,1,293,0
+1640071049259,289,case4_ToUser,200,OK,Web API 1-1,text,true,,882,1,1,289,0
+1640071049550,288,case5_ToUser,200,OK,Web API 1-1,text,true,,890,1,1,288,0
+1640071049840,289,case6_ToUser,200,OK,Web API 1-1,text,true,,890,1,1,289,0
+1640071050132,286,case7_ToUser,200,OK,Web API 1-1,text,true,,881,1,1,286,0
+1640071050420,288,case8_ToUser,200,OK,Web API 1-1,text,true,,880,1,1,288,0
+1640071050710,288,case9_ToUser,200,OK,Web API 1-1,text,true,,892,1,1,288,0
+1640071051000,288,case10_ToUser,200,OK,Web API 1-1,text,true,,891,1,1,288,0
+1640071051290,285,case11_ToUser,200,OK,Web API 1-1,text,true,,879,1,1,285,0
+1640071051577,319,case12_ToUser,200,OK,Web API 1-1,text,true,,874,1,1,319,0
+1640071051898,288,case13_ToUser,200,OK,Web API 1-1,text,true,,881,1,1,288,0
+1640071052188,358,case14_ToUser,200,OK,Web API 1-1,text,true,,874,1,1,358,0
+1640071052547,319,case15_ToUser,200,OK,Web API 1-1,text,true,,876,1,1,319,0
+1640071052868,311,case16_ToUser,200,OK,Web API 1-1,text,true,,876,1,1,311,0
+1640071053180,310,case17_ToUser,200,OK,Web API 1-1,text,true,,874,1,1,310,0
+1640071053492,322,case18_ToUser,200,OK,Web API 1-1,text,true,,912,1,1,322,0
+1640071053816,308,case19_ToUser,200,OK,Web API 1-1,text,true,,913,1,1,308,0
+1640071054126,314,case20_ToUser,200,OK,Web API 1-1,text,true,,916,1,1,313,0
+1640071054441,344,case21_ToUser,200,OK,Web API 1-1,text,true,,911,1,1,344,0
+1640071054786,409,case22_ToUser,200,OK,Web API 1-1,text,true,,923,1,1,409,0
+1640071055197,309,case23_ToUser,200,OK,Web API 1-1,text,true,,895,1,1,309,0
+1640071055508,290,case24_ToUser,200,OK,Web API 1-1,text,true,,1008,1,1,290,0
+1640071055801,343,case1_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:2314 - Invalid wallet id,Current funds are insufficient to process request but received Cannot process payment for this id - SPN1986817. Beneficiary Account Number must be SPN Account Number.,2314 - Invalid wallet id,85304 - Invalid beneficiary wallet id,SPN1986817 - card token is invalid,Current funds are insufficient to process request,SPN1986817 - Invalid ID",1087,1,1,342,0
+1640071056150,300,case2_ToCompany,200,OK,Web API 1-1,text,true,,985,1,1,300,0
+1640071056453,298,case3_ToCompany,200,OK,Web API 1-1,text,true,,974,1,1,298,0
+1640071056754,289,case4_ToCompany,200,OK,Web API 1-1,text,true,,969,1,1,289,0
+1640071057045,289,case5_ToCompany,200,OK,Web API 1-1,text,true,,973,1,1,289,0
+1640071057337,297,case6_ToCompany,200,OK,Web API 1-1,text,true,,985,1,1,296,0
+1640071057637,337,case7_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:2314 - Invalid wallet id,SPN1986817 - card token is invalid,Current funds are insufficient to process request but received Cannot process payment for this id - SPN1986817. Beneficiary Account Number must be SPN Account Number.,2314 - Invalid wallet id,85304 - Invalid beneficiary wallet id,SPN1986817 - card token is invalid,Current funds are insufficient to process request,SPN1986817 - Invalid ID",1087,1,1,337,0
+1640071057978,289,case8_ToCompany,200,OK,Web API 1-1,text,true,,973,1,1,289,0
+1640071058270,289,case9_ToCompany,200,OK,Web API 1-1,text,true,,967,1,1,289,0
+1640071058562,288,case10_ToCompany,200,OK,Web API 1-1,text,true,,987,1,1,288,0
+1640071058853,284,case11_ToCompany,200,OK,Web API 1-1,text,true,,982,1,1,284,0
+1640071059140,289,case12_ToCompany,200,OK,Web API 1-1,text,true,,970,1,1,289,0
+1640071059431,290,case13_ToCompany,200,OK,Web API 1-1,text,true,,974,1,1,286,0
+1640071059722,315,case14_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:2314 - Invalid wallet id,SPN1986817 - card token is invalid,Current funds are insufficient to process request but received Cannot process payment for this id - SPN1986817. Beneficiary Account Number must be SPN Account Number.,2314 - Invalid wallet id,SPN1986817 - card token is invalid,Current funds are insufficient to process request,SPN1986817 - Invalid ID",1076,1,1,315,0
+1640071060041,341,case15_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:2314 - Invalid wallet id,SPN1986817 - card token is invalid,Current funds are insufficient to process request but received Cannot process payment for this id - SPN1986817. Beneficiary Account Number must be SPN Account Number.,2314 - Invalid wallet id,85304 - Invalid beneficiary wallet id,SPN1986817 - card token is invalid,Current funds are insufficient to process request,SPN1986817 - Invalid ID",1088,1,1,341,0
+1640071060386,338,case16_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:2314 - Invalid wallet id,SPN1986817 - card token is mandatory,Current funds are insufficient to process request but received Cannot process payment for this id - SPN1986817. Beneficiary Account Number must be SPN Account Number.,2314 - Invalid wallet id,85304 - Invalid beneficiary wallet id,SPN1986817 - card token is mandatory,Current funds are insufficient to process request,SPN1986817 - Invalid ID",1092,1,1,338,0
+1640071060728,341,case17_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:2314 - Invalid wallet id,SPN1986817 - card token is mandatory,Current funds are insufficient to process request but received Cannot process payment for this id - SPN1986817. Beneficiary Account Number must be SPN Account Number.,2314 - Invalid wallet id,85304 - Invalid beneficiary wallet id,SPN1986817 - card token is mandatory,Current funds are insufficient to process request,SPN1986817 - Invalid ID",1092,1,1,341,0
+1640071061073,335,case18_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:2314 - Invalid wallet id,SPN1986817 - card token is invalid,Current funds are insufficient to process request but received Cannot process payment for this id - SPN1986817. Beneficiary Account Number must be SPN Account Number.,2314 - Invalid wallet id,85304 - Invalid beneficiary wallet id,SPN1986817 - card token is invalid,Current funds are insufficient to process request,SPN1986817 - Invalid ID",1088,1,1,335,0
+1640071061412,351,case19_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:2314 - Invalid wallet id,Beneficiary Check City is mandatory,Current funds are insufficient to process request but received Cannot process payment for this id - SPN1986817. Beneficiary Account Number must be SPN Account Number.,2314 - Invalid wallet id,85304 - Invalid beneficiary wallet id,Beneficiary Check City is mandatory,Current funds are insufficient to process request,SPN1986817 - Invalid ID",1093,1,1,351,0
+1640071061769,337,case20_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:2314 - Invalid wallet id,Beneficiary Check State is mandatory,Current funds are insufficient to process request but received Cannot process payment for this id - SPN1986817. Beneficiary Account Number must be SPN Account Number.,2314 - Invalid wallet id,85304 - Invalid beneficiary wallet id,Beneficiary Check State is mandatory,Current funds are insufficient to process request,SPN1986817 - Invalid ID",1093,1,1,337,0
+1640071062110,335,case21_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:2314 - Invalid wallet id,Current funds are insufficient to process request but received Cannot process payment for this id - SPN1986817. Beneficiary Account Number must be SPN Account Number.,2314 - Invalid wallet id,85304 - Invalid beneficiary wallet id,Current funds are insufficient to process request,SPN1986817 - Invalid ID",1075,1,1,335,0
+1640071062448,334,case22_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:XTR94505 - Invalid Payment Method Id,2314 - Invalid wallet id,Current funds are insufficient to process request but received XTR94505 - Invalid Payment Method Id,Cannot process payment for this id - SPN1986817. Beneficiary Account Number must be SPN Account Number.,2314 - Invalid wallet id,85304 - Invalid beneficiary wallet id,Current funds are insufficient to process request,SPN1986817 - Invalid ID",1096,1,1,333,0
+1640071062786,338,case23_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:XTR94503 - Invalid Payment Method Id,2314 - Invalid wallet id,Current funds are insufficient to process request but received XTR94503 - Invalid Payment Method Id,Cannot process payment for this id - SPN1986817. Beneficiary Account Number must be SPN Account Number.,2314 - Invalid wallet id,85304 - Invalid beneficiary wallet id,Current funds are insufficient to process request,SPN1986817 - Invalid ID",1096,1,1,338,0
+1640071063128,382,case24_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:2314 - Invalid wallet id,SPN19134662 - Invalid Beneficiary Linked Bank ID,Current funds are insufficient to process request but received Cannot process payment for this id - SPN1986817. Beneficiary Account Number must be SPN Account Number.,2314 - Invalid wallet id,85304 - Invalid beneficiary wallet id,SPN19134662 - Invalid Beneficiary Linked Bank ID,Current funds are insufficient to process request,SPN1986817 - Invalid ID",1097,1,1,382,0
+1640071063514,284,case25_ToCompany,200,OK,Web API 1-1,text,true,,1060,1,1,284,0
+1640071063803,284,case1_userwithdraw,200,OK,Web API 1-1,text,true,,948,1,1,284,0
+1640071064091,305,case2_userwithdraw,200,OK,Web API 1-1,text,true,,967,1,1,305,0
+1640071064398,295,case3_userwithdraw,200,OK,Web API 1-1,text,true,,967,1,1,295,0
+1640071064696,325,case4_userwithdraw,200,OK,Web API 1-1,text,true,,949,1,1,324,0
+1640071065023,309,case5_userwithdraw,200,OK,Web API 1-1,text,true,,932,1,1,309,0
+1640071065335,318,case6_userwithdraw,200,OK,Web API 1-1,text,true,,968,1,1,318,0
+1640071065655,318,case7_userwithdraw,200,OK,Web API 1-1,text,true,,979,1,1,318,0
+1640071065976,331,case8_userwithdraw,200,OK,Web API 1-1,text,true,,957,1,1,331,0
+1640071066310,289,case9_userwithdraw,200,OK,Web API 1-1,text,true,,927,1,1,288,0
+1640071066601,340,case10_userwithdraw,200,OK,Web API 1-1,text,true,,957,1,1,340,0
+1640071066944,310,case11_userwithdraw,200,OK,Web API 1-1,text,true,,968,1,1,309,0
+1640071067256,288,case12_userwithdraw,200,OK,Web API 1-1,text,true,,967,1,1,288,0
+1640071067547,306,case13_userwithdraw,200,OK,Web API 1-1,text,true,,949,1,1,306,0
+1640071067857,310,case1_companywithdraw,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:XTR94505 - Invalid Payment Method Id,83084 - Invalid beneficiary wallet id,Current funds are insufficient to process request but received Not authorized to access this resource. Make One Time Password API Call to access this resource",931,1,1,310,0
+1640071068171,315,case2_companywithdraw,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:XTR94505 - Invalid Payment Method Id,83084 - Invalid beneficiary wallet id,Current funds are insufficient to process request but received Not authorized to access this resource. Make One Time Password API Call to access this resource",931,1,1,315,0
+1640071068489,284,case3_companywithdraw,200,OK,Web API 1-1,text,true,,967,1,1,284,0
+1640071068778,308,case4_companywithdraw,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:83084 - Invalid beneficiary wallet id,Current funds are insufficient to process request but received Not authorized to access this resource. Make One Time Password API Call to access this resource",931,1,1,308,0
+1640071069088,306,case5_companywithdraw,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:XTR94505 - Invalid Payment Method Id,83084 - Invalid beneficiary wallet id,Current funds are insufficient to process request but received Not authorized to access this resource. Make One Time Password API Call to access this resource",931,1,1,306,0
+1640071069396,325,case6_companywithdraw,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:XTR94507 - Invalid Payment Method Id,83084 - Invalid beneficiary wallet id,Current funds are insufficient to process request but received Not authorized to access this resource. Make One Time Password API Call to access this resource",931,1,1,325,0
+1640071069724,309,case7_companywithdraw,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:83084 - Invalid beneficiary wallet id,Beneficiary Linked BankID is mandatory,Current funds are insufficient to process request but received Not authorized to access this resource. Make One Time Password API Call to access this resource",931,1,1,309,0
+1640071070036,310,case8_companywithdraw,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:XTR94505 - Invalid Payment Method Id,83084 - Invalid beneficiary wallet id,Current funds are insufficient to process request but received Not authorized to access this resource. Make One Time Password API Call to access this resource",931,1,1,309,0
+1640071070348,309,case9_companywithdraw,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:XTR94503 - Invalid Payment Method Id,83084 - Invalid beneficiary wallet id,Current funds are insufficient to process request but received Not authorized to access this resource. Make One Time Password API Call to access this resource",931,1,1,309,0
+1640071070660,307,case10_companywithdraw,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:XTR94504 - Invalid Payment Method Id,83084 - Invalid beneficiary wallet id,Current funds are insufficient to process request but received Not authorized to access this resource. Make One Time Password API Call to access this resource",931,1,1,307,0
+1640071070970,291,case11_companywithdraw,200,OK,Web API 1-1,text,true,,932,1,1,290,0
+1640071071263,285,case12_companywithdraw,200,OK,Web API 1-1,text,true,,895,1,1,285,0
+1640071071550,289,_companywithdraw,401,Unauthorized,Web API 1-1,text,false,Error message expected to have:PAT17126580 Card Token is mandatory but received Not authorized to access this resource.,932,1,1,289,0
+1640071071842,292,case1_card,200,OK,Web API 1-1,text,true,,915,1,1,292,0
+1640071072137,283,case2_card,200,OK,Web API 1-1,text,true,,873,1,1,283,0
+1640071072422,285,case3_card,200,OK,Web API 1-1,text,true,,895,1,1,285,0
+1640071072709,287,case4_card,200,OK,Web API 1-1,text,true,,875,1,1,287,0
+1640071072998,283,case5_card,200,OK,Web API 1-1,text,true,,874,1,1,283,0
+1640071073284,284,case6_card,200,OK,Web API 1-1,text,true,,877,1,1,284,0
+1640071073570,825,case7_card,400,Bad Request,Web API 1-1,text,false,Error message expected to have:You can link maximum 3 Cards but received Invalid card details,873,1,1,825,0
+1640071074397,289,case8_card,200,OK,Web API 1-1,text,true,,871,1,1,288,0
+1640071074688,392,case9_card,200,OK,Web API 1-1,text,true,,870,1,1,392,0
+1640071075083,295,case10_card,200,OK,Web API 1-1,text,true,,915,1,1,295,0
+1640071075381,353,case11_card,200,OK,Web API 1-1,text,true,,875,1,1,353,0
+1640071075736,299,case12_card,200,OK,Web API 1-1,text,true,,877,1,1,299,0
+1640071076038,293,case13_card,200,OK,Web API 1-1,text,true,,874,1,1,293,0
+1640071076333,290,case14_card,200,OK,Web API 1-1,text,true,,874,1,1,290,0
+1640071076625,285,case15_card,200,OK,Web API 1-1,text,true,,883,1,1,285,0
+1640071076914,333,case16_card,200,OK,Web API 1-1,text,true,,874,1,1,332,0
+1640071077249,284,case17_card,200,OK,Web API 1-1,text,true,,918,1,1,284,0
+1640071077537,285,case18_card,200,OK,Web API 1-1,text,true,,915,1,1,285,0
+1640071077825,383,case19_card,200,OK,Web API 1-1,text,true,,883,1,1,383,0
+1640071078211,283,case20_card,200,OK,Web API 1-1,text,true,,972,1,1,283,0
+1640071078497,285,case21_card,200,OK,Web API 1-1,text,true,,877,1,1,284,0
+1640071185099,629,case1_ToUser,200,OK,Web API 1-1,text,true,,889,1,1,629,0
+1640071185731,285,case2_ToUser,200,OK,Web API 1-1,text,true,,883,1,1,285,0
+1640071186017,292,case3_ToUser,200,OK,Web API 1-1,text,true,,877,1,1,292,0
+1640071186311,286,case4_ToUser,200,OK,Web API 1-1,text,true,,882,1,1,286,0
+1640071186599,283,case5_ToUser,200,OK,Web API 1-1,text,true,,890,1,1,283,0
+1640071186884,293,case6_ToUser,200,OK,Web API 1-1,text,true,,890,1,1,293,0
+1640071187178,294,case7_ToUser,200,OK,Web API 1-1,text,true,,881,1,1,294,0
+1640071187473,292,case8_ToUser,200,OK,Web API 1-1,text,true,,880,1,1,292,0
+1640071187766,283,case9_ToUser,200,OK,Web API 1-1,text,true,,892,1,1,283,0
+1640071188051,284,case10_ToUser,200,OK,Web API 1-1,text,true,,891,1,1,284,0
+1640071188336,290,case11_ToUser,200,OK,Web API 1-1,text,true,,879,1,1,290,0
+1640071188627,326,case12_ToUser,200,OK,Web API 1-1,text,true,,874,1,1,326,0
+1640071188955,283,case13_ToUser,200,OK,Web API 1-1,text,true,,881,1,1,283,0
+1640071189239,347,case14_ToUser,200,OK,Web API 1-1,text,true,,874,1,1,347,0
+1640071189587,309,case15_ToUser,200,OK,Web API 1-1,text,true,,876,1,1,309,0
+1640071189898,313,case16_ToUser,200,OK,Web API 1-1,text,true,,876,1,1,313,0
+1640071190212,308,case17_ToUser,200,OK,Web API 1-1,text,true,,874,1,1,308,0
+1640071190521,309,case18_ToUser,200,OK,Web API 1-1,text,true,,912,1,1,309,0
+1640071190831,310,case19_ToUser,200,OK,Web API 1-1,text,true,,913,1,1,310,0
+1640071191142,307,case20_ToUser,200,OK,Web API 1-1,text,true,,916,1,1,307,0
+1640071191450,310,case21_ToUser,200,OK,Web API 1-1,text,true,,911,1,1,310,0
+1640071191762,323,case22_ToUser,200,OK,Web API 1-1,text,true,,923,1,1,323,0
+1640071192087,316,case23_ToUser,200,OK,Web API 1-1,text,true,,895,1,1,316,0
+1640071192404,283,case24_ToUser,200,OK,Web API 1-1,text,true,,1008,1,1,283,0
+1640071192689,344,case1_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:107884 - Invalid wallet id,Current funds are insufficient to process request but received 85304 - Invalid beneficiary wallet id,SPN20137006 - card token is invalid",1007,1,1,344,0
+1640071193038,284,case2_ToCompany,200,OK,Web API 1-1,text,true,,985,1,1,284,0
+1640071193325,286,case3_ToCompany,200,OK,Web API 1-1,text,true,,974,1,1,286,0
+1640071193613,287,case4_ToCompany,200,OK,Web API 1-1,text,true,,969,1,1,287,0
+1640071193902,283,case5_ToCompany,200,OK,Web API 1-1,text,true,,973,1,1,283,0
+1640071194187,282,case6_ToCompany,200,OK,Web API 1-1,text,true,,985,1,1,282,0
+1640071194471,333,case7_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:107884 - Invalid wallet id,SPN20137006 - card token is invalid,Current funds are insufficient to process request but received 85304 - Invalid beneficiary wallet id,SPN20137006 - card token is invalid",1007,1,1,333,0
+1640071194806,285,case8_ToCompany,200,OK,Web API 1-1,text,true,,972,1,1,285,0
+1640071195093,290,case9_ToCompany,200,OK,Web API 1-1,text,true,,966,1,1,290,0
+1640071195385,289,case10_ToCompany,200,OK,Web API 1-1,text,true,,987,1,1,289,0
+1640071195676,284,case11_ToCompany,200,OK,Web API 1-1,text,true,,982,1,1,284,0
+1640071195963,283,case12_ToCompany,200,OK,Web API 1-1,text,true,,970,1,1,282,0
+1640071196248,288,case13_ToCompany,200,OK,Web API 1-1,text,true,,974,1,1,288,0
+1640071196538,314,case14_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:107884 - Invalid wallet id,SPN20137006 - card token is invalid,Current funds are insufficient to process request but received SPN20137006 - card token is invalid",984,1,1,314,0
+1640071196855,336,case15_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:107884 - Invalid wallet id,SPN20137006 - card token is invalid,Current funds are insufficient to process request but received 85304 - Invalid beneficiary wallet id,SPN20137006 - card token is invalid",1008,1,1,336,0
+1640071197193,333,case16_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:107884 - Invalid wallet id,SPN20137006 - card token is mandatory,Current funds are insufficient to process request but received 85304 - Invalid beneficiary wallet id,SPN20137006 - card token is mandatory",1011,1,1,333,0
+1640071197529,344,case17_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:107884 - Invalid wallet id,SPN20137006 - card token is mandatory,Current funds are insufficient to process request but received 85304 - Invalid beneficiary wallet id,SPN20137006 - card token is mandatory",1011,1,1,343,0
+1640071197874,353,case18_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:107884 - Invalid wallet id,SPN20137006 - card token is invalid,Current funds are insufficient to process request but received 85304 - Invalid beneficiary wallet id,SPN20137006 - card token is invalid",1008,1,1,353,0
+1640071198229,332,case19_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:107884 - Invalid wallet id,Beneficiary Check City is mandatory,Current funds are insufficient to process request but received 85304 - Invalid beneficiary wallet id,Beneficiary Check City is mandatory",1002,1,1,332,0
+1640071198563,345,case20_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:107884 - Invalid wallet id,Beneficiary Check State is mandatory,Current funds are insufficient to process request but received 85304 - Invalid beneficiary wallet id,Beneficiary Check State is mandatory",1002,1,1,345,0
+1640071198910,330,case21_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:107884 - Invalid wallet id,Current funds are insufficient to process request but received 85304 - Invalid beneficiary wallet id",982,1,1,330,0
+1640071199242,375,case22_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:XTR94505 - Invalid Payment Method Id,107884 - Invalid wallet id,Current funds are insufficient to process request but received XTR94505 - Invalid Payment Method Id,85304 - Invalid beneficiary wallet id",1006,1,1,375,0
+1640071199619,343,case23_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:XTR94503 - Invalid Payment Method Id,107884 - Invalid wallet id,Current funds are insufficient to process request but received XTR94503 - Invalid Payment Method Id,85304 - Invalid beneficiary wallet id",1006,1,1,343,0
+1640071199965,359,case24_ToCompany,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:107884 - Invalid wallet id,SPN19134662 - Invalid Beneficiary Linked Bank ID,Current funds are insufficient to process request but received 85304 - Invalid beneficiary wallet id,SPN19134662 - Invalid Beneficiary Linked Bank ID",1011,1,1,359,0
+1640071200326,296,case25_ToCompany,200,OK,Web API 1-1,text,true,,1060,1,1,296,0
+1640071200627,296,case1_userwithdraw,200,OK,Web API 1-1,text,true,,948,1,1,296,0
+1640071200928,287,case2_userwithdraw,200,OK,Web API 1-1,text,true,,967,1,1,287,0
+1640071201217,301,case3_userwithdraw,200,OK,Web API 1-1,text,true,,967,1,1,301,0
+1640071201520,306,case4_userwithdraw,200,OK,Web API 1-1,text,true,,949,1,1,306,0
+1640071201829,313,case5_userwithdraw,200,OK,Web API 1-1,text,true,,932,1,1,313,0
+1640071202145,323,case6_userwithdraw,200,OK,Web API 1-1,text,true,,968,1,1,323,0
+1640071202471,322,case7_userwithdraw,200,OK,Web API 1-1,text,true,,979,1,1,322,0
+1640071202795,330,case8_userwithdraw,200,OK,Web API 1-1,text,true,,957,1,1,330,0
+1640071203127,288,case9_userwithdraw,200,OK,Web API 1-1,text,true,,927,1,1,288,0
+1640071203418,331,case10_userwithdraw,200,OK,Web API 1-1,text,true,,957,1,1,331,0
+1640071203751,332,case11_userwithdraw,200,OK,Web API 1-1,text,true,,968,1,1,332,0
+1640071204085,292,case12_userwithdraw,200,OK,Web API 1-1,text,true,,967,1,1,292,0
+1640071204379,316,case13_userwithdraw,200,OK,Web API 1-1,text,true,,949,1,1,316,0
+1640071204698,310,case1_companywithdraw,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:XTR94505 - Invalid Payment Method Id,83084 - Invalid beneficiary wallet id,Current funds are insufficient to process request but received Not authorized to access this resource. Make One Time Password API Call to access this resource",931,1,1,310,0
+1640071205012,314,case2_companywithdraw,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:XTR94505 - Invalid Payment Method Id,83084 - Invalid beneficiary wallet id,Current funds are insufficient to process request but received Not authorized to access this resource. Make One Time Password API Call to access this resource",931,1,1,314,0
+1640071205328,290,case3_companywithdraw,200,OK,Web API 1-1,text,true,,967,1,1,290,0
+1640071205620,309,case4_companywithdraw,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:83084 - Invalid beneficiary wallet id,Current funds are insufficient to process request but received Not authorized to access this resource. Make One Time Password API Call to access this resource",931,1,1,309,0
+1640071205931,309,case5_companywithdraw,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:XTR94505 - Invalid Payment Method Id,83084 - Invalid beneficiary wallet id,Current funds are insufficient to process request but received Not authorized to access this resource. Make One Time Password API Call to access this resource",931,1,1,309,0
+1640071206243,312,case6_companywithdraw,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:XTR94507 - Invalid Payment Method Id,83084 - Invalid beneficiary wallet id,Current funds are insufficient to process request but received Not authorized to access this resource. Make One Time Password API Call to access this resource",931,1,1,312,0
+1640071206557,324,case7_companywithdraw,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:83084 - Invalid beneficiary wallet id,Beneficiary Linked BankID is mandatory,Current funds are insufficient to process request but received Not authorized to access this resource. Make One Time Password API Call to access this resource",931,1,1,324,0
+1640071206883,317,case8_companywithdraw,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:XTR94505 - Invalid Payment Method Id,83084 - Invalid beneficiary wallet id,Current funds are insufficient to process request but received Not authorized to access this resource. Make One Time Password API Call to access this resource",931,1,1,317,0
+1640071207202,314,case9_companywithdraw,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:XTR94503 - Invalid Payment Method Id,83084 - Invalid beneficiary wallet id,Current funds are insufficient to process request but received Not authorized to access this resource. Make One Time Password API Call to access this resource",931,1,1,314,0
+1640071207518,305,case10_companywithdraw,400,Bad Request,Web API 1-1,text,false,"Error message expected to have:XTR94504 - Invalid Payment Method Id,83084 - Invalid beneficiary wallet id,Current funds are insufficient to process request but received Not authorized to access this resource. Make One Time Password API Call to access this resource",931,1,1,305,0
+1640071207825,288,case11_companywithdraw,200,OK,Web API 1-1,text,true,,932,1,1,288,0
+1640071208115,305,case12_companywithdraw,200,OK,Web API 1-1,text,true,,895,1,1,305,0
+1640071208422,282,_companywithdraw,401,Unauthorized,Web API 1-1,text,false,Error message expected to have:PAT17126580 Card Token is mandatory but received Not authorized to access this resource.,932,1,1,282,0
+1640071208707,292,case1_card,200,OK,Web API 1-1,text,true,,915,1,1,292,0
+1640071209002,289,case2_card,200,OK,Web API 1-1,text,true,,873,1,1,289,0
+1640071209293,290,case3_card,200,OK,Web API 1-1,text,true,,895,1,1,290,0
+1640071209585,286,case4_card,200,OK,Web API 1-1,text,true,,875,1,1,286,0
+1640071209873,288,case5_card,200,OK,Web API 1-1,text,true,,874,1,1,288,0
+1640071210163,296,case6_card,200,OK,Web API 1-1,text,true,,877,1,1,296,0
+1640071210461,539,case7_card,400,Bad Request,Web API 1-1,text,false,Error message expected to have:You can link maximum 3 Cards but received Invalid card details,873,1,1,539,0
+1640071211002,284,case8_card,200,OK,Web API 1-1,text,true,,871,1,1,283,0
+1640071211288,289,case9_card,200,OK,Web API 1-1,text,true,,870,1,1,289,0
+1640071211579,294,case10_card,200,OK,Web API 1-1,text,true,,915,1,1,294,0
+1640071211875,294,case11_card,200,OK,Web API 1-1,text,true,,875,1,1,294,0
+1640071212172,281,case12_card,200,OK,Web API 1-1,text,true,,877,1,1,281,0
+1640071212455,294,case13_card,200,OK,Web API 1-1,text,true,,874,1,1,294,0
+1640071212751,296,case14_card,200,OK,Web API 1-1,text,true,,874,1,1,296,0
+1640071213049,284,case15_card,200,OK,Web API 1-1,text,true,,883,1,1,284,0
+1640071213335,290,case16_card,200,OK,Web API 1-1,text,true,,874,1,1,290,0
+1640071213627,292,case17_card,200,OK,Web API 1-1,text,true,,918,1,1,292,0
+1640071213923,289,case18_card,200,OK,Web API 1-1,text,true,,915,1,1,289,0
+1640071214214,290,case19_card,200,OK,Web API 1-1,text,true,,883,1,1,289,0
+1640071214506,291,case20_card,200,OK,Web API 1-1,text,true,,972,1,1,291,0
+1640071214801,283,case21_card,200,OK,Web API 1-1,text,true,,877,1,1,283,0
+1641381478829,1892,case1_tax,401,Unauthorized,Web API 1-1,text,false,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: `` String response = prev.getResponseDataAsString(); String expmessage=vars.get(""e . . . '' : Method Invocation response.substring",822,1,1,1890,0
+1641381480747,476,case2_tax,401,Unauthorized,Web API 1-1,text,false,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: `` String response = prev.getResponseDataAsString(); String expmessage=vars.get(""e . . . '' : Method Invocation response.substring",823,1,1,476,0
+1641381481230,356,case3_tax,401,Unauthorized,Web API 1-1,text,false,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: `` String response = prev.getResponseDataAsString(); String expmessage=vars.get(""e . . . '' : Method Invocation response.substring",823,1,1,356,0
+1641381481592,334,case4_tax,401,Unauthorized,Web API 1-1,text,false,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: `` String response = prev.getResponseDataAsString(); String expmessage=vars.get(""e . . . '' : Method Invocation response.substring",823,1,1,333,0
+1641381481930,583,case5_tax,401,Unauthorized,Web API 1-1,text,false,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: `` String response = prev.getResponseDataAsString(); String expmessage=vars.get(""e . . . '' : Method Invocation response.substring",823,1,1,583,0
+1641381482517,313,case6OtherthanUS_tax,401,Unauthorized,Web API 1-1,text,false,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: `` String response = prev.getResponseDataAsString(); String expmessage=vars.get(""e . . . '' : Method Invocation response.substring",823,1,1,313,0
+1641381482837,365,case7_tax,401,Unauthorized,Web API 1-1,text,false,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: `` String response = prev.getResponseDataAsString(); String expmessage=vars.get(""e . . . '' : Method Invocation response.substring",823,1,1,365,0
+1641381483208,460,case8_tax,401,Unauthorized,Web API 1-1,text,false,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: `` String response = prev.getResponseDataAsString(); String expmessage=vars.get(""e . . . '' : Method Invocation response.substring",823,1,1,460,0
+1641381483671,265,case9_tax,401,Unauthorized,Web API 1-1,text,false,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: `` String response = prev.getResponseDataAsString(); String expmessage=vars.get(""e . . . '' : Method Invocation response.substring",823,1,1,264,0
+1641381508014,1465,case1_tax,200,OK,Web API 1-1,text,true,,880,1,1,1465,0
+1641381509491,500,case2_tax,200,OK,Web API 1-1,text,true,,888,1,1,500,0
+1641381509998,269,case3_tax,200,OK,Web API 1-1,text,true,,892,1,1,269,0
+1641381510273,453,case4_tax,200,OK,Web API 1-1,text,true,,903,1,1,452,0
+1641381510731,536,case5_tax,200,OK,Web API 1-1,text,true,,894,1,1,535,0
+1641381511271,440,case6OtherthanUS_tax,200,OK,Web API 1-1,text,true,,896,1,1,440,0
+1641381511716,434,case7_tax,200,OK,Web API 1-1,text,true,,894,1,1,434,0
+1641381512156,509,case8_tax,200,OK,Web API 1-1,text,true,,891,1,1,509,0
+1641381512669,489,case9_tax,401,Unauthorized,Web API 1-1,text,false,Error message expected to have:Missing profile information. Please ensure profile is complete. but received Not authorized to access this resource. Make One Time Password API Call to access this resource,942,1,1,489,0
+1641445365077,1583,case1_tax,404,Not Found,Web API 1-1,text,false,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: `` String response = prev.getResponseDataAsString(); String expmessage=vars.get(""e . . . '' : Method Invocation response.substring",797,1,1,1583,0
+1641445366718,613,case2_tax,404,Not Found,Web API 1-1,text,false,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: `` String response = prev.getResponseDataAsString(); String expmessage=vars.get(""e . . . '' : Method Invocation response.substring",798,1,1,613,0
+1641445367336,619,case3_tax,404,Not Found,Web API 1-1,text,false,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: `` String response = prev.getResponseDataAsString(); String expmessage=vars.get(""e . . . '' : Method Invocation response.substring",798,1,1,619,0
+1641445367959,600,case4_tax,404,Not Found,Web API 1-1,text,false,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: `` String response = prev.getResponseDataAsString(); String expmessage=vars.get(""e . . . '' : Method Invocation response.substring",798,1,1,600,0
+1641445368564,610,case5_tax,404,Not Found,Web API 1-1,text,false,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: `` String response = prev.getResponseDataAsString(); String expmessage=vars.get(""e . . . '' : Method Invocation response.substring",798,1,1,610,0
+1641445369179,615,case6OtherthanUS_tax,404,Not Found,Web API 1-1,text,false,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: `` String response = prev.getResponseDataAsString(); String expmessage=vars.get(""e . . . '' : Method Invocation response.substring",798,1,1,615,0
+1641445369799,605,case7_tax,404,Not Found,Web API 1-1,text,false,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: `` String response = prev.getResponseDataAsString(); String expmessage=vars.get(""e . . . '' : Method Invocation response.substring",798,1,1,605,0
+1641445370408,601,case8_tax,404,Not Found,Web API 1-1,text,false,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: `` String response = prev.getResponseDataAsString(); String expmessage=vars.get(""e . . . '' : Method Invocation response.substring",798,1,1,601,0
+1641445371014,601,case9_tax,404,Not Found,Web API 1-1,text,false,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: `` String response = prev.getResponseDataAsString(); String expmessage=vars.get(""e . . . '' : Method Invocation response.substring",798,1,1,601,0
+1641445418063,966,case1_tax,401,Unauthorized,Web API 1-1,text,false,Error message expected to have:Email body is Mandatory but received Not authorized to access this resource.,928,1,1,966,0
+1641445419038,290,case2_tax,200,OK,Web API 1-1,text,true,,885,1,1,290,0
+1641445419333,294,case3_tax,200,OK,Web API 1-1,text,true,,890,1,1,294,0
+1641445419632,289,case4_tax,401,Unauthorized,Web API 1-1,text,false,Error message expected to have:MonthStarts is mandatory and must be an integer from 1 to 12 but received Not authorized to access this resource.,915,1,1,289,0
+1641445419925,295,case5_tax,401,Unauthorized,Web API 1-1,text,false,Error message expected to have:TaxYear should be less than the current year but received Not authorized to access this resource.,915,1,1,295,0
+1641445420224,301,case6OtherthanUS_tax,401,Unauthorized,Web API 1-1,text,false,Error message expected to have:Tax information is not available for the year 2000 but received Not authorized to access this resource.,915,1,1,301,0
+1641445420528,300,case7_tax,401,Unauthorized,Web API 1-1,text,false,Error message expected to have:TaxYear should be less than the current year but received Not authorized to access this resource.,915,1,1,300,0
+1641445420834,319,case8_tax,401,Unauthorized,Web API 1-1,text,false,Error message expected to have:TaxYear should be greater than 2000 but received Not authorized to access this resource.,916,1,1,319,0
+1641445421158,282,case9_tax,401,Unauthorized,Web API 1-1,text,false,Error message expected to have:Missing profile information. Please ensure profile is complete. but received Not authorized to access this resource.,915,1,1,282,0
+1641455272173,748,case1_tax,200,OK,Web API 1-1,text,true,,879,1,1,748,0
+1641455272924,287,case2_tax,200,OK,Web API 1-1,text,true,,886,1,1,287,0
+1641455273212,282,case3_tax,200,OK,Web API 1-1,text,true,,890,1,1,282,0
+1641455273496,310,case4_tax,400,Bad Request,Web API 1-1,text,false,Error message expected to have:MonthStarts is mandatory and must be an integer from 1 to 12 but received TaxYearStartMonth must be an integer from 1 to 12,897,1,1,310,0
+1641455273808,316,case5_tax,200,OK,Web API 1-1,text,true,,893,1,1,316,0
+1641455274126,346,case6OtherthanUS_tax,200,OK,Web API 1-1,text,true,,895,1,1,346,0
+1641455274474,314,case7_tax,200,OK,Web API 1-1,text,true,,893,1,1,313,0
+1641455274789,316,case8_tax,200,OK,Web API 1-1,text,true,,890,1,1,316,0
+1641455275107,795,case9_tax,200,OK,Web API 1-1,text,false,Error message expected to have:Missing profile information. Please ensure profile is complete. but received ,992,1,1,795,0
+1641455275904,491,case1_tax,200,OK,Web API 1-1,text,true,,881,1,1,491,0
+1641455736775,851,case1_tax,200,OK,Web API 1-1,text,true,,876,1,1,851,0
+1641455737630,287,case2_tax,200,OK,Web API 1-1,text,true,,882,1,1,286,0
+1641455737918,285,case3_tax,200,OK,Web API 1-1,text,true,,886,1,1,285,0
+1641455738204,315,case4_tax,200,OK,Web API 1-1,text,true,,893,1,1,315,0
+1641455738521,314,case5_tax,200,OK,Web API 1-1,text,true,,889,1,1,314,0
+1641455738837,702,case6OtherthanUS_tax,200,OK,Web API 1-1,text,true,,891,1,1,701,0
+1641455739541,381,case7_tax,200,OK,Web API 1-1,text,true,,889,1,1,377,0
+1641455739924,309,case8_tax,200,OK,Web API 1-1,text,true,,886,1,1,309,0
+1641455740235,388,case9_tax,200,OK,Web API 1-1,text,true,,894,1,1,388,0
+1641455740626,442,case1_tax,200,OK,Web API 1-1,text,true,,877,1,1,442,0

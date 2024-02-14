@@ -1,0 +1,21 @@
+case;issuerAccountNumber;legalFirstName;legalLastName;emailAddress;emailNotification;mobilePhone;taxId;day;month;year;addressLine1;addressLine2;aptSuitNum;city;country;countryISO2;postalCode;region;experror
+case1;;TestUser1;api1;errortests@mailinator.com;true;8056;1;13;8;1982;Testaddress1;Testaddress2;4/52;Chennai;India;IN;600089;Tamil Nadu;Issuer Account Number is Mandatory
+case2;SPN1987678;;api1;errortests@mailinator.com;true;8056;1;13;8;1982;Testaddress1;Testaddress2;4/52;Chennai;India;IN;600089;Tamil Nadu;The LegalFirstName must be at least 2 characters longLegal FirstName is Mandatory
+case3;SPN1987678;TestUser1;;errortests@mailinator.com;true;8056;1;13;8;1982;Testaddress1;Testaddress2;4/52;Chennai;India;IN;600089;Tamil Nadu;The LegalLastName must be at least 2 characters longLegal LastName is Mandatory
+case4;SPN1987678;TestUser1;api1;;true;8056;1;13;8;1982;Testaddress1;Testaddress2;4/52;Chennai;India;IN;600089;Tamil Nadu;EmailAddress is Mandatory
+case5;SPN1987678;TestUser1;api1;errortests@mailinator.com;;8056;1;13;8;1982;Testaddress1;Testaddress2;4/52;Chennai;India;IN;600089;Tamil Nadu;EmailNotification is Mandatory and must be boolean
+case6;SPN1987678;TestUser1;api1;errortests@mailinator.com;true;;1;13;8;1982;Testaddress1;Testaddress2;4/52;Chennai;India;IN;600089;Tamil Nadu;Email Already Exists
+case7;SPN1987678;TestUser1;api1;errortests@mailinator.com;true;8056;;13;8;1982;Testaddress1;Testaddress2;4/52;Chennai;India;IN;600089;Tamil Nadu;Email Already Exists
+case8;SPN1987678;TestUser1;api1;errortests@mailinator.com;true;8056;1;;8;1982;Testaddress1;Testaddress2;4/52;Chennai;India;IN;600089;Tamil Nadu;Email Already Exists
+case9;SPN1987678;TestUser1;api1;errortests@mailinator.com;true;8dasdasd05sad6;1;13;;1982;Testaddress1;Testaddress2;4/52;Chennai;India;IN;600089;Tamil Nadu;Email Already Exists
+case10;SPN1987678;TestUser1;api1;errortests@mailinator.com;true;8056;1;13;8;;Testaddress1;Testaddress2;4/52;Chennai;India;IN;600089;Tamil Nadu;Email Already Exists
+case11;SPN1987678;TestUser1;api1;errortests@mailinator.com;true;8056;1;13;8;1982;;Testaddress2;4/52;Chennai;India;IN;600089;Tamil Nadu;Email Already Exists
+case12;SPN1987678;TestUser1;api1;errortests@mailinator.com;true;8056;1;13;8;1982;Testaddress1;;4/52;Chennai;India;IN;600089;Tamil Nadu;Email Already Exists
+case13;SPN1987678;TestUser1;api1;errortests@mailinator.com;true;80+56;1;13;8;1982;Testaddress1;Testaddress2;;Chennai;India;IN;600089;Tamil Nadu;Email Already Exists
+case14;SPN1987678;TestUser1;api1;errortests@mailinator.com;true;8056;1;13;8;1982;Testaddress1;Testaddress2;4/52;;;IN;600089;Tamil Nadu;Email Already Exists
+case15;SPN1987678;TestUser1;api1;errortests@mailinator.com;true;8056;1;13;8;1982;Testaddress1;Testaddress2;4/52;Chennai;;;600089;Tamil Nadu;CountryISO2 is Mandatory
+case16;SPN1987678;TestUser1;api1;errortest2s@mailinator.com;true;8056;1;13;8;1982;Testaddress1;Testaddress2;4/52;Chennai;India;IN;;Tamil Nadu;Email Already Exists
+case17;SPN1987678;TestUser1;api1;errortests@mailinator.com;true;8056;1;13;18;1982;Testaddress1;Testaddress2;4/52;Chennai;India;IN;600089;;The field Month must be between 1 and 12
+case18;SPN1987678;TestUser1;api1;errortests@mailinator.com;true;8056;1;244;18;1982;Testaddress1;Testaddress2;4/52;Chennai;India;IN;600089;;The field Day must be between 1 and 31The field Month must be between 1 and 12
+case19;SPN1987678;TestUser1;api1;errortests@mailinator.com;true;8056;1;113;8;1982;Testaddress1;Testaddress2;4/52;Chennai;India;IN;600089;;The field Day must be between 1 and 31
+case20;SPN1987678;TestUser1;api1;das.cdasdom;true;;1;5;8;1982;Testaddress1;Testaddress2;4/52;Chennai;India;IN;600089;;E-mail is not valid

@@ -1,0 +1,5 @@
+﻿BankCountryISO2,IBAN,ExpError
+GB,,[IBAN is mandatory]
+GB,123,null
+,GB82BUKB20045080977292,[Bank Country ISO2 is mandatory]
+acb,GB82BUKB20045080977292,[Invalid Bank Country ISO2,Invalid Bank Country ISO2]

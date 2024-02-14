@@ -1,0 +1,20 @@
+enable;case;xtrm_api_account;xtrm_ben_personal;Currency;WalletID;PurchaseOrderNumber;RequiredDepositDate;RequiredPaymentDate;Additionalinformtaion;InvoiceRequired;errorcase
+enabled;cb3;;SPN1987678 ;USD;84011;2420;02/12/22;02/12/22;Fund notes;;Not authorized to access this resource
+enabled;cb4;SPN2293494 ;;USD;84011;2420;02/12/22;02/12/22;Fund notes;;Not authorized to access this resource Make One Time Password API Call to access this resource
+enabled;cb6;SPN2293494 ;SPN1987678 ;;84011;2420;02/12/22;02/12/22;Fund notes;;Currency code is mandatory
+enabled;cb7;SPN2293494 ;SPN1987678 ;USD;;2420;02/12/22;02/12/22;Fund notes;;Wallet ID is mandatory
+enabled;cb8;SPN2293494 ;SPN1987678 ;USD;84011;;;123565;Fund notes;;Invalid required payment date
+enabled;cb9;SPN2293494 ;SPN1987678 ;USD;84011;2420;2420;;;;Invalid required deposit date
+enabled;cb11;SPN2293494 ;SPN1987678 ;USDgdfgfd;84011;2420;02/12/22;02/12/22;Fund notes;;Currency code must be a string with a maximum length of 3
+enabled;cb12;SPN2293494 ;SPN1987678 ;INR;84011;2420;22/12/22;02/12/22;Fund notes;;Invalid required deposit date,84011 - Invalid wallet id
+enabled;cb14;SPN2293494 ;SPN1987678 ;USD;84011;2420;2420;02/12/22;Fund notes;TRUE;"Invalid required deposit date,""84011 - Invalid wallet id"
+enabled;cb15;SPN2293494 ;SPN1987678 ;INR;84011;2420;02/12/22;02/12/22;Fund notes;;84011 - Invalid wallet id
+enabled;cb16;SPN2293494 ;SPN1987678 ;USD;84011;12345;;;cbvalid;fasle;InvoiceRequired must be true/false
+enabled;cbvalid;SPN2293494 ;SPN1987678 ;USD;84011;12345;;;cbvalid;FALSE;null
+enabled;corpayusd;SPN2293494 ;SPN2292126 ;USD;88464;2420;02/12/22;02/12/22;corpayusd;FALSE;Remitter not onboarded Please contact support@xtrmcom
+enabled;corpayINR;SPN2293494 ;SPN2292126 ;INR;89000;2420;02/12/22;02/12/22;corpayINR;FALSE;Remitter not onboarded Please contact support@xtrmcom
+enabled;cb1;SPN2293494 ;SPN1987678 ;USD;84011;2420;02/12/22;02/12/22;Fund notes;FALSE;null
+enabled;cb5;SPN2293494 ;SPN1987678 ;USD;84011;2420;02/12/22;02/12/22;Fund notes;;null
+enabled;cb13;SPN2293494 ;SPN1987678 ;USD;84011;2420;02/12/22;02/12/22;Fund notes;FALSE;null
+enabled;cb10;SPN2293494 ;SPN1987678 ;USD;84011;2420;02/12/22;02/12/22;Fund notes;;null
+enabled;cb2;SPN2293494 ;SPN1987678 ;USD;84011;2420;02/12/22;02/12/22;Fund notes;TRUE;null

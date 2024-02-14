@@ -1,0 +1,1 @@
+{"GetCompanyWalletTransactionsResponse":{"GetCompanyWalletTransactionsResult":{"Transactions":[],"OperationStatus":{"Success":true,"Errors":null},"PaginationTotal":{"RecordsToSkip":1,"RecordsToTake":10,"RecordsTotal":0}}}}

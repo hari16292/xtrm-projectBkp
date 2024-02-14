@@ -1,0 +1,1 @@
+{"CreateUserWalletResponse":{"CreateUserWalletResult":{"WalletID":0,"WalletName":null,"WalletCurrency":null,"OperationStatus":{"Success":false,"Errors":["There has been a temporary error. Please try again later."]}}}}

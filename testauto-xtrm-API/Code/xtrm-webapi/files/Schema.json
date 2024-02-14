@@ -1,0 +1,319 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "GetcheckResponse": {
+                "PaymentMethodResult": {
+                    "check": {
+                        "PaymentMethodDetails": [
+                            {
+                                "PaymentMethodId": "XTR94504",
+                                "PaymentMethodName": "AnyPay Company"
+                            },
+                            {
+                                "PaymentMethodId": "XTR94502",
+                                "PaymentMethodName": "AnyPay Individual"
+                            },
+                            {
+                                "PaymentMethodId": "XTR94500",
+                                "PaymentMethodName": "Bank"
+                            },
+                            {
+                                "PaymentMethodId": "XTR94507",
+                                "PaymentMethodName": "Bank Check"
+                            },
+                            {
+                                "PaymentMethodId": "XTR94505",
+                                "PaymentMethodName": "Digital Gift Card"
+                            },
+                            {
+                                "PaymentMethodId": "XTR94503",
+                                "PaymentMethodName": "Prepaid Virtual Debit Card"
+                            },
+                            {
+                                "PaymentMethodId": "XTR94508",
+                                "PaymentMethodName": "Rapid Transfer"
+                            }
+                        ]
+                    },
+                    "OperationStatus": {
+                        "Success": true,
+                        "Errors": null
+                    }
+                }
+            }
+        }
+    ],
+    "required": [
+        "GetcheckResponse"
+    ],
+    "properties": {
+        "GetcheckResponse": {
+            "id": "#/properties/GetcheckResponse",
+            "type": "object",
+            "title": "The GetcheckResponse schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+                {
+                    "PaymentMethodResult": {
+                        "check": {
+                            "PaymentMethodDetails": [
+                                {
+                                    "PaymentMethodId": "XTR94504",
+                                    "PaymentMethodName": "AnyPay Company"
+                                },
+                                {
+                                    "PaymentMethodId": "XTR94502",
+                                    "PaymentMethodName": "AnyPay Individual"
+                                },
+                                {
+                                    "PaymentMethodId": "XTR94500",
+                                    "PaymentMethodName": "Bank"
+                                },
+                                {
+                                    "PaymentMethodId": "XTR94507",
+                                    "PaymentMethodName": "Bank Check"
+                                },
+                                {
+                                    "PaymentMethodId": "XTR94505",
+                                    "PaymentMethodName": "Digital Gift Card"
+                                },
+                                {
+                                    "PaymentMethodId": "XTR94503",
+                                    "PaymentMethodName": "Prepaid Virtual Debit Card"
+                                },
+                                {
+                                    "PaymentMethodId": "XTR94508",
+                                    "PaymentMethodName": "Rapid Transfer"
+                                }
+                            ]
+                        },
+                        "OperationStatus": {
+                            "Success": true,
+                            "Errors": null
+                        }
+                    }
+                }
+            ],
+            "required": [
+                "PaymentMethodResult"
+            ],
+            "properties": {
+                "PaymentMethodResult": {
+                    "id": "#/properties/GetcheckResponse/properties/PaymentMethodResult",
+                    "type": "object",
+                    "title": "The PaymentMethodResult schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": {},
+                    "examples": [
+                        {
+                            "check": {
+                                "PaymentMethodDetails": [
+                                    {
+                                        "PaymentMethodId": "XTR94504",
+                                        "PaymentMethodName": "AnyPay Company"
+                                    },
+                                    {
+                                        "PaymentMethodId": "XTR94502",
+                                        "PaymentMethodName": "AnyPay Individual"
+                                    },
+                                    {
+                                        "PaymentMethodId": "XTR94500",
+                                        "PaymentMethodName": "Bank"
+                                    },
+                                    {
+                                        "PaymentMethodId": "XTR94507",
+                                        "PaymentMethodName": "Bank Check"
+                                    },
+                                    {
+                                        "PaymentMethodId": "XTR94505",
+                                        "PaymentMethodName": "Digital Gift Card"
+                                    },
+                                    {
+                                        "PaymentMethodId": "XTR94503",
+                                        "PaymentMethodName": "Prepaid Virtual Debit Card"
+                                    },
+                                    {
+                                        "PaymentMethodId": "XTR94508",
+                                        "PaymentMethodName": "Rapid Transfer"
+                                    }
+                                ]
+                            },
+                            "OperationStatus": {
+                                "Success": true,
+                                "Errors": null
+                            }
+                        }
+                    ],
+                    "required": [
+                        "check",
+                        "OperationStatus"
+                    ],
+                    "properties": {
+                        "check": {
+                            "id": "#/properties/GetcheckResponse/properties/PaymentMethodResult/properties/check",
+                            "type": "object",
+                            "title": "The check schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": {},
+                            "examples": [
+                                {
+                                    "PaymentMethodDetails": [
+                                        {
+                                            "PaymentMethodId": "XTR94504",
+                                            "PaymentMethodName": "AnyPay Company"
+                                        },
+                                        {
+                                            "PaymentMethodId": "XTR94502",
+                                            "PaymentMethodName": "AnyPay Individual"
+                                        },
+                                        {
+                                            "PaymentMethodId": "XTR94500",
+                                            "PaymentMethodName": "Bank"
+                                        },
+                                        {
+                                            "PaymentMethodId": "XTR94507",
+                                            "PaymentMethodName": "Bank Check"
+                                        },
+                                        {
+                                            "PaymentMethodId": "XTR94505",
+                                            "PaymentMethodName": "Digital Gift Card"
+                                        },
+                                        {
+                                            "PaymentMethodId": "XTR94503",
+                                            "PaymentMethodName": "Prepaid Virtual Debit Card"
+                                        },
+                                        {
+                                            "PaymentMethodId": "XTR94508",
+                                            "PaymentMethodName": "Rapid Transfer"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "required": [
+                                "PaymentMethodDetails"
+                            ],
+                            "properties": {
+                                "PaymentMethodDetails": {
+                                    "id": "#/properties/GetcheckResponse/properties/PaymentMethodResult/properties/check/properties/PaymentMethodDetails",
+                                    "type": "array",
+                                    "title": "The PaymentMethodDetails schema",
+                                    "description": "An explanation about the purpose of this instance.",
+                                    "default": [],
+                                    "examples": [
+                                        [
+                                            {
+                                                "PaymentMethodId": "XTR94504",
+                                                "PaymentMethodName": "AnyPay Company"
+                                            },
+                                            {
+                                                "PaymentMethodId": "XTR94502",
+                                                "PaymentMethodName": "AnyPay Individual"
+                                            }
+                                        ]
+                                    ],
+                                    "additionalItems": true,
+                                    "items": {
+                                        "id": "#/properties/GetcheckResponse/properties/PaymentMethodResult/properties/check/properties/PaymentMethodDetails/items",
+                                        "anyOf": [
+                                            {
+                                                "id": "#/properties/GetcheckResponse/properties/PaymentMethodResult/properties/check/properties/PaymentMethodDetails/items/anyOf/0",
+                                                "type": "object",
+                                                "title": "The first anyOf schema",
+                                                "description": "An explanation about the purpose of this instance.",
+                                                "default": {},
+                                                "examples": [
+                                                    {
+                                                        "PaymentMethodId": "XTR94504",
+                                                        "PaymentMethodName": "AnyPay Company"
+                                                    }
+                                                ],
+                                                "required": [
+                                                    "PaymentMethodId",
+                                                    "PaymentMethodName"
+                                                ],
+                                                "properties": {
+                                                    "PaymentMethodId": {
+                                                        "id": "#/properties/GetcheckResponse/properties/PaymentMethodResult/properties/check/properties/PaymentMethodDetails/items/anyOf/0/properties/PaymentMethodId",
+                                                        "type": "string",
+                                                        "title": "The PaymentMethodId schema",
+                                                        "description": "An explanation about the purpose of this instance.",
+                                                        "default": "",
+                                                        "examples": [
+                                                            "XTR94504"
+                                                        ]
+                                                    },
+                                                    "PaymentMethodName": {
+                                                        "id": "#/properties/GetcheckResponse/properties/PaymentMethodResult/properties/check/properties/PaymentMethodDetails/items/anyOf/0/properties/PaymentMethodName",
+                                                        "type": "string",
+                                                        "title": "The PaymentMethodName schema",
+                                                        "description": "An explanation about the purpose of this instance.",
+                                                        "default": "",
+                                                        "examples": [
+                                                            "AnyPay Company"
+                                                        ]
+                                                    }
+                                                },
+                                                "additionalProperties": true
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "additionalProperties": true
+                        },
+                        "OperationStatus": {
+                            "id": "#/properties/GetcheckResponse/properties/PaymentMethodResult/properties/OperationStatus",
+                            "type": "object",
+                            "title": "The OperationStatus schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": {},
+                            "examples": [
+                                {
+                                    "Success": true,
+                                    "Errors": null
+                                }
+                            ],
+                            "required": [
+                                "Success",
+                                "Errors"
+                            ],
+                            "properties": {
+                                "Success": {
+                                    "id": "#/properties/GetcheckResponse/properties/PaymentMethodResult/properties/OperationStatus/properties/Success",
+                                    "type": "boolean",
+                                    "title": "The Success schema",
+                                    "description": "An explanation about the purpose of this instance.",
+                                    "default": false,
+                                    "examples": [
+                                        true
+                                    ]
+                                },
+                                "Errors": {
+                                    "id": "#/properties/GetcheckResponse/properties/PaymentMethodResult/properties/OperationStatus/properties/Errors",
+                                    "type": "null",
+                                    "title": "The Errors schema",
+                                    "description": "An explanation about the purpose of this instance.",
+                                    "default": null,
+                                    "examples": [
+                                        null
+                                    ]
+                                }
+                            },
+                            "additionalProperties": true
+                        }
+                    },
+                    "additionalProperties": true
+                }
+            },
+            "additionalProperties": true
+        }
+    },
+    "additionalProperties": true
+}

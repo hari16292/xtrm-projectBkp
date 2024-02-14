@@ -1,0 +1,240 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1643882299580,3546,Key,200,OK,Valid cases 1-1,text,true,,1202,582,1,1,https://xapidev.xtrm.com/oAuth/token,3544,0,973
+1643882303134,710,Create User,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",883,1370,1,1,https://xapidev.xtrm.com/API/v4/Register/CreateUser,710,0,0
+1643882303848,307,Update User,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",881,1317,1,1,https://xapidev.xtrm.com/API/v4/Register/UpdateUser,306,0,0
+1643882304155,405,Fetch Personal Beneficiaries,200,OK,Valid cases 1-1,text,true,,1355,717,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/GetPersonalBeneficiaries,405,0,0
+1643882304563,417,Check User Exist,200,OK,Valid cases 1-1,text,true,,1089,654,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/CheckUserExist,412,0,0
+1643882304988,467,Get  Beneficiaries,200,OK,Valid cases 1-1,text,true,,1574,747,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/GetBeneficiaries,467,0,0
+1643882305456,332,Check Beneficiary Exist,200,OK,Valid cases 1-1,text,true,,1325,678,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/CheckBeneficiaryExist,331,0,0
+1643882305788,14082,Get Company Type,200,OK,Valid cases 1-1,text,true,,4968,514,1,1,https://xapidev.xtrm.com/API/v4/Register/GetAdvancedContactCompanyType,14081,0,0
+1643882319870,1249,Get NAICS,200,OK,Valid cases 1-1,text,true,,23916,493,1,1,https://xapidev.xtrm.com/API/v4/Register/GetNaics,1024,0,0
+1643882321121,444,Get Advanced Contact Job Titles,200,OK,Valid cases 1-1,text,true,,1214,512,1,1,https://xapidev.xtrm.com/API/v4/Register/GetAdvancedContactJobTitles,444,0,0
+1643882321566,455,Get Identification Type,200,OK,Valid cases 1-1,text,true,,1059,506,1,1,https://xapidev.xtrm.com/API/v4/Register/GetIdentificationType,455,0,0
+1643882322022,607,Get Advanced Contact Country,200,OK,Valid cases 1-1,text,true,,3992,510,1,1,https://xapidev.xtrm.com/API/v4/Register/GetAdvancedContactCountry,606,0,0
+1643882322629,749,Get Advanced Contact State,200,OK,Valid cases 1-1,text,true,,1656,616,1,1,https://xapidev.xtrm.com/API/v4/Register/GetAdvancedContactState,749,0,0
+1643882323379,379,Get Advanced Profile Status,200,OK,Valid cases 1-1,text,true,,1002,693,1,1,https://xapidev.xtrm.com/API/v4/Register/CompanyAdvancedProfileStatus,379,0,0
+1643882323759,383,Get Advanced Profile Details,200,OK,Valid cases 1-1,text,true,,2652,698,1,1,https://xapidev.xtrm.com/API/v4/Register/GetCompanyAdvancedProfileDetails,383,0,0
+1643882324143,356,Create Beneficiary Company,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",921,1432,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/CreateBeneficiary,356,0,0
+1643882324500,316,Update Beneficiary Company,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",891,1473,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/UpdateBeneficiary,316,0,0
+1643882324818,1044,Company Advanced Profile,200,OK,Valid cases 1-1,text,true,,1013,4662,1,1,https://xapidev.xtrm.com/API/v4/Register/CompanyAdvancedProfile,1044,0,0
+1643882325863,307,Fetch Payment Methods,200,OK,Valid cases 1-1,text,true,,1124,501,1,1,https://xapidev.xtrm.com/API/v4/Payment/GetPaymentMethods,307,0,0
+1643882326171,302,Fetch Beneficiary Company Payment Methods,200,OK,Valid cases 1-1,text,true,,1060,519,1,1,https://xapidev.xtrm.com/API/v4/Payment/GetBeneficiaryCompanyPaymentMethods,302,0,0
+1643882326474,302,Fetch User Payment Methods,200,OK,Valid cases 1-1,text,true,,1131,505,1,1,https://xapidev.xtrm.com/API/v4/Payment/GetUserPaymentMethods,302,0,0
+1643882326777,6244,Link beneficiary’s Bank for ACH debit Company,200,OK,Valid cases 1-1,text,true,,1063,1564,1,1,https://xapidev.xtrm.com/API/v4/Bank/LinkACHDebitBankBeneficiary,6244,0,0
+1643882333022,373,Get ACH debit linked bank accounts,200,OK,Valid cases 1-1,text,true,,1972,693,1,1,https://xapidev.xtrm.com/API/v4/Bank/GetACHDebitLinkedBankAccounts,373,0,0
+1643882333396,354,Fetch User Wallet Balance,200,OK,Valid cases 1-1,text,true,,990,695,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletBalance,349,0,0
+1643882333751,535,Fetch Company Wallets,200,OK,Valid cases 1-1,text,true,,2305,621,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWallets,534,0,0
+1643882334287,411,Fetch Beneficiary Wallets,200,OK,Valid cases 1-1,text,true,,1319,662,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetBeneficiaryWallets,400,0,0
+1643882334699,378,Fetch User Wallet Transactions,200,OK,Valid cases 1-1,text,true,,1602,776,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,377,0,0
+1643882335077,308,Fetch User Wallets,200,OK,Valid cases 1-1,text,true,,1281,651,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWallets,308,0,0
+1643882335386,448,Fetch User Wallet Transactions by Remitter,200,OK,Valid cases 1-1,text,true,,1026,838,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactionsByRemitter,447,0,0
+1643882335834,324,Create User Wallet,500,Internal Server Error,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",898,715,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateUserWallet,324,0,0
+1643882336159,319,Create Company Wallet,200,OK,Valid cases 1-1,text,true,,1000,764,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateCompanyWallet,319,0,0
+1643882336479,305,Update Company Wallet,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",885,678,1,1,https://xapidev.xtrm.com/API/v4/Wallet/updatecompanywallet,305,0,0
+1643882336785,301,Create Company Wallet Accrual,200,OK,Valid cases 1-1,text,true,,1000,763,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateCompanyWallet,301,0,0
+1643882337086,345,Create Beneficiary Company Wallet Accrual,200,OK,Valid cases 1-1,text,true,,1011,788,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateBeneficiaryCompanyWallet,344,0,0
+1643882337431,332,Create Beneficiary Company Wallet,200,OK,Valid cases 1-1,text,true,,1010,789,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateBeneficiaryCompanyWallet,332,0,0
+1643882337764,376,Update Beneficiary Company Wallet,200,OK,Valid cases 1-1,text,true,,985,822,1,1,https://xapidev.xtrm.com/API/v4/Wallet/updateBeneficiarycompanywallet,376,0,0
+1643882338141,294,Get User Payment Methods,200,OK,Valid cases 1-1,text,true,,1131,505,1,1,https://xapidev.xtrm.com/API/v4/Payment/GetUserPaymentMethods,293,0,0
+1643882338435,393,Get Programs,200,OK,Valid cases 1-1,text,true,,1332,737,1,1,https://xapidev.xtrm.com/API/v4/Programs/GetPrograms,393,0,0
+1643882338829,536,Get Company Wallets,200,OK,Valid cases 1-1,text,true,,2313,621,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWallets,536,0,0
+1643882339366,291,Get user wallets,200,OK,Valid cases 1-1,text,true,,1281,652,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWallets,291,0,0
+1643882339658,334,Get Linked Bank Accounts,200,OK,Valid cases 1-1,text,true,,1354,673,1,1,https://xapidev.xtrm.com/API/v4/Bank/GetLinkedBankAccounts,334,0,0
+1643882339993,1118,Fetch Linked Card for company account,200,OK,Valid cases 1-1,text,true,,1202,657,1,1,https://xapidev.xtrm.com/API/v4/Card/GetLinkedCards,1118,0,0
+1643882341118,346,Get user wallet transactions,200,OK,Valid cases 1-1,text,true,,2127,835,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,346,0,0
+1643882341465,328,Fetch the balance of a user’s wallet,200,OK,Valid cases 1-1,text,true,,990,696,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletBalance,328,0,0
+1643882341885,389,Fetch Linked Card for company account,200,OK,Valid cases 1-1,text,true,,1200,657,1,1,https://xapidev.xtrm.com/API/v4/Card/GetLinkedCards,376,0,0
+1643882342275,699,Get Linked Bank Accounts,200,OK,Valid cases 1-1,text,true,,1354,673,1,1,https://xapidev.xtrm.com/API/v4/Bank/GetLinkedBankAccounts,667,0,0
+1643882342975,1049,Transfer to Other Accounts specific to RBT,200,OK,Valid cases 1-1,text,true,,1154,2318,1,1,https://xapidev.xtrm.com/API/v4/Fund/TransferFund,1048,0,0
+1643882344024,337,User Wallet Transaction,200,OK,Valid cases 1-1,text,true,,1241,834,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,337,0,0
+1643882344366,341,User Wallet Transaction Details,200,OK,Valid cases 1-1,text,false,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``String response = prev.getResponseDataAsString(); String exptext=""Bank Transfer  . . . '' : Typed variable declaration : Method Invocation response.substring",1165,720,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactionDetails,337,0,0
+1643882344714,1325,Get company wallet transaction details,200,OK,Valid cases 1-1,text,true,,1423,689,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactionDetails,1325,0,0
+1643882346045,349,Get Linked Bank Accounts,200,OK,Valid cases 1-1,text,true,,1354,673,1,1,https://xapidev.xtrm.com/API/v4/Bank/GetLinkedBankAccounts,344,0,0
+1643882346395,832,Transfer to Other Accounts using Bank Check,200,OK,Valid cases 1-1,text,true,,1149,2146,1,1,https://xapidev.xtrm.com/API/v4/Fund/TransferFund,828,0,0
+1643882347227,357,User Wallet Transaction,200,OK,Valid cases 1-1,text,false,Did not received TransactionID for cheque Transfer,1225,834,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,350,0,0
+1643882347586,307,User Wallet Transaction Details,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",901,714,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactionDetails,307,0,0
+1643882347896,337,Get Linked Bank Accounts,200,OK,Valid cases 1-1,text,true,,1354,673,1,1,https://xapidev.xtrm.com/API/v4/Bank/GetLinkedBankAccounts,337,0,0
+1643882348234,1659,Transfer to Other Accounts specific to Standard,200,OK,Valid cases 1-1,text,true,,1153,2316,1,1,https://xapidev.xtrm.com/API/v4/Fund/TransferFund,1659,0,0
+1643882349894,337,User Wallet Transaction,200,OK,Valid cases 1-1,text,false,Did not received TransactionID for RBT Transfer,1219,834,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,337,0,0
+1643882350235,301,User Wallet Transaction Details,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",901,714,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactionDetails,301,0,0
+1643882350539,329,Get Linked Bank Accounts,200,OK,Valid cases 1-1,text,true,,1354,673,1,1,https://xapidev.xtrm.com/API/v4/Bank/GetLinkedBankAccounts,329,0,0
+1643882350869,829,Transfer to Other Accounts using Digital gift card,200,OK,Valid cases 1-1,text,true,,1150,2260,1,1,https://xapidev.xtrm.com/API/v4/Fund/TransferFund,829,0,0
+1643882351699,342,User Wallet Transaction,200,OK,Valid cases 1-1,text,false,Did not received TransactionID for digital gift card Transfer,1333,834,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,342,0,0
+1643882352043,295,User Wallet Transaction Details,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",901,714,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactionDetails,295,0,0
+1643882352341,327,Get Linked Bank Accounts,200,OK,Valid cases 1-1,text,true,,1354,673,1,1,https://xapidev.xtrm.com/API/v4/Bank/GetLinkedBankAccounts,326,0,0
+1643882352668,1030,Transfer to Other Accounts using Prepaid Virtual Debit Card,200,OK,Valid cases 1-1,text,true,,1152,2269,1,1,https://xapidev.xtrm.com/API/v4/Fund/TransferFund,1030,0,0
+1643882353698,458,User Wallet Transaction,200,OK,Valid cases 1-1,text,false,Did not received TransactionID for digital gift card Transfer,1217,834,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,436,0,0
+1643882354159,599,User Wallet Transaction Details,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",901,714,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactionDetails,598,0,0
+1643882354759,596,Get Linked Bank Accounts,200,OK,Valid cases 1-1,text,true,,1354,673,1,1,https://xapidev.xtrm.com/API/v4/Bank/GetLinkedBankAccounts,574,0,0
+1643882355356,748,Transfer to Other Accounts using AnyPay Individual,200,OK,Valid cases 1-1,text,true,,1149,2152,1,1,https://xapidev.xtrm.com/API/v4/Fund/TransferFund,748,0,0
+1643882356105,338,User Wallet Transaction,200,OK,Valid cases 1-1,text,true,,1228,834,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,337,0,0
+1643882356448,317,User Wallet Transaction Details,200,OK,Valid cases 1-1,text,true,,1162,720,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactionDetails,317,0,0
+1643882356767,299,Get Payment Methods,200,OK,Valid cases 1-1,text,true,,1124,501,1,1,https://xapidev.xtrm.com/API/v4/Payment/GetPaymentMethods,298,0,0
+1643882357066,541,Get company wallets,200,OK,Valid cases 1-1,text,true,,2313,621,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWallets,540,0,0
+1643882357607,30617,Get Beneficiary Wallets,200,OK,Valid cases 1-1,text,true,,974,662,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetBeneficiaryWallets,30617,0,0
+1643882388225,1016,Get Linked Bank Accounts,200,OK,Valid cases 1-1,text,true,,1523,673,1,1,https://xapidev.xtrm.com/API/v4/Bank/GetLinkedBankAccounts,1016,0,221
+1643882389242,331,Fetch Linked Card for company account,200,OK,Valid cases 1-1,text,true,,1323,657,1,1,https://xapidev.xtrm.com/API/v4/Card/GetLinkedCards,331,0,0
+1643882389574,1064,Transfer funds to company 1 input,200,OK,Valid cases 1-1,text,true,,1141,1795,1,1,https://xapidev.xtrm.com/API/v4/Fund/TransferFundToCompany,1064,0,0
+1643882390643,351,Fetch Linked Card for company account,200,OK,Valid cases 1-1,text,true,,1324,657,1,1,https://xapidev.xtrm.com/API/v4/Card/GetLinkedCards,344,0,0
+1643882390994,1011,Transfer Fund to company using RBT,200,OK,Valid cases 1-1,text,true,,1141,1691,1,1,https://xapidev.xtrm.com/API/v4/Fund/TransferFundToCompany,1010,0,0
+1643882392005,422,Get company wallet transactions,200,OK,Valid cases 1-1,text,true,,1219,799,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,422,0,0
+1643882392430,977,Get company wallet transaction details,200,OK,Valid cases 1-1,text,false,Expected Transfer type ShouldBank Transfer - RapidBut receivedWallet,1255,689,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactionDetails,976,0,0
+1643882393410,343,Fetch Linked Card for company account,200,OK,Valid cases 1-1,text,true,,1324,657,1,1,https://xapidev.xtrm.com/API/v4/Card/GetLinkedCards,343,0,0
+1643882393754,332,Get Linked Bank Accounts,200,OK,Valid cases 1-1,text,true,,1511,673,1,1,https://xapidev.xtrm.com/API/v4/Bank/GetLinkedBankAccounts,331,0,0
+1643882394086,955,Transfer Fund to company using Bank check,200,OK,Valid cases 1-1,text,true,,1139,1790,1,1,https://xapidev.xtrm.com/API/v4/Fund/TransferFundToCompany,954,0,0
+1643882395040,400,Get company wallet transactions,200,OK,Valid cases 1-1,text,true,,1228,799,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,400,0,0
+1643882395442,979,Get company wallet transaction details,200,OK,Valid cases 1-1,text,false,Expected Transfer type Should Check DirectBut received Wallet,1255,689,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactionDetails,979,0,0
+1643882396424,340,Fetch Linked Card for company account,200,OK,Valid cases 1-1,text,true,,1324,657,1,1,https://xapidev.xtrm.com/API/v4/Card/GetLinkedCards,340,0,0
+1643882396765,30650,Fetch Beneficiary Wallets,200,OK,Valid cases 1-1,text,true,,974,662,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetBeneficiaryWallets,30650,0,0
+1643882427417,334,Get Linked Bank Accounts,200,OK,Valid cases 1-1,text,true,,1512,673,1,1,https://xapidev.xtrm.com/API/v4/Bank/GetLinkedBankAccounts,333,0,0
+1643882427751,1804,Transfer Fund to company using Standard,200,OK,Valid cases 1-1,text,true,,1142,1759,1,1,https://xapidev.xtrm.com/API/v4/Fund/TransferFundToCompany,1804,0,0
+1643882429556,397,Get company wallet transactions,200,OK,Valid cases 1-1,text,true,,1235,799,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,397,0,0
+1643882429956,1076,Get company wallet transaction details,200,OK,Valid cases 1-1,text,false,Expected Transfer type ShouldDirect to BankBut received Wallet,1261,689,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactionDetails,1074,0,0
+1643882431036,341,Get Linked Bank Accounts,200,OK,Valid cases 1-1,text,true,,1512,673,1,1,https://xapidev.xtrm.com/API/v4/Bank/GetLinkedBankAccounts,341,0,0
+1643882431378,867,Transfer to wallet using AnyPay Company,200,OK,Valid cases 1-1,text,true,,1141,1699,1,1,https://xapidev.xtrm.com/API/v4/Fund/TransferFundToCompany,867,0,0
+1643882432245,401,Get company wallet transactions,200,OK,Valid cases 1-1,text,true,,1230,799,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,399,0,0
+1643882432647,976,Get company wallet transaction details,200,OK,Valid cases 1-1,text,true,,1254,689,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactionDetails,976,0,0
+1643882433625,1113,Transfer Fund Dynamic Account Create User,200,OK,Valid cases 1-1,text,true,,1069,1008,1,1,https://xapidev.xtrm.com/API/v4/Fund/TransferFundDynamicAccountCreateUser,1113,0,0
+1643882434738,432,Get company wallet transactions,200,OK,Valid cases 1-1,text,true,,1248,799,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,430,0,0
+1643882435172,576,Get company wallet transaction details,200,OK,Valid cases 1-1,text,true,,1218,689,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactionDetails,576,0,0
+1643882435750,14553,Link Bank Beneficiary,200,OK,Valid cases 1-1,text,true,,1060,1516,1,1,https://xapidev.xtrm.com/API/v4/Bank/LinkBankBeneficiary,14553,0,0
+1643882450304,938,Get a beneficiary’s linked bank accounts,200,OK,Valid cases 1-1,text,true,,1275,673,1,1,https://xapidev.xtrm.com/API/v4/Bank/GetLinkedBankAccounts,938,0,211
+1643882451243,1532,Delete a beneficiary’s linked bank,200,OK,Valid cases 1-1,text,true,,998,764,1,1,https://xapidev.xtrm.com/API/v4/Bank/DeleteBankBeneficiary,1532,0,0
+1643882452776,302,Get bank withdraw types,200,OK,Valid cases 1-1,text,true,,984,659,1,1,https://xapidev.xtrm.com/API/v4/Bank/GetBankWithdrawTypes,302,0,0
+1643882453079,466,Search banks within a country,200,OK,Valid cases 1-1,text,true,,1010,803,1,1,https://xapidev.xtrm.com/API/v4/Bank/SearchBank,465,0,0
+1643882453545,290,Link beneficiary’s Bank for ACH debit Company,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",942,1557,1,1,https://xapidev.xtrm.com/API/v4/Bank/LinkACHDebitBankBeneficiary,290,0,0
+1643882453836,327,Get ACH debit linked bank accounts,200,OK,Valid cases 1-1,text,true,,1971,693,1,1,https://xapidev.xtrm.com/API/v4/Bank/GetACHDebitLinkedBankAccounts,326,0,0
+1643882454164,322,Delete a beneficiary’s linked bank ACH,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",874,718,1,1,https://xapidev.xtrm.com/API/v4/Bank/DeleteBankBeneficiary,322,0,0
+1643882454487,296,Link Bank Beneficiary-Non US,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",947,1570,1,1,https://xapidev.xtrm.com/API/v4/Bank/LinkBankBeneficiary,296,0,0
+1643882454784,328,Fetch Linked Card for company account,200,OK,Valid cases 1-1,text,true,,1323,657,1,1,https://xapidev.xtrm.com/API/v4/Card/GetLinkedCards,328,0,0
+1643882455113,315,Link Card for company account,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",880,1254,1,1,https://xapidev.xtrm.com/API/v4/Card/LinkCard,315,0,0
+1643882455429,326,Fetch Linked Card for user account,200,OK,Valid cases 1-1,text,true,,1323,657,1,1,https://xapidev.xtrm.com/API/v4/Card/GetLinkedCards,326,0,0
+1643882455756,312,Beneficiary company withdraw funds using RBT - Need OTP,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",913,1069,1,1,https://xapidev.xtrm.com/API/v4/Fund/BeneficiaryCompanyWithdrawFund,312,0,0
+1643882456069,333,Delete Card for company account,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",848,672,1,1,https://xapidev.xtrm.com/API/v4/Card/DeleteCard,333,0,0
+1643882456403,1993,Link Card for user account,200,OK,Valid cases 1-1,text,true,,1002,1254,1,1,https://xapidev.xtrm.com/API/v4/Card/LinkCard,1992,0,0
+1643882458397,294,Link Card for company,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",880,1254,1,1,https://xapidev.xtrm.com/API/v4/Card/LinkCard,294,0,0
+1643882458691,371,User withdraw fund using RBT- Need OTP,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",946,1022,1,1,https://xapidev.xtrm.com/API/v4/Fund/UserWithdrawFund,371,0,0
+1643882459064,354,Delete Card for user account,200,OK,Valid cases 1-1,text,true,,958,689,1,1,https://xapidev.xtrm.com/API/v4/Card/DeleteCard,349,0,0
+1643882459419,660,Adv profile- check,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",820,5711,1,1,https://xapidev.xtrm.com/API/v4/Register/GetCompanyAdvancedProfileDetails,660,0,0
+1643882460081,374,Fetch Programs,200,OK,Valid cases 1-1,text,true,,1164,730,1,1,https://xapidev.xtrm.com/API/v4/Programs/GetPrograms,374,0,0
+1643882460456,322,Program Category,200,OK,Valid cases 1-1,text,true,,1085,741,1,1,https://xapidev.xtrm.com/API/v4/Programs/ProgramCategory,322,0,0
+1643882460779,318,Program Type,200,OK,Valid cases 1-1,text,true,,1101,765,1,1,https://xapidev.xtrm.com/API/v4/Programs/ProgramType,318,0,0
+1643882461098,317,Create program,200,OK,Valid cases 1-1,text,true,,968,849,1,1,https://xapidev.xtrm.com/API/v4/Programs/CreateProgram,317,0,0
+1643882461415,312,Update Program,200,OK,Valid cases 1-1,text,true,,968,890,1,1,https://xapidev.xtrm.com/API/v4/Programs/UpdateProgram,312,0,0
+1643882461728,403,Fetch Personal Beneficiaries Copy,200,OK,Valid cases 1-1,text,true,,1357,717,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/GetPersonalBeneficiaries,402,0,0
+1643882462131,909,Send beneficiary tax information to registered email,200,OK,Valid cases 1-1,text,true,,993,812,1,1,https://xapidev.xtrm.com/API/v4/Report/TransferTaxInformation,908,0,0
+1643882463040,3037,Get Exchange Rate,200,OK,Valid cases 1-1,text,true,,1076,688,1,1,https://xapidev.xtrm.com/API/v4/Payment/GetExchangeRate,3036,0,0

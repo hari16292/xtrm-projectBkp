@@ -1,0 +1,1 @@
+{"GetUserWalletTransactionsByRemitterResponse":{"GetUserWalletTransactionsByRemitterResult":{"Transactions":null,"OperationStatus":{"Success":false,"Errors":["There has been a temporary error. Please try again later."]},"PaginationTotal":null}}}

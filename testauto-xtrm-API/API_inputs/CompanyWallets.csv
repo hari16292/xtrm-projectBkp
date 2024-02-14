@@ -1,0 +1,7 @@
+case;issuerAccountNumber;UserID;WalletName;WalletCurrency;experror;WalletType
+case1;;PAT1986818;TestWalletcreation;USD;Not authorized to access this resource.;Standard
+case2;SPN1987678;;TestWalletcreation;US;Invalid  Wallet Currency;Standard
+case3;SPN1987678;PAT1986818;;USD;Wallet name is mandatory;Standard
+case4;SPN1987678;PAT1986818;TestWalletcreation;USD123;Wallet currency must be a string with a maximum length of 3;Standard
+case5;SPN1987678;PAT1986818;TestWalletcreation;;Wallet currency is mandatory;Standard
+case6;SPN1987678;PAT1986818;TestWalletcreation;;Wallet currency is mandatory;Standarddasda

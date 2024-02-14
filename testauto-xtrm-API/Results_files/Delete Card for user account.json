@@ -1,0 +1,1 @@
+{"DeleteCard":{"DeleteCardResult":{"CardToken":null,"OperationStatus":{"Errors":["Card Token is mandatory."],"Success":false}}}}

@@ -1,0 +1,41 @@
+Issuer Account Number is Mandatory
+Beneficiary Account Number is Mandatory
+Country_Of_Registration_Code2 is invalid
+Country_Of_Registration_Code2 is Mandatory
+BusinessEntityInformation : Website is mandatory
+BusinessEntityInformation : Company_Type is mandatory
+BusinessEntityInformation : Company_Type is invalid.
+BusinessEntityInformation : Industry_Classification is mandatory
+BusinessEntityInformation : Country_Of_Registration is mandatory
+BusinessEntityInformation : Country_Of_Incorporation_Code2 is mandatory
+BusinessEntityInformation : Country_Of_Registration_Code2 is invalid
+BusinessEntityInformation : Tax_Identification_Number is mandatory
+BusinessEntityInformation : Identification_Type is mandatory
+BusinessEntityInformation : Identification_Number is mandatory
+BusinessEntityInformation : Address_Line_1 is mandatory
+BusinessEntityInformation : City is mandatory
+BusinessEntityInformation : Region_Code2 is mandatory,BusinessEntityInformation : Country_Code2 is mandatory
+AuthorizedContactInformation : Job_Title is mandatory
+AuthorizedContactInformation : First_Name is mandatory
+AuthorizedContactInformation : Last_Name is mandatory
+AuthorizedContactInformation : Email_Address is mandatory
+AuthorizedContactInformation : Date_Of_Birth is mandatory
+AuthorizedContactInformation : Citizenship must be a countryiso2 string with maximum a length of 2
+AuthorizedContactInformation : Address_Line_1 is mandatory
+AuthorizedContactInformation : City is mandatory
+AuthorizedContactInformation : Region_Code2 is mandatory
+AuthorizedContactInformation : Country_Code2 is mandatory
+AuthorizedContactInformation : Postal_Code is mandatory
+AuthorizedContactInformation : Business_Phone is mandatory
+OwnerInformation[0] :Job_Title is mandatory
+OwnerInformation[0] : Percentage_Owned is mandatory
+OwnerInformation[0] : Percentage_Owned is must be an integer between 0 and 100
+OwnerInformation[0] :Date_of_Birth is mandatory
+OwnerInformation[0] :Citizenship is mandatory
+OwnerInformation[0] :Address_Line_1 is mandatory
+OwnerInformation[0] :City is mandatory
+OwnerInformation[0] :Country_Code2 is mandatory
+OwnerInformation[0] :Region_Code2 is mandatory
+OwnerInformation[0] :Postal_Code is mandatory
+OwnerInformation : Is_the_Company_Pubicly_Traded is mandatory
+OwnerInformation : IsPublicallyTraded must be yes or no

@@ -1,0 +1,8 @@
+case;issuerAccountNumber;legalFirstName;legalLastName;emailAddress;emailNotification;mobilePhone;taxId;day;month;year;addressLine1;addressLine2;aptSuitNum;city;country;countryISO2;postalCode;region;experror
+case1;;TestUser1;api1;errortests@mailinator.com;true;8056;1;13;8;1982;Testaddress1;Testaddress2;4/52;Chennai;India;IN;600089;Tamil Nadu;Not authorized to access this resource
+case2;SPN1987678;;api1;errortests@mailinator.com;true;8056;1;13;8;1982;Testaddress1;Testaddress2;4/52;Chennai;India;IN;600089;Tamil Nadu;Legal FirstName is Mandatory,The LegalFirstName must be at least 2 characters long
+case3;SPN1987678;TestUser1;;errortests@mailinator.com;true;8056;1;13;8;1982;Testaddress1;Testaddress2;4/52;Chennai;India;IN;600089;Tamil Nadu;Legal LastName is Mandatory,The LegalLastName must be at least 2 characters long
+case6;SPN1987678;TestUser1;api1;error2;true;8056;1;13;8;1982;;;;;;;;;CountryISO2 is Mandatory
+case7;SPN1987678;TestUser1;api1;errortests@mailinator.com;true;8056;1;13;18;1982;Testaddress1;Testaddress2;4/52;Chennai;India;IN;600089;;The field Month must be between 1 and 12
+case8;SPN1987678;TestUser1;api1;errortests@mailinator.com;true;8056;1;244;18;1982;Testaddress1;Testaddress2;4/52;Chennai;India;IN;600089;;The field Day must be between 1 and 31,The field Month must be between 1 and 12
+case9;SPN1987678;TestUser1;api1;errortests@mailinator.com;true;8056;1;113;8;1982;Testaddress1;Testaddress2;4/52;Chennai;India;IN;600089;;The field Day must be between 1 and 31

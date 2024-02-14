@@ -1,0 +1,5 @@
+case;IssuerAccountNumber;CountryID;experror
+case1;;1;Issuer Account Number is Mandatory
+case2;SPN19134662;;CountryID is Mandatory and must be an integer
+case6;SPN19134662;900;Invalid country id
+case3;SPN19134662;-988;CountryID is Mandatory and must be an integer

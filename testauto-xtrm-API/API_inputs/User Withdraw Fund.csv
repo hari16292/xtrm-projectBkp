@@ -1,0 +1,14 @@
+case;IssuerAccountNumber;UserID;Amount;Currency;PaymentMethodID;OTP;SKU;SendTransferCodetoEmail;SendTransferCodetoMobile;UserGiftCardEmailID;UserLinkedBankID;UserPayPalEmailID;UserPrepaidVisaEmailID;CardToken;errormessage
+case1;SPN1987678 ;PAT1986818;10;USeeD;XTR94505 ;;U561621;TRUE;FALSE;afexuser1@mailinator.com;afexuser1@mailinator.com;afexuser1@mailinator.com;afexuser1@mailinator.com;;Currency must be a string with a maximum length of 3
+case2;;PAT1986818;10;USD;XTR94505 ;;U561621;TRUE;FALSE;afexuser1@mailinator.com;afexuser1@mailinator.com;afexuser1@mailinator.com;afexuser1@mailinator.com;;Not authorized to access this resource.
+case3;SPN2190533;;10;USD;XTR94505 ;;U561621;TRUE;FALSE;afexuser1@mailinator.com;afexuser1@mailinator.com;afexuser1@mailinator.com;afexuser1@mailinator.com;;Not authorized to access this resource.
+case4;SPN1987678 ;PAT1986818 ;0.22;USD;XTR94508;746594;U935268;TRUE;FALSE;corporatecompany2@mailinator.com;982353390933219d9;corporatecompany2@mailinator.com;;96431BDBC13248C;PAT1986818 Card Token is invalid
+case5;SPN1987678 ;PAT1986818 ;0.22;USD;XTR94507 ;746594;U935268;TRUE;FALSE;corporatecompany2@mailinator.com;982353390933219d9;corporatecompany2@mailinator.com;;96431BDBC13248C;Invalid PaymentMethod
+case6;SPN1987678 ;PAT1986818 ;0.22;USD;XTR94505 ;746594;U935268;TRUE;FALSE;;982353390933219d9;corporatecompany2@mailinator.com;;96431BDBC13248C;PAT1986818 Gift Card EmailID is mandatory,Amount must be : 10
+case7;SPN1987678 ;PAT1986818 ;0.22;USD;XTR94503 ;746594;U935268;TRUE;FALSE;;982353390933219d9;corporatecompany2@mailinator.com;;;PAT1986818 Prepaid Visa EmailID is mandatory,Amount must be between : 5 and 1000
+case8;SPN1987678 ;PAT1986818 ;0.22;USD;XTR94500 ;746594;U935268;TRUE;FALSE;;982353390933219d9;corporatecompany2@mailinator.com;;asdasd;PAT1986818 - Invalid User Linked Bank ID
+case9;SPN1987678 ;PAT1986818 ;;USD;XTR94505 ;746594;U935268;TRUE;FALSE;;982353390933219d9;corporatecompany2@mailinator.com;corporatecompany2@mailinator.com;96431BDBC13248C;Amount is Mandatory
+case10;SPN1987678 ;PAT1986818 ;5000;USD;XTR94500 ;746594;U935268;TRUE;FALSE;;982353390933219d9;corporatecompany2@mailinator.com;;asdasd;PAT1986818 - Invalid User Linked Bank ID
+case11;SPN1987678 ;PAT1986818 ;500000;USD;XTR94505 ;746594;U935268;TRUE;FALSE;;982353390933219d9;corporatecompany2@mailinator.com;;96431BDBC13248C;PAT1986818 Gift Card EmailID is mandatory,Amount must be : 10
+case12;;;;;;;;;;;;;;;Not authorized to access this resource.
+case13;SPN1987678 ;PAT1986818 ;0.22;USD;XTR94508;746594;U935268;TRUE;FALSE;corporatecompany2@mailinator.com;982353390933219d9;corporatecompany2@mailinator.com;;;PAT1986818 Card Token is mandatory

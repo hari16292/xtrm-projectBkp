@@ -1,0 +1,7 @@
+case;StartUTC;EndUTC;TransactionType;SearchParam
+case1;02/10/21;02/10/22;Pending;afex
+case2;02/10/21;02/10/22;Credits;afex
+case3;02/10/21;02/10/22;Debits;afex
+case4;02/10/21;02/10/22;Currency Exchange;afex
+case5;02/10/21;02/10/22;Transfer;afex
+case6;02/10/21;02/10/22;All;afex

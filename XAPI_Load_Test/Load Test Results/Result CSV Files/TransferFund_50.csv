@@ -1,0 +1,4 @@
+Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Error %,Throughput,Received KB/sec,Sent KB/sec
+Token Generation,50,552,377,527,858,4834,308,4834,0.000%,9.64506,10.52,2.96
+Transfer Fund,50,6169,5805,9752,10039,10670,1110,10670,0.000%,4.19358,6.47,9.15
+TOTAL,100,3360,2612,8395,9752,10368,308,10670,0.000%,8.14531,10.72,10.14

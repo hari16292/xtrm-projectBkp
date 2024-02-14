@@ -1,0 +1,22 @@
+{
+  "GetUserWalletTransactions": {
+    "Request": {
+      "issuerAccountNumber": "${xtrm_api_account}",
+      "UserID": "${xtrm_ben_personal}",
+      "WalletCurrency": "${IssuerPaymentCurrency}",
+       "Filters" :
+       {
+          "DateRange" : {
+          "StartUTC": "${StartUTC}",
+          "EndUTC": "${EndUTC}"
+        },
+           "TransactionType": "${TransactionType}",
+           "SearchParam": "${SearchParam}"
+       },
+     "Pagination": {
+        "RecordsToSkip": "1",
+        "RecordsToTake": "10"
+      }
+    }
+  }
+}

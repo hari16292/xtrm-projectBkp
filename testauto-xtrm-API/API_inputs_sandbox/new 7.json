@@ -1,0 +1,20 @@
+{
+	"TransferFundtoCompanyResponse": {
+		"TransferFundtoCompanyResult": {
+			"IssuerTransactionId": "123",
+			"PaymentTransactionId": "155680",
+			"BeneficiaryAccountNumber": "SPN1986817",
+			"PaymentDate": "2022-04-11T00:04:30.083",
+			"PaymentStatus": "Completed",
+			"Amount": "20.00",
+			"Fee": "2.00",
+			"TotalAmount": "22.00",
+			"Currency": "USD",
+			"PayDirectTransactionDetails": null,
+			"OperationStatus": {
+				"Success": true,
+				"Errors": null
+			}
+		}
+	}
+}

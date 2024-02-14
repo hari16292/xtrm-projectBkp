@@ -1,0 +1,10 @@
+
+`
+java:S1192"EDefine a constant instead of duplicating this literal "\",
+" 7 times.(―•Ϊκώÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(μ­¶Τ
+v
+java:S1488"[Immediately return this expression instead of assigning it to the temporary variable "req".( Β±µύÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°Ν’–ύÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(έν‹Ωÿÿÿÿÿ

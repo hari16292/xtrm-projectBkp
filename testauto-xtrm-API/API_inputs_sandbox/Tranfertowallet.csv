@@ -1,0 +1,9 @@
+case;issuerAccountNumber;FromAccountNumber;FromWalletID;ToAccountNumber;ToWalletID;Currency;Amount;OTP;Description;experror
+case1;SPN19134662;SPN19134662;terwe;PAT21138887;83084;USD;2;;Wrong to wallet;FromWalletID is Mandatory and must be an integer
+case2;SPN19134662;SPN19134662;;PAT21138887;83084;USD;2;;No from wallet;FromWalletID is Mandatory and must be an integer
+case3;SPN19134662;SPN19134662;86293;PAT21138887;;USD;2;;No to wallet;ToWalletID is Mandatory and must be an integer
+case4;SPN19134662;SPN19134662;86293;PAT21138887;User1;USD;2;;wrong name in towallet;ToWalletID is Mandatory and must be an integer
+case5;SPN19134662;SPN19134662;86293;PAT21138887;83084;USDdasdsd;2;;wrong currency;Currency must be a string with a maximum length of 3
+case6;SPN19134662;SPN19134662;86293;PAT21138887;83084;USD;123456655;;wrong amount;86293 - Invalid from wallet id,Insufficient funds to process payment
+case7;SPN19134662;SPN19134662;86293;PAT21138887;83084;USD;;;wrong amount;Amount should be greater than zero
+case8;SPN19134662;SPN19134662;86293;PAT21138887;83084;USD;2;123dasdasd;wrong amount;One Time Password must be an integer with a maximum length of 6

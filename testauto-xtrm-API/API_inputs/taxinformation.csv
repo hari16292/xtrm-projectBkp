@@ -1,0 +1,11 @@
+case;IssuerAccountNumber;BeneficiaryAccountNumber;MonthStarts;TaxYear;EmailBody;experror
+case1;SPN1987678;PAT1986818;10;2021;;Email body is Mandatory
+case2;;PAT1986818;15;2021;Yourﾠtaxﾠinformationﾠforﾠ2020;IssuerAccountNumber is mandatory
+case3;SPN1987678;;15;2021;Yourﾠtaxﾠinformationﾠforﾠ2020;BeneficiaryAccountNumber is mandatory
+case4;SPN1987678;PAT1986818;51;2021;Yourﾠtaxﾠinformationﾠforﾠ2020;TaxYearStartMonth must be an integer from 1 to 12
+case5;SPN1987678;PAT1986818;15;2056666;Yourﾠtaxﾠinformationﾠforﾠ2020;TaxYear should be less than the current year
+case6OtherthanUS;SPN1987678;PAT1986818;2;2000;email check;Tax information is not available for the year 2000
+case7;SPN1987678;PAT1986818;12;2022;Mail tax information;TaxYear should be less than the current year
+case8;SPN1987678;PAT1986818;12;1958;Mail tax information;TaxYear should be greater than 2000
+case9;SPN1987678;PAT2190529;1;2021;incomplete message;Missing profile information. Please ensure profile is complete.
+case10;SPN1987678;PAT1986818;;2021;tax info;TaxYearStartMonth should be an integer between 1 and 12

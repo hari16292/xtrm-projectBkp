@@ -1,0 +1,1 @@
+{"UpdateBeneficiaryResponse":{"UpdateBeneficiaryResult":{"BeneficiaryID":null,"AccountIdentityLevel":null,"OperationStatus":{"Success":false,"Errors":["Beneficiary ID is Mandatory"]}}}}

@@ -1,0 +1,27 @@
+enabled;case;issuerAccountNumber;Amount;CurrencyCode;WalletID;FirstName;LastName;Address1;City;State;CountryISO2;PostalCode;CardToken;ExpireMonth;ExpireYear;CreditCardNumber;CreditCardType;CVV;ExpError
+enabled;case1;;11.12;USD;86288;Testpay1;check;Address 1;Kansas;Kansas;US;90001;D7F49EB6A7B54C4;3;2023;44444;Visa Card;123;Not authorized to access this resource.
+enabled;case2;SPN1987678;fgfddgdf;USD;86288;Testpay1;check;Address 1;Kansas;Kansas;US;90001;D7F49EB6A7B54C4;3;2023;44444;Visa Card;123;Amount should be greater than zero
+enabled;case3;SPN1987678;;USD;86288;Testpay1;check;Address 1;Kansas;Kansas;US;90001;D7F49EB6A7B54C4;3;2023;44444;Visa Card;123;Amount should be greater than zero
+enabled;case4;SPN1987678;11.12;EUR;86288;Testpay1;check;Address 1;Kansas;Kansas;US;90001;D7F49EB6A7B54C4;3;2023;44444;Visa Card;123;Invalid Currency - supported USD currency only,D7F49EB6A7B54C4 - Invalid CardToken
+enabled;case5;SPN1987678;11.12;;86288;Testpay1;check;Address 1;Kansas;Kansas;US;90001;D7F49EB6A7B54C4;3;2023;44444;Visa Card;123;Currency Code is Mandatory
+enabled;case6;SPN1987678;11.12;USD;955;Testpay1;check;Address 1;Kansas;Kansas;US;90001;D7F49EB6A7B54C4;3;2023;44444;Visa Card;123;955 - Invalid wallet id,D7F49EB6A7B54C4 - Invalid CardToken
+enabled;case7;SPN1987678;11.12;USD;;Testpay1;check;Address 1;Kansas;Kansas;US;90001;D7F49EB6A7B54C4;3;2023;44444;Visa Card;123;WalletID is Mandatory and must be an integer
+enabled;case8;SPN1987678;11.12;USD;86288;;;Address 1;Kansas;Kansas;US;90001;D7F49EB6A7B54C4;3;2023;44444;Visa Card;123;First name is Mandatory,Last name is Mandatory
+enabled;case9;SPN1987678;11.12;USD;86288;Testpay1;check;;Kansas;Kansas;US;90001;D7F49EB6A7B54C4;3;2023;44444;Visa Card;123;AddressLine1 is Mandatory
+enabled;case10;SPN1987678;11.12;USD;86288;Testpay1;check;Address 1;;Kansas;US;90001;D7F49EB6A7B54C4;3;2023;44444;Visa Card;123;City is Mandatory
+enabled;case11;SPN1987678;11.12;USD;86288;Testpay1;check;Address 1;Kansas;;US;90001;D7F49EB6A7B54C4;3;2023;44444;Visa Card;123;State is Mandatory
+enabled;case12;SPN1987678;11.12;USD;86288;Testpay1;check;Address 1;Kansas;Kansas;;90001;D7F49EB6A7B54C4;3;2023;44444;Visa Card;123;Country ISO2 is Mandatory
+enabled;case13;SPN1987678;11.12;USD;86288;Testpay1;check;Address 1;Kansas;Kansas;Usasdas;90001;D7F49EB6A7B54C4;3;2023;44444;Visa Card;123;Country ISO2 must be a string with a maximum length of 2
+enabled;case14;SPN1987678;11.12;USD;86288;Testpay1;check;Address 1;Kansas;Kansas;US;;D7F49EB6A7B54C4;3;2023;44444;Visa Card;123;Postal code is Mandatory
+enabled;case15;SPN1987678;11.12;USD;86288;Testpay1;check;Address 1;Kansas;Kansas;US;90001;60184B2C602F40Dcxczx;3;2023;44444;Visa Card;123;60184B2C602F40Dcxczx - Invalid CardToken
+enabled;case16;SPN1987678;11.12;USD;86288;Testpay1;check;Address 1;Kansas;Kansas;US;90001;;73;2023;744444;Visa Card;123;Creditcard number is invalid,Invalid expire month / year
+enabled;case17;SPN1987678;11.12;USD;86288;Testpay1;check;Address 1;Kansas;Kansas;US;90001;;;2023;744444;Visa Card;123;Creditcard number is invalid,Invalid expire month / year
+enabled;case18;SPN1987678;11.12;USD;86288;Testpay1;check;Address 1;Kansas;Kansas;US;90001;;3;2542023;11111111111111;Visa Card;123;Invalid expire month / year
+enabled;case19;SPN1987678;11.12;USD;86288;Testpay1;check;Address 1;Kansas;Kansas;US;90001;;3;;11111111111111;Visa Card;123;Invalid expire month / year
+enabled;case21;SPN1987678;11.12;USD;86288;Testpay1;check;Address 1;Kansas;Kansas;US;90001;;3;2023;7578578678678680000000;Visa Card;123;Creditcard number is invalid
+enabled;case22;SPN1987678;11.12;USD;86288;Testpay1;check;Address 1;Kansas;Kansas;US;90001;;3;2023;11111111111111;Visa Cards;123;Invalid credit card type. Card type should be Master Card, Visa Card or Amex Card
+enabled;case23;SPN1987678;11.12;USD;86288;Testpay1;check;Address 1;Kansas;Kansas;US;90001;;3;2023;11111111111111;;123;Invalid credit card type. Card type should be Master Card, Visa Card or Amex Card
+enabled;case24;SPN1987678;11.12;USD;86288;Testpay1;check;Address 1;Kansas;Kansas;US;90001;;3;2023;11111111111111;Visa Card;7678678123;Invalid CVV
+enabled;case25;SPN1987678;11.12;USD;86288;Testpay1;check;Address 1;Kansas;Kansas;US;90001;;3;2023;11111111111111;Visa Card;;Invalid CVV
+enabled;case26;SPN1987678;11.12;USDcxfad;955;Testpay1;check;Address 1;Kansas;Kansas;US;90001;;2;2022;11111111111111;Visa Card;123;Currency code must be a string with a maximum length of 3
+enabled;case27;SPN1987678;11.12;USD;86288;Testpay1;check;Address 1;Kansas;Kansas;US;90001;;2;2022;11111111111111;Visa Card;123;Invalid expire month / year

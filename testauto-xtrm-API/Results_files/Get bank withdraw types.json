@@ -1,0 +1,1 @@
+{"GetBankWithdrawTypesResponse":{"GetBankWithdrawTypesResult":{"WithdrawTypes":["ACH","WIRE"],"OperationStatus":{"Errors":null,"Success":true}}}}

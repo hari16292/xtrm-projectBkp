@@ -1,0 +1,1126 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1695285451606,8,SetNbReq,500,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import com.xtrm.webapi.CommonFunctions;  vars.put(""count_transfer company"",Strin . . . '' : Attempt to resolve method: countLinesInFile() on undefined variable or class name: CommonFunctions",Valid cases 1-1,text,false,,0,0,1,1,null,0,0,0
+1695285451739,1213,Key-dev-SPN1987678,200,OK,Valid cases 1-1,text,true,,1203,582,1,1,https://xapidev.xtrm.com/oAuth/token,1208,0,101
+1695285546289,6,SetNbReq,500,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import com.xtrm.webapi.CommonFunctions;  vars.put(""count_transfer company"",Strin . . . '' : Attempt to resolve method: countLinesInFile() on undefined variable or class name: CommonFunctions",Valid cases 1-1,text,false,,0,0,1,1,null,0,0,0
+1695285546298,353,Key-dev-SPN1987678,200,OK,Valid cases 1-1,text,true,,1202,582,1,1,https://xapidev.xtrm.com/oAuth/token,353,0,70
+1695285546656,497,Fetch Personal Beneficiaries,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1559,1207,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/GetPersonalBeneficiaries,48,0,18
+1695285546656,48,Fetch Personal Beneficiaries-0,301,Moved Permanently,Valid cases 1-1,,true,,605,717,1,1,http://xapidev.xtrm.com/API/v4/Beneficiary/GetPersonalBeneficiaries,48,0,18
+1695285546707,446,Fetch Personal Beneficiaries-1,401,Unauthorized,Valid cases 1-1,text,false,,954,490,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/GetPersonalBeneficiaries,446,0,0
+1695285547460,335,Check User Exist,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1539,1172,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/CheckUserExist,24,0,0
+1695285547460,24,Check User Exist-0,301,Moved Permanently,Valid cases 1-1,,true,,595,692,1,1,http://xapidev.xtrm.com/API/v4/Beneficiary/CheckUserExist,24,0,0
+1695285547485,310,Check User Exist-1,401,Unauthorized,Valid cases 1-1,text,false,,944,480,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/CheckUserExist,310,0,0
+1696576526549,6,SetNbReq,500,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import com.xtrm.webapi.CommonFunctions;  vars.put(""count_transfer company"",Strin . . . '' : Attempt to resolve method: countLinesInFile() on undefined variable or class name: CommonFunctions",Valid cases 1-1,text,false,,0,0,1,1,null,0,0,0
+1696576526720,585,Key-dev-SPN1987678,200,OK,Valid cases 1-1,text,true,,1205,582,1,1,https://xapidev.xtrm.com/oAuth/token,585,0,108
+1696576527315,363,Fetch Personal Beneficiaries,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1559,1207,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/GetPersonalBeneficiaries,61,0,25
+1696576527315,61,Fetch Personal Beneficiaries-0,301,Moved Permanently,Valid cases 1-1,,true,,605,717,1,1,http://xapidev.xtrm.com/API/v4/Beneficiary/GetPersonalBeneficiaries,61,0,25
+1696576527381,297,Fetch Personal Beneficiaries-1,401,Unauthorized,Valid cases 1-1,text,false,,954,490,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/GetPersonalBeneficiaries,296,0,0
+1696576527700,334,Check User Exist,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1539,1172,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/CheckUserExist,35,0,0
+1696576527700,35,Check User Exist-0,301,Moved Permanently,Valid cases 1-1,,true,,595,692,1,1,http://xapidev.xtrm.com/API/v4/Beneficiary/CheckUserExist,35,0,0
+1696576527735,299,Check User Exist-1,401,Unauthorized,Valid cases 1-1,text,false,,944,480,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/CheckUserExist,299,0,0
+1707466109156,7,SetNbReq,500,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import com.xtrm.webapi.CommonFunctions;  vars.put(""count_transfer company"",Strin . . . '' : Attempt to resolve method: countLinesInFile() on undefined variable or class name: CommonFunctions",Valid cases 1-1,text,false,,0,0,1,1,null,0,0,0
+1707466109293,8621,Key-dev-SPN1987678,200,OK,Valid cases 1-1,text,true,,1208,582,1,1,https://xapidev.xtrm.com/oAuth/token,8621,0,131
+1707466117975,467,Fetch Personal Beneficiaries,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1559,1207,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/GetPersonalBeneficiaries,54,0,15
+1707466117975,54,Fetch Personal Beneficiaries-0,301,Moved Permanently,Valid cases 1-1,,true,,605,717,1,1,http://xapidev.xtrm.com/API/v4/Beneficiary/GetPersonalBeneficiaries,54,0,15
+1707466118030,412,Fetch Personal Beneficiaries-1,401,Unauthorized,Valid cases 1-1,text,false,,954,490,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/GetPersonalBeneficiaries,412,0,0
+1707466118496,396,Check User Exist,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1539,1172,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/CheckUserExist,49,0,0
+1707466118496,49,Check User Exist-0,301,Moved Permanently,Valid cases 1-1,,true,,595,692,1,1,http://xapidev.xtrm.com/API/v4/Beneficiary/CheckUserExist,49,0,0
+1707466118546,346,Check User Exist-1,401,Unauthorized,Valid cases 1-1,text,false,,944,480,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/CheckUserExist,345,0,0
+1707466118937,311,Create Beneficiary Company,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1545,1896,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/CreateBeneficiary,31,0,0
+1707466118937,31,Create Beneficiary Company-0,301,Moved Permanently,Valid cases 1-1,,true,,598,1413,1,1,http://xapidev.xtrm.com/API/v4/Beneficiary/CreateBeneficiary,31,0,0
+1707466118968,280,Create Beneficiary Company-1,401,Unauthorized,Valid cases 1-1,text,false,,947,483,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/CreateBeneficiary,280,0,0
+1707466119256,309,Update Beneficiary Company,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1545,1962,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/UpdateBeneficiary,28,0,0
+1707466119256,28,Update Beneficiary Company-0,301,Moved Permanently,Valid cases 1-1,,true,,598,1479,1,1,http://xapidev.xtrm.com/API/v4/Beneficiary/UpdateBeneficiary,28,0,0
+1707466119284,281,Update Beneficiary Company-1,401,Unauthorized,Valid cases 1-1,text,false,,947,483,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/UpdateBeneficiary,281,0,0
+1707466119612,305,Get digital gift cards (by currency),401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1543,1257,1,1,https://xapidev.xtrm.com/API/v4/GiftCard/GetDigitalGiftCards,24,0,0
+1707466119612,24,Get digital gift cards (by currency)-0,301,Moved Permanently,Valid cases 1-1,,true,,597,775,1,1,http://xapidev.xtrm.com/API/v4/GiftCard/GetDigitalGiftCards,24,0,0
+1707466119636,281,Get digital gift cards (by currency)-1,401,Unauthorized,Valid cases 1-1,text,false,,946,482,1,1,https://xapidev.xtrm.com/API/v4/GiftCard/GetDigitalGiftCards,280,0,0
+1707466119943,369,Get digital gift card details,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1541,1117,1,1,https://xapidev.xtrm.com/API/v4/GiftCard/GetGiftCardDetails,24,0,0
+1707466119943,24,Get digital gift card details-0,301,Moved Permanently,Valid cases 1-1,,true,,596,636,1,1,http://xapidev.xtrm.com/API/v4/GiftCard/GetGiftCardDetails,24,0,0
+1707466119968,344,Get digital gift card details-1,401,Unauthorized,Valid cases 1-1,text,false,,945,481,1,1,https://xapidev.xtrm.com/API/v4/GiftCard/GetGiftCardDetails,344,0,0
+1707466120317,316,Fetch Prepaid Gift Cards,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1535,1226,1,1,https://xapidev.xtrm.com/API/v4/GiftCard/GetPrepaidCards,30,0,0
+1707466120317,30,Fetch Prepaid Gift Cards-0,301,Moved Permanently,Valid cases 1-1,,true,,593,748,1,1,http://xapidev.xtrm.com/API/v4/GiftCard/GetPrepaidCards,30,0,0
+1707466120347,286,Fetch Prepaid Gift Cards-1,401,Unauthorized,Valid cases 1-1,text,false,,942,478,1,1,https://xapidev.xtrm.com/API/v4/GiftCard/GetPrepaidCards,286,0,0
+1707466120674,314,Fetch Prepaid Gift Cards Details,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1547,1126,1,1,https://xapidev.xtrm.com/API/v4/GiftCard/GetPrepaidCardDetails,31,0,0
+1707466120674,31,Fetch Prepaid Gift Cards Details-0,301,Moved Permanently,Valid cases 1-1,,true,,599,642,1,1,http://xapidev.xtrm.com/API/v4/GiftCard/GetPrepaidCardDetails,31,0,0
+1707466120706,282,Fetch Prepaid Gift Cards Details-1,401,Unauthorized,Valid cases 1-1,text,false,,948,484,1,1,https://xapidev.xtrm.com/API/v4/GiftCard/GetPrepaidCardDetails,282,0,0
+1707466120994,311,Fetch Connected Fund Details,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1557,1351,1,1,https://xapidev.xtrm.com/API/v4/Fund/GetConnectedCompanyFundRequest,25,0,0
+1707466120994,25,Fetch Connected Fund Details-0,301,Moved Permanently,Valid cases 1-1,,true,,604,862,1,1,http://xapidev.xtrm.com/API/v4/Fund/GetConnectedCompanyFundRequest,25,0,0
+1707466121020,285,Fetch Connected Fund Details-1,401,Unauthorized,Valid cases 1-1,text,false,,953,489,1,1,https://xapidev.xtrm.com/API/v4/Fund/GetConnectedCompanyFundRequest,285,0,0
+1707466121312,372,Fetch Payment Methods,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1537,980,1,1,https://xapidev.xtrm.com/API/v4/Payment/GetPaymentMethods,34,0,0
+1707466121312,34,Fetch Payment Methods-0,301,Moved Permanently,Valid cases 1-1,,true,,594,501,1,1,http://xapidev.xtrm.com/API/v4/Payment/GetPaymentMethods,34,0,0
+1707466121347,337,Fetch Payment Methods-1,401,Unauthorized,Valid cases 1-1,text,false,,943,479,1,1,https://xapidev.xtrm.com/API/v4/Payment/GetPaymentMethods,337,0,0
+1707466121689,305,Fetch Beneficiary Company Payment Methods,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1573,1016,1,1,https://xapidev.xtrm.com/API/v4/Payment/GetBeneficiaryCompanyPaymentMethods,27,0,0
+1707466121689,27,Fetch Beneficiary Company Payment Methods-0,301,Moved Permanently,Valid cases 1-1,,true,,612,519,1,1,http://xapidev.xtrm.com/API/v4/Payment/GetBeneficiaryCompanyPaymentMethods,27,0,0
+1707466121716,278,Fetch Beneficiary Company Payment Methods-1,401,Unauthorized,Valid cases 1-1,text,false,,961,497,1,1,https://xapidev.xtrm.com/API/v4/Payment/GetBeneficiaryCompanyPaymentMethods,278,0,0
+1707466122001,307,Fetch User Payment Methods,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1545,988,1,1,https://xapidev.xtrm.com/API/v4/Payment/GetUserPaymentMethods,26,0,0
+1707466122001,26,Fetch User Payment Methods-0,301,Moved Permanently,Valid cases 1-1,,true,,598,505,1,1,http://xapidev.xtrm.com/API/v4/Payment/GetUserPaymentMethods,26,0,0
+1707466122027,281,Fetch User Payment Methods-1,401,Unauthorized,Valid cases 1-1,text,false,,947,483,1,1,https://xapidev.xtrm.com/API/v4/Payment/GetUserPaymentMethods,281,0,0
+1707466122314,302,Get ACH debit linked bank accounts,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1555,1181,1,1,https://xapidev.xtrm.com/API/v4/Bank/GetACHDebitLinkedBankAccounts,25,0,0
+1707466122314,25,Get ACH debit linked bank accounts-0,301,Moved Permanently,Valid cases 1-1,,true,,603,693,1,1,http://xapidev.xtrm.com/API/v4/Bank/GetACHDebitLinkedBankAccounts,25,0,0
+1707466122339,277,Get ACH debit linked bank accounts-1,401,Unauthorized,Valid cases 1-1,text,false,,952,488,1,1,https://xapidev.xtrm.com/API/v4/Bank/GetACHDebitLinkedBankAccounts,277,0,0
+1707466122653,297,Fetch User Wallet Transactions by Remitter,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1571,1334,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactionsByRemitter,23,0,0
+1707466122653,23,Fetch User Wallet Transactions by Remitter-0,301,Moved Permanently,Valid cases 1-1,,true,,611,838,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactionsByRemitter,23,0,0
+1707466122677,273,Fetch User Wallet Transactions by Remitter-1,401,Unauthorized,Valid cases 1-1,text,false,,960,496,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactionsByRemitter,272,0,0
+1707466122954,300,Create User Wallet,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1533,1241,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateUserWallet,24,0,0
+1707466122954,24,Create User Wallet-0,301,Moved Permanently,Valid cases 1-1,,true,,592,764,1,1,http://xapidev.xtrm.com/API/v4/Wallet/CreateUserWallet,24,0,0
+1707466122978,276,Create User Wallet-1,401,Unauthorized,Valid cases 1-1,text,false,,941,477,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateUserWallet,276,0,0
+1707466123260,1052,Create Company Wallet,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1539,1245,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateCompanyWallet,31,0,0
+1707466123260,31,Create Company Wallet-0,301,Moved Permanently,Valid cases 1-1,,true,,595,765,1,1,http://xapidev.xtrm.com/API/v4/Wallet/CreateCompanyWallet,31,0,0
+1707466123292,1020,Create Company Wallet-1,401,Unauthorized,Valid cases 1-1,text,false,,944,480,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateCompanyWallet,1020,0,0
+1707466124320,353,Create Company Wallet Accrual,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",2337,1243,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateCompanyWallet,25,0,0
+1707466124320,25,Create Company Wallet Accrual-0,301,Moved Permanently,Valid cases 1-1,,true,,1393,763,1,1,http://xapidev.xtrm.com/API/v4/Wallet/CreateCompanyWallet,25,0,0
+1707466124345,328,Create Company Wallet Accrual-1,401,Unauthorized,Valid cases 1-1,text,false,,944,480,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateCompanyWallet,328,0,0
+1707466124678,300,Create Beneficiary Company Wallet Accrual,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1561,1279,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateBeneficiaryCompanyWallet,25,0,0
+1707466124678,25,Create Beneficiary Company Wallet Accrual-0,301,Moved Permanently,Valid cases 1-1,,true,,606,788,1,1,http://xapidev.xtrm.com/API/v4/Wallet/CreateBeneficiaryCompanyWallet,25,0,0
+1707466124704,274,Create Beneficiary Company Wallet Accrual-1,401,Unauthorized,Valid cases 1-1,text,false,,955,491,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateBeneficiaryCompanyWallet,274,0,0
+1707466124980,303,Create Beneficiary Company Wallet,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1561,1281,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateBeneficiaryCompanyWallet,23,0,0
+1707466124980,23,Create Beneficiary Company Wallet-0,301,Moved Permanently,Valid cases 1-1,,true,,606,790,1,1,http://xapidev.xtrm.com/API/v4/Wallet/CreateBeneficiaryCompanyWallet,23,0,0
+1707466125003,280,Create Beneficiary Company Wallet-1,401,Unauthorized,Valid cases 1-1,text,false,,955,491,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateBeneficiaryCompanyWallet,280,0,0
+1707466125287,365,Fetch User Wallet Balance,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1541,1176,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletBalance,25,0,0
+1707466125287,25,Fetch User Wallet Balance-0,301,Moved Permanently,Valid cases 1-1,,true,,596,695,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletBalance,25,0,0
+1707466125312,340,Fetch User Wallet Balance-1,401,Unauthorized,Valid cases 1-1,text,false,,945,481,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletBalance,340,0,0
+1707466125658,302,Fetch Company Wallets,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1535,1099,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWallets,24,0,0
+1707466125658,24,Fetch Company Wallets-0,301,Moved Permanently,Valid cases 1-1,,true,,593,621,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWallets,24,0,0
+1707466125683,277,Fetch Company Wallets-1,401,Unauthorized,Valid cases 1-1,text,false,,942,478,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWallets,277,0,0
+1707466125962,299,Fetch Beneficiary Wallets,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1543,1144,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetBeneficiaryWallets,23,0,0
+1707466125962,23,Fetch Beneficiary Wallets-0,301,Moved Permanently,Valid cases 1-1,,true,,597,662,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetBeneficiaryWallets,23,0,0
+1707466125985,276,Fetch Beneficiary Wallets-1,401,Unauthorized,Valid cases 1-1,text,false,,946,482,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetBeneficiaryWallets,276,0,0
+1707466126268,300,Fetch User Wallets,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1529,1126,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWallets,24,0,0
+1707466126268,24,Fetch User Wallets-0,301,Moved Permanently,Valid cases 1-1,,true,,590,651,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetUserWallets,24,0,0
+1707466126292,276,Fetch User Wallets-1,401,Unauthorized,Valid cases 1-1,text,false,,939,475,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWallets,276,0,0
+1707466126667,358,UserWallet transactions_case1,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1551,1481,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,27,0,0
+1707466126667,27,UserWallet transactions_case1-0,301,Moved Permanently,Valid cases 1-1,,true,,601,995,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,27,0,0
+1707466126694,331,UserWallet transactions_case1-1,401,Unauthorized,Valid cases 1-1,text,false,,950,486,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,331,0,0
+1707466127033,304,UserWallet transactions_case1_withoutfilter,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1551,1262,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,25,0,0
+1707466127033,25,UserWallet transactions_case1_withoutfilter-0,301,Moved Permanently,Valid cases 1-1,,true,,601,776,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,25,0,0
+1707466127058,279,UserWallet transactions_case1_withoutfilter-1,401,Unauthorized,Valid cases 1-1,text,false,,950,486,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,279,0,0
+1707466127339,299,UserWallet transactions_case2,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1551,1482,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,23,0,0
+1707466127339,23,UserWallet transactions_case2-0,301,Moved Permanently,Valid cases 1-1,,true,,601,996,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,23,0,0
+1707466127363,275,UserWallet transactions_case2-1,401,Unauthorized,Valid cases 1-1,text,false,,950,486,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,275,0,0
+1707466127641,302,UserWallet transactions_case2_withoutfilter,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1551,1262,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,23,0,0
+1707466127641,23,UserWallet transactions_case2_withoutfilter-0,301,Moved Permanently,Valid cases 1-1,,true,,601,776,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,23,0,0
+1707466127664,279,UserWallet transactions_case2_withoutfilter-1,401,Unauthorized,Valid cases 1-1,text,false,,950,486,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,279,0,0
+1707466127946,302,UserWallet transactions_case3,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1551,1478,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,23,0,0
+1707466127946,23,UserWallet transactions_case3-0,301,Moved Permanently,Valid cases 1-1,,true,,601,992,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,23,0,0
+1707466127969,279,UserWallet transactions_case3-1,401,Unauthorized,Valid cases 1-1,text,false,,950,486,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,279,0,0
+1707466128250,306,UserWallet transactions_case3_withoutfilter,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1551,1262,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,22,0,0
+1707466128250,22,UserWallet transactions_case3_withoutfilter-0,301,Moved Permanently,Valid cases 1-1,,true,,601,776,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,22,0,0
+1707466128273,283,UserWallet transactions_case3_withoutfilter-1,401,Unauthorized,Valid cases 1-1,text,false,,950,486,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,283,0,0
+1707466128558,300,UserWallet transactions_case4,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1551,1482,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,23,0,0
+1707466128558,23,UserWallet transactions_case4-0,301,Moved Permanently,Valid cases 1-1,,true,,601,996,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,23,0,0
+1707466128581,277,UserWallet transactions_case4-1,401,Unauthorized,Valid cases 1-1,text,false,,950,486,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,277,0,0
+1707466128864,301,UserWallet transactions_case4_withoutfilter,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1551,1262,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,23,0,0
+1707466128864,23,UserWallet transactions_case4_withoutfilter-0,301,Moved Permanently,Valid cases 1-1,,true,,601,776,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,23,0,0
+1707466128888,277,UserWallet transactions_case4_withoutfilter-1,401,Unauthorized,Valid cases 1-1,text,false,,950,486,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,277,0,0
+1707466129207,375,UserWallet transactions_case5,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1551,1491,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,29,0,0
+1707466129207,29,UserWallet transactions_case5-0,301,Moved Permanently,Valid cases 1-1,,true,,601,1005,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,29,0,0
+1707466129237,345,UserWallet transactions_case5-1,401,Unauthorized,Valid cases 1-1,text,false,,950,486,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,345,0,0
+1707466129585,299,UserWallet transactions_case5_withoutfilter,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1550,1262,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,24,0,0
+1707466129585,24,UserWallet transactions_case5_withoutfilter-0,301,Moved Permanently,Valid cases 1-1,,true,,601,776,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,24,0,0
+1707466129609,275,UserWallet transactions_case5_withoutfilter-1,401,Unauthorized,Valid cases 1-1,text,false,,949,486,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,275,0,0
+1707466129887,364,UserWallet transactions_case6,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1551,1477,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,22,0,0
+1707466129887,22,UserWallet transactions_case6-0,301,Moved Permanently,Valid cases 1-1,,true,,601,991,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,22,0,0
+1707466129909,342,UserWallet transactions_case6-1,401,Unauthorized,Valid cases 1-1,text,false,,950,486,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,342,0,0
+1707466130258,302,UserWallet transactions_case6_withoutfilter,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",2329,1262,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,25,0,0
+1707466130258,25,UserWallet transactions_case6_withoutfilter-0,301,Moved Permanently,Valid cases 1-1,,true,,1379,776,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,25,0,0
+1707466130283,277,UserWallet transactions_case6_withoutfilter-1,401,Unauthorized,Valid cases 1-1,text,false,,950,486,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,277,0,0
+1707466130565,300,UserWallet transactions_case7,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1551,1481,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,24,0,0
+1707466130565,24,UserWallet transactions_case7-0,301,Moved Permanently,Valid cases 1-1,,true,,601,995,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,24,0,0
+1707466130590,275,UserWallet transactions_case7-1,401,Unauthorized,Valid cases 1-1,text,false,,950,486,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,275,0,0
+1707466130869,296,UserWallet transactions_case7_withoutfilter,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1551,1262,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,23,0,0
+1707466130869,23,UserWallet transactions_case7_withoutfilter-0,301,Moved Permanently,Valid cases 1-1,,true,,601,776,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,23,0,0
+1707466130892,273,UserWallet transactions_case7_withoutfilter-1,401,Unauthorized,Valid cases 1-1,text,false,,950,486,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,273,0,0
+1707466131172,302,UserWallet transactions_case1,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1551,1481,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,28,0,0
+1707466131172,28,UserWallet transactions_case1-0,301,Moved Permanently,Valid cases 1-1,,true,,601,995,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,28,0,0
+1707466131200,274,UserWallet transactions_case1-1,401,Unauthorized,Valid cases 1-1,text,false,,950,486,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,274,0,0
+1707466131478,303,UserWallet transactions_case1_withoutfilter,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1551,1262,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,29,0,0
+1707466131478,29,UserWallet transactions_case1_withoutfilter-0,301,Moved Permanently,Valid cases 1-1,,true,,601,776,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,29,0,0
+1707466131508,273,UserWallet transactions_case1_withoutfilter-1,401,Unauthorized,Valid cases 1-1,text,false,,950,486,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,273,0,0
+1707466131784,444,UserWallet transactions_case2,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1551,1482,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,28,0,0
+1707466131784,28,UserWallet transactions_case2-0,301,Moved Permanently,Valid cases 1-1,,true,,601,996,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,28,0,0
+1707466131812,416,UserWallet transactions_case2-1,401,Unauthorized,Valid cases 1-1,text,false,,950,486,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,416,0,0
+1707466132231,296,UserWallet transactions_case2_withoutfilter,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1551,1262,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,24,0,0
+1707466132231,24,UserWallet transactions_case2_withoutfilter-0,301,Moved Permanently,Valid cases 1-1,,true,,601,776,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,24,0,0
+1707466132255,272,UserWallet transactions_case2_withoutfilter-1,401,Unauthorized,Valid cases 1-1,text,false,,950,486,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,272,0,0
+1707466132530,304,UserWallet transactions_case3,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1550,1478,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,28,0,0
+1707466132530,28,UserWallet transactions_case3-0,301,Moved Permanently,Valid cases 1-1,,true,,601,992,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,28,0,0
+1707466132558,276,UserWallet transactions_case3-1,401,Unauthorized,Valid cases 1-1,text,false,,949,486,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,276,0,0
+1707466132838,302,UserWallet transactions_case3_withoutfilter,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1551,1262,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,25,0,0
+1707466132838,25,UserWallet transactions_case3_withoutfilter-0,301,Moved Permanently,Valid cases 1-1,,true,,601,776,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,25,0,0
+1707466132863,277,UserWallet transactions_case3_withoutfilter-1,401,Unauthorized,Valid cases 1-1,text,false,,950,486,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,277,0,0
+1707466133144,377,CompanyWalletTransactions_case4,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1557,1457,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,25,0,0
+1707466133144,25,CompanyWalletTransactions_case4-0,301,Moved Permanently,Valid cases 1-1,,true,,604,968,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,25,0,0
+1707466133169,352,CompanyWalletTransactions_case4-1,401,Unauthorized,Valid cases 1-1,text,false,,953,489,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,352,0,0
+1707466133529,299,CompanyWalletTransactions_case4_withoutfilter,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1557,1242,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,22,0,0
+1707466133529,22,CompanyWalletTransactions_case4_withoutfilter-0,301,Moved Permanently,Valid cases 1-1,,true,,604,753,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,22,0,0
+1707466133552,276,CompanyWalletTransactions_case4_withoutfilter-1,401,Unauthorized,Valid cases 1-1,text,false,,953,489,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,276,0,0
+1707466133833,304,CompanyWalletTransactions_case5,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1557,1466,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,24,0,0
+1707466133833,24,CompanyWalletTransactions_case5-0,301,Moved Permanently,Valid cases 1-1,,true,,604,977,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,24,0,0
+1707466133858,279,CompanyWalletTransactions_case5-1,401,Unauthorized,Valid cases 1-1,text,false,,953,489,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,278,0,0
+1707466134140,305,CompanyWalletTransactions_case5_withoutfilter,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1557,1242,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,26,0,0
+1707466134140,26,CompanyWalletTransactions_case5_withoutfilter-0,301,Moved Permanently,Valid cases 1-1,,true,,604,753,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,26,0,0
+1707466134167,278,CompanyWalletTransactions_case5_withoutfilter-1,401,Unauthorized,Valid cases 1-1,text,false,,953,489,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,278,0,0
+1707466134447,307,CompanyWalletTransactions_case6,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1557,1452,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,26,0,0
+1707466134447,26,CompanyWalletTransactions_case6-0,301,Moved Permanently,Valid cases 1-1,,true,,604,963,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,26,0,0
+1707466134474,280,CompanyWalletTransactions_case6-1,401,Unauthorized,Valid cases 1-1,text,false,,953,489,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,280,0,0
+1707466134758,350,CompanyWalletTransactions_case6_withoutfilter,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1557,1242,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,24,0,0
+1707466134758,24,CompanyWalletTransactions_case6_withoutfilter-0,301,Moved Permanently,Valid cases 1-1,,true,,604,753,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,24,0,0
+1707466134782,326,CompanyWalletTransactions_case6_withoutfilter-1,401,Unauthorized,Valid cases 1-1,text,false,,953,489,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,326,0,0
+1707466135110,296,CompanyWalletTransactions_case7,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1557,1456,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,26,0,0
+1707466135110,26,CompanyWalletTransactions_case7-0,301,Moved Permanently,Valid cases 1-1,,true,,604,967,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,26,0,0
+1707466135136,270,CompanyWalletTransactions_case7-1,401,Unauthorized,Valid cases 1-1,text,false,,953,489,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,269,0,0
+1707466135409,298,CompanyWalletTransactions_case7_withoutfilter,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1557,1242,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,23,0,0
+1707466135409,23,CompanyWalletTransactions_case7_withoutfilter-0,301,Moved Permanently,Valid cases 1-1,,true,,604,753,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,23,0,0
+1707466135433,274,CompanyWalletTransactions_case7_withoutfilter-1,401,Unauthorized,Valid cases 1-1,text,false,,953,489,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,274,0,0
+1707466135726,305,CompanyWalletTransactions_case1,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1557,1456,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,25,0,0
+1707466135726,25,CompanyWalletTransactions_case1-0,301,Moved Permanently,Valid cases 1-1,,true,,604,967,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,25,0,0
+1707466135751,280,CompanyWalletTransactions_case1-1,401,Unauthorized,Valid cases 1-1,text,false,,953,489,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,280,0,0
+1707466136033,307,CompanyWalletTransactions_case1_withoutfilter,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1557,1242,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,24,0,0
+1707466136033,24,CompanyWalletTransactions_case1_withoutfilter-0,301,Moved Permanently,Valid cases 1-1,,true,,604,753,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,24,0,0
+1707466136058,282,CompanyWalletTransactions_case1_withoutfilter-1,401,Unauthorized,Valid cases 1-1,text,false,,953,489,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,282,0,0
+1707466136346,295,CompanyWalletTransactions_case2,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1557,1457,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,25,0,0
+1707466136346,25,CompanyWalletTransactions_case2-0,301,Moved Permanently,Valid cases 1-1,,true,,604,968,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,25,0,0
+1707466136371,270,CompanyWalletTransactions_case2-1,401,Unauthorized,Valid cases 1-1,text,false,,953,489,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,270,0,0
+1707466136647,295,CompanyWalletTransactions_case2_withoutfilter,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1557,1242,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,23,0,0
+1707466136647,23,CompanyWalletTransactions_case2_withoutfilter-0,301,Moved Permanently,Valid cases 1-1,,true,,604,753,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,23,0,0
+1707466136671,271,CompanyWalletTransactions_case2_withoutfilter-1,401,Unauthorized,Valid cases 1-1,text,false,,953,489,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,271,0,0
+1707466136947,302,CompanyWalletTransactions_case3,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1557,1453,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,31,0,0
+1707466136947,31,CompanyWalletTransactions_case3-0,301,Moved Permanently,Valid cases 1-1,,true,,604,964,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,31,0,0
+1707466136978,271,CompanyWalletTransactions_case3-1,401,Unauthorized,Valid cases 1-1,text,false,,953,489,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,271,0,0
+1707466137251,295,CompanyWalletTransactions_case3_withoutfilter,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1557,1242,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,25,0,0
+1707466137251,25,CompanyWalletTransactions_case3_withoutfilter-0,301,Moved Permanently,Valid cases 1-1,,true,,604,753,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,25,0,0
+1707466137276,270,CompanyWalletTransactions_case3_withoutfilter-1,401,Unauthorized,Valid cases 1-1,text,false,,953,489,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,270,0,0
+1707466137548,306,CompanyWalletTransactions_case4,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1557,1457,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,31,0,0
+1707466137548,31,CompanyWalletTransactions_case4-0,301,Moved Permanently,Valid cases 1-1,,true,,604,968,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,31,0,0
+1707466137579,275,CompanyWalletTransactions_case4-1,401,Unauthorized,Valid cases 1-1,text,false,,953,489,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,275,0,0
+1707466137856,302,CompanyWalletTransactions_case4_withoutfilter,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1557,1242,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,24,0,0
+1707466137856,24,CompanyWalletTransactions_case4_withoutfilter-0,301,Moved Permanently,Valid cases 1-1,,true,,604,753,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,24,0,0
+1707466137880,278,CompanyWalletTransactions_case4_withoutfilter-1,401,Unauthorized,Valid cases 1-1,text,false,,953,489,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,278,0,0
+1707466138160,302,CompanyWalletTransactions_case5,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1556,1466,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,23,0,0
+1707466138160,23,CompanyWalletTransactions_case5-0,301,Moved Permanently,Valid cases 1-1,,true,,604,977,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,23,0,0
+1707466138183,279,CompanyWalletTransactions_case5-1,401,Unauthorized,Valid cases 1-1,text,false,,952,489,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,279,0,0
+1707466138464,301,CompanyWalletTransactions_case5_withoutfilter,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1557,1242,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,24,0,0
+1707466138464,24,CompanyWalletTransactions_case5_withoutfilter-0,301,Moved Permanently,Valid cases 1-1,,true,,604,753,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,24,0,0
+1707466138488,277,CompanyWalletTransactions_case5_withoutfilter-1,401,Unauthorized,Valid cases 1-1,text,false,,953,489,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,277,0,0
+1707466138769,301,CompanyWalletTransactions_case6,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1557,1452,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,24,0,0
+1707466138769,24,CompanyWalletTransactions_case6-0,301,Moved Permanently,Valid cases 1-1,,true,,604,963,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,24,0,0
+1707466138794,276,CompanyWalletTransactions_case6-1,401,Unauthorized,Valid cases 1-1,text,false,,953,489,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,276,0,0
+1707466139072,297,CompanyWalletTransactions_case6_withoutfilter,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1557,1242,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,22,0,0
+1707466139072,22,CompanyWalletTransactions_case6_withoutfilter-0,301,Moved Permanently,Valid cases 1-1,,true,,604,753,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,22,0,0
+1707466139094,275,CompanyWalletTransactions_case6_withoutfilter-1,401,Unauthorized,Valid cases 1-1,text,false,,953,489,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,275,0,0
+1707466139371,306,Get Linked Bank Accounts,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1539,1153,1,1,https://xapidev.xtrm.com/API/v4/Bank/GetLinkedBankAccounts,24,0,0
+1707466139371,24,Get Linked Bank Accounts-0,301,Moved Permanently,Valid cases 1-1,,true,,595,673,1,1,http://xapidev.xtrm.com/API/v4/Bank/GetLinkedBankAccounts,24,0,0
+1707466139395,282,Get Linked Bank Accounts-1,401,Unauthorized,Valid cases 1-1,text,false,,944,480,1,1,https://xapidev.xtrm.com/API/v4/Bank/GetLinkedBankAccounts,282,0,0
+1707466139716,262,Transfer to Other Accounts using Digital gift card,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",4197,2284,1,1,https://xapidev.xtrm.com/API/v4/Fund/TransferFund,25,0,0
+1707466139716,25,Transfer to Other Accounts using Digital gift card-0,301,Moved Permanently,Valid cases 1-1,,true,,586,2284,1,1,http://xapidev.xtrm.com/API/v4/Fund/TransferFund,25,0,0
+1707466139741,237,Transfer to Other Accounts using Digital gift card-1,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Valid cases 1-1,text,false,,3611,0,1,1,https://xapidev.xtrm.com/API/v4/Fund/TransferFund,0,0,0
+1707466250560,5,SetNbReq,500,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import com.xtrm.webapi.CommonFunctions;  vars.put(""count_transfer company"",Strin . . . '' : Attempt to resolve method: countLinesInFile() on undefined variable or class name: CommonFunctions",Valid cases 1-1,text,false,,0,0,1,1,null,0,0,0
+1707466250569,395,Key-dev-SPN1987678,200,OK,Valid cases 1-1,text,true,,1207,582,1,1,https://xapidev.xtrm.com/oAuth/token,395,0,44
+1707466250970,387,Fetch Personal Beneficiaries,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1559,1207,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/GetPersonalBeneficiaries,54,0,14
+1707466250970,54,Fetch Personal Beneficiaries-0,301,Moved Permanently,Valid cases 1-1,,true,,605,717,1,1,http://xapidev.xtrm.com/API/v4/Beneficiary/GetPersonalBeneficiaries,54,0,14
+1707466251024,333,Fetch Personal Beneficiaries-1,401,Unauthorized,Valid cases 1-1,text,false,,954,490,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/GetPersonalBeneficiaries,333,0,0
+1707466251359,300,Check User Exist,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1538,1172,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/CheckUserExist,24,0,0
+1707466251359,24,Check User Exist-0,301,Moved Permanently,Valid cases 1-1,,true,,595,692,1,1,http://xapidev.xtrm.com/API/v4/Beneficiary/CheckUserExist,24,0,0
+1707466251383,276,Check User Exist-1,401,Unauthorized,Valid cases 1-1,text,false,,943,480,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/CheckUserExist,276,0,0
+1707466251664,307,Create Beneficiary Company,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1545,1896,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/CreateBeneficiary,26,0,0
+1707466251664,26,Create Beneficiary Company-0,301,Moved Permanently,Valid cases 1-1,,true,,598,1413,1,1,http://xapidev.xtrm.com/API/v4/Beneficiary/CreateBeneficiary,26,0,0
+1707466251690,281,Create Beneficiary Company-1,401,Unauthorized,Valid cases 1-1,text,false,,947,483,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/CreateBeneficiary,281,0,0
+1707466251973,373,Update Beneficiary Company,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1545,1962,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/UpdateBeneficiary,24,0,0
+1707466251973,24,Update Beneficiary Company-0,301,Moved Permanently,Valid cases 1-1,,true,,598,1479,1,1,http://xapidev.xtrm.com/API/v4/Beneficiary/UpdateBeneficiary,24,0,0
+1707466251997,349,Update Beneficiary Company-1,401,Unauthorized,Valid cases 1-1,text,false,,947,483,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/UpdateBeneficiary,349,0,0
+1707466252352,310,Get digital gift cards (by currency),401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1543,1257,1,1,https://xapidev.xtrm.com/API/v4/GiftCard/GetDigitalGiftCards,38,0,0
+1707466252352,38,Get digital gift cards (by currency)-0,301,Moved Permanently,Valid cases 1-1,,true,,597,775,1,1,http://xapidev.xtrm.com/API/v4/GiftCard/GetDigitalGiftCards,38,0,0
+1707466252391,271,Get digital gift cards (by currency)-1,401,Unauthorized,Valid cases 1-1,text,false,,946,482,1,1,https://xapidev.xtrm.com/API/v4/GiftCard/GetDigitalGiftCards,271,0,0
+1707466252666,302,Get digital gift card details,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1540,1117,1,1,https://xapidev.xtrm.com/API/v4/GiftCard/GetGiftCardDetails,24,0,0
+1707466252666,24,Get digital gift card details-0,301,Moved Permanently,Valid cases 1-1,,true,,596,636,1,1,http://xapidev.xtrm.com/API/v4/GiftCard/GetGiftCardDetails,24,0,0
+1707466252690,278,Get digital gift card details-1,401,Unauthorized,Valid cases 1-1,text,false,,944,481,1,1,https://xapidev.xtrm.com/API/v4/GiftCard/GetGiftCardDetails,278,0,0
+1707466252970,297,Fetch Prepaid Gift Cards,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1535,1226,1,1,https://xapidev.xtrm.com/API/v4/GiftCard/GetPrepaidCards,23,0,0
+1707466252970,23,Fetch Prepaid Gift Cards-0,301,Moved Permanently,Valid cases 1-1,,true,,593,748,1,1,http://xapidev.xtrm.com/API/v4/GiftCard/GetPrepaidCards,23,0,0
+1707466252994,273,Fetch Prepaid Gift Cards-1,401,Unauthorized,Valid cases 1-1,text,false,,942,478,1,1,https://xapidev.xtrm.com/API/v4/GiftCard/GetPrepaidCards,273,0,0
+1707466253270,363,Fetch Prepaid Gift Cards Details,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1547,1126,1,1,https://xapidev.xtrm.com/API/v4/GiftCard/GetPrepaidCardDetails,30,0,0
+1707466253270,30,Fetch Prepaid Gift Cards Details-0,301,Moved Permanently,Valid cases 1-1,,true,,599,642,1,1,http://xapidev.xtrm.com/API/v4/GiftCard/GetPrepaidCardDetails,30,0,0
+1707466253300,333,Fetch Prepaid Gift Cards Details-1,401,Unauthorized,Valid cases 1-1,text,false,,948,484,1,1,https://xapidev.xtrm.com/API/v4/GiftCard/GetPrepaidCardDetails,333,0,0
+1707466253635,298,Fetch Connected Fund Details,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1557,1351,1,1,https://xapidev.xtrm.com/API/v4/Fund/GetConnectedCompanyFundRequest,24,0,0
+1707466253635,24,Fetch Connected Fund Details-0,301,Moved Permanently,Valid cases 1-1,,true,,604,862,1,1,http://xapidev.xtrm.com/API/v4/Fund/GetConnectedCompanyFundRequest,24,0,0
+1707466253659,274,Fetch Connected Fund Details-1,401,Unauthorized,Valid cases 1-1,text,false,,953,489,1,1,https://xapidev.xtrm.com/API/v4/Fund/GetConnectedCompanyFundRequest,274,0,0
+1707466253935,355,Fetch Payment Methods,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1537,980,1,1,https://xapidev.xtrm.com/API/v4/Payment/GetPaymentMethods,27,0,0
+1707466253935,27,Fetch Payment Methods-0,301,Moved Permanently,Valid cases 1-1,,true,,594,501,1,1,http://xapidev.xtrm.com/API/v4/Payment/GetPaymentMethods,27,0,0
+1707466253963,327,Fetch Payment Methods-1,401,Unauthorized,Valid cases 1-1,text,false,,943,479,1,1,https://xapidev.xtrm.com/API/v4/Payment/GetPaymentMethods,327,0,0
+1707466254293,292,Fetch Beneficiary Company Payment Methods,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1572,1016,1,1,https://xapidev.xtrm.com/API/v4/Payment/GetBeneficiaryCompanyPaymentMethods,22,0,0
+1707466254293,22,Fetch Beneficiary Company Payment Methods-0,301,Moved Permanently,Valid cases 1-1,,true,,612,519,1,1,http://xapidev.xtrm.com/API/v4/Payment/GetBeneficiaryCompanyPaymentMethods,22,0,0
+1707466254315,270,Fetch Beneficiary Company Payment Methods-1,401,Unauthorized,Valid cases 1-1,text,false,,960,497,1,1,https://xapidev.xtrm.com/API/v4/Payment/GetBeneficiaryCompanyPaymentMethods,270,0,0
+1707466254587,1107,Fetch User Payment Methods,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1545,988,1,1,https://xapidev.xtrm.com/API/v4/Payment/GetUserPaymentMethods,24,0,0
+1707466254587,24,Fetch User Payment Methods-0,301,Moved Permanently,Valid cases 1-1,,true,,598,505,1,1,http://xapidev.xtrm.com/API/v4/Payment/GetUserPaymentMethods,24,0,0
+1707466254611,1083,Fetch User Payment Methods-1,401,Unauthorized,Valid cases 1-1,text,false,,947,483,1,1,https://xapidev.xtrm.com/API/v4/Payment/GetUserPaymentMethods,1083,0,0
+1707466255696,305,Get ACH debit linked bank accounts,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1555,1181,1,1,https://xapidev.xtrm.com/API/v4/Bank/GetACHDebitLinkedBankAccounts,29,0,0
+1707466255696,29,Get ACH debit linked bank accounts-0,301,Moved Permanently,Valid cases 1-1,,true,,603,693,1,1,http://xapidev.xtrm.com/API/v4/Bank/GetACHDebitLinkedBankAccounts,29,0,0
+1707466255725,276,Get ACH debit linked bank accounts-1,401,Unauthorized,Valid cases 1-1,text,false,,952,488,1,1,https://xapidev.xtrm.com/API/v4/Bank/GetACHDebitLinkedBankAccounts,276,0,0
+1707466256003,363,Fetch User Wallet Transactions by Remitter,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1571,1334,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactionsByRemitter,25,0,0
+1707466256003,25,Fetch User Wallet Transactions by Remitter-0,301,Moved Permanently,Valid cases 1-1,,true,,611,838,1,1,http://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactionsByRemitter,25,0,0
+1707466256028,338,Fetch User Wallet Transactions by Remitter-1,401,Unauthorized,Valid cases 1-1,text,false,,960,496,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactionsByRemitter,338,0,0
+1707466256369,316,Create User Wallet,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1533,1241,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateUserWallet,22,0,0
+1707466256369,22,Create User Wallet-0,301,Moved Permanently,Valid cases 1-1,,true,,592,764,1,1,http://xapidev.xtrm.com/API/v4/Wallet/CreateUserWallet,22,0,0
+1707466256391,294,Create User Wallet-1,401,Unauthorized,Valid cases 1-1,text,false,,941,477,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateUserWallet,294,0,0
+1707466256687,317,Create Company Wallet,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1539,1245,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateCompanyWallet,26,0,0
+1707466256687,26,Create Company Wallet-0,301,Moved Permanently,Valid cases 1-1,,true,,595,765,1,1,http://xapidev.xtrm.com/API/v4/Wallet/CreateCompanyWallet,26,0,0
+1707466256713,291,Create Company Wallet-1,401,Unauthorized,Valid cases 1-1,text,false,,944,480,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateCompanyWallet,290,0,0
+1707466257005,296,Create Company Wallet Accrual,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1539,1243,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateCompanyWallet,23,0,0
+1707466257005,23,Create Company Wallet Accrual-0,301,Moved Permanently,Valid cases 1-1,,true,,595,763,1,1,http://xapidev.xtrm.com/API/v4/Wallet/CreateCompanyWallet,23,0,0
+1707466257028,273,Create Company Wallet Accrual-1,401,Unauthorized,Valid cases 1-1,text,false,,944,480,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateCompanyWallet,273,0,0
+1707466257302,364,Create Beneficiary Company Wallet Accrual,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1560,1279,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateBeneficiaryCompanyWallet,25,0,0
+1707466257302,25,Create Beneficiary Company Wallet Accrual-0,301,Moved Permanently,Valid cases 1-1,,true,,606,788,1,1,http://xapidev.xtrm.com/API/v4/Wallet/CreateBeneficiaryCompanyWallet,25,0,0
+1707466257327,339,Create Beneficiary Company Wallet Accrual-1,401,Unauthorized,Valid cases 1-1,text,false,,954,491,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateBeneficiaryCompanyWallet,339,0,0
+1707466257670,131,Create Beneficiary Company Wallet,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",4217,790,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateBeneficiaryCompanyWallet,24,0,0
+1707466257670,24,Create Beneficiary Company Wallet-0,301,Moved Permanently,Valid cases 1-1,,true,,606,790,1,1,http://xapidev.xtrm.com/API/v4/Wallet/CreateBeneficiaryCompanyWallet,24,0,0
+1707466257694,107,Create Beneficiary Company Wallet-1,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Valid cases 1-1,text,false,,3611,0,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateBeneficiaryCompanyWallet,0,0,0
+1707466261058,5,SetNbReq,500,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import com.xtrm.webapi.CommonFunctions;  vars.put(""count_transfer company"",Strin . . . '' : Attempt to resolve method: countLinesInFile() on undefined variable or class name: CommonFunctions",Valid cases 1-1,text,false,,0,0,1,1,null,0,0,0
+1707466261068,388,Key-dev-SPN1987678,200,OK,Valid cases 1-1,text,true,,1207,582,1,1,https://xapidev.xtrm.com/oAuth/token,388,0,39
+1707466261462,315,Fetch Personal Beneficiaries,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1559,1207,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/GetPersonalBeneficiaries,44,0,14
+1707466261462,44,Fetch Personal Beneficiaries-0,301,Moved Permanently,Valid cases 1-1,,true,,605,717,1,1,http://xapidev.xtrm.com/API/v4/Beneficiary/GetPersonalBeneficiaries,44,0,14
+1707466261506,271,Fetch Personal Beneficiaries-1,401,Unauthorized,Valid cases 1-1,text,false,,954,490,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/GetPersonalBeneficiaries,271,0,0
+1707466261787,296,Check User Exist,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1539,1172,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/CheckUserExist,23,0,0
+1707466261787,23,Check User Exist-0,301,Moved Permanently,Valid cases 1-1,,true,,595,692,1,1,http://xapidev.xtrm.com/API/v4/Beneficiary/CheckUserExist,23,0,0
+1707466261810,273,Check User Exist-1,401,Unauthorized,Valid cases 1-1,text,false,,944,480,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/CheckUserExist,273,0,0
+1707466262088,349,Create Beneficiary Company,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1544,1896,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/CreateBeneficiary,23,0,0
+1707466262088,23,Create Beneficiary Company-0,301,Moved Permanently,Valid cases 1-1,,true,,598,1413,1,1,http://xapidev.xtrm.com/API/v4/Beneficiary/CreateBeneficiary,23,0,0
+1707466262111,326,Create Beneficiary Company-1,401,Unauthorized,Valid cases 1-1,text,false,,946,483,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/CreateBeneficiary,326,0,0
+1707466262439,830,Update Beneficiary Company,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",4209,1479,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/UpdateBeneficiary,24,0,0
+1707466262439,24,Update Beneficiary Company-0,301,Moved Permanently,Valid cases 1-1,,true,,598,1479,1,1,http://xapidev.xtrm.com/API/v4/Beneficiary/UpdateBeneficiary,24,0,0
+1707466262463,806,Update Beneficiary Company-1,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Valid cases 1-1,text,false,,3611,0,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/UpdateBeneficiary,0,0,0
+1707466423594,3,SetNbReq,500,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import com.xtrm.webapi.CommonFunctions;  vars.put(""count_transfer company"",Strin . . . '' : Attempt to resolve method: countLinesInFile() on undefined variable or class name: CommonFunctions",Valid cases 1-1,text,false,,0,0,1,1,null,0,0,0
+1707466423649,375,Key-dev-SPN1987678,200,OK,Valid cases 1-1,text,true,,1207,582,1,1,https://xapidev.xtrm.com/oAuth/token,375,0,71
+1707466424027,708,Fetch Personal Beneficiaries,200,OK,Valid cases 1-1,text,true,,1514,717,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/GetPersonalBeneficiaries,703,0,0
+1707466424737,347,Check User Exist,200,OK,Valid cases 1-1,text,false,Expected AccountIdentityLevel not matched,979,692,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/CheckUserExist,346,0,0
+1707466425086,327,Create Beneficiary Company,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",951,1413,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/CreateBeneficiary,327,0,0
+1707466425416,299,Update Beneficiary Company,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",893,1479,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/UpdateBeneficiary,299,0,0
+1707466425718,443,Get digital gift cards (by currency),200,OK,Valid cases 1-1,text,true,,13827,775,1,1,https://xapidev.xtrm.com/API/v4/GiftCard/GetDigitalGiftCards,441,0,0
+1707466426163,1064,Get digital gift card details,200,OK,Valid cases 1-1,text,true,,2285,636,1,1,https://xapidev.xtrm.com/API/v4/GiftCard/GetGiftCardDetails,1063,0,0
+1707466427228,325,Fetch Prepaid Gift Cards,200,OK,Valid cases 1-1,text,true,,2470,748,1,1,https://xapidev.xtrm.com/API/v4/GiftCard/GetPrepaidCards,325,0,0
+1707466427554,410,Fetch Prepaid Gift Cards Details,200,OK,Valid cases 1-1,text,true,,2049,642,1,1,https://xapidev.xtrm.com/API/v4/GiftCard/GetPrepaidCardDetails,410,0,0
+1707466427966,158,Fetch Connected Fund Details,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",3115,0,1,1,https://xapidev.xtrm.com/API/v4/Fund/GetConnectedCompanyFundRequest,0,0,0
+1707466474019,337,Key-dev-SPN1987678,200,OK,Valid cases 1-1,text,true,,1207,582,1,1,https://xapidev.xtrm.com/oAuth/token,337,0,46
+1707466474359,472,Fetch Personal Beneficiaries,200,OK,Valid cases 1-1,text,true,,1514,717,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/GetPersonalBeneficiaries,472,0,0
+1707466474834,337,Check User Exist,200,OK,Valid cases 1-1,text,false,Expected AccountIdentityLevel not matched,974,692,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/CheckUserExist,337,0,0
+1707466475175,293,Create Beneficiary Company,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",951,1413,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/CreateBeneficiary,293,0,0
+1707466475472,292,Update Beneficiary Company,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",893,1479,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/UpdateBeneficiary,292,0,0
+1707466475769,299,Get digital gift cards (by currency),200,OK,Valid cases 1-1,text,true,,13834,775,1,1,https://xapidev.xtrm.com/API/v4/GiftCard/GetDigitalGiftCards,297,0,0
+1707466476070,283,Get digital gift card details,200,OK,Valid cases 1-1,text,true,,2285,636,1,1,https://xapidev.xtrm.com/API/v4/GiftCard/GetGiftCardDetails,283,0,0
+1707466476355,295,Fetch Prepaid Gift Cards,200,OK,Valid cases 1-1,text,true,,2470,748,1,1,https://xapidev.xtrm.com/API/v4/GiftCard/GetPrepaidCards,295,0,0
+1707466476652,294,Fetch Prepaid Gift Cards Details,200,OK,Valid cases 1-1,text,true,,2049,642,1,1,https://xapidev.xtrm.com/API/v4/GiftCard/GetPrepaidCardDetails,293,0,0
+1707466476948,280,Fetch Connected Fund Details,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",888,862,1,1,https://xapidev.xtrm.com/API/v4/Fund/GetConnectedCompanyFundRequest,280,0,0
+1707466477228,321,Fetch Payment Methods,200,OK,Valid cases 1-1,text,true,,1123,501,1,1,https://xapidev.xtrm.com/API/v4/Payment/GetPaymentMethods,321,0,0
+1707466477551,287,Fetch Beneficiary Company Payment Methods,200,OK,Valid cases 1-1,text,true,,1058,519,1,1,https://xapidev.xtrm.com/API/v4/Payment/GetBeneficiaryCompanyPaymentMethods,287,0,0
+1707466477839,294,Fetch User Payment Methods,200,OK,Valid cases 1-1,text,true,,1127,505,1,1,https://xapidev.xtrm.com/API/v4/Payment/GetUserPaymentMethods,294,0,0
+1707466478136,508,Get ACH debit linked bank accounts,200,OK,Valid cases 1-1,text,true,,1536,693,1,1,https://xapidev.xtrm.com/API/v4/Bank/GetACHDebitLinkedBankAccounts,508,0,0
+1707466478645,888,Fetch User Wallet Transactions by Remitter,500,Internal Server Error,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",966,838,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactionsByRemitter,888,0,0
+1707466479534,303,Create User Wallet,500,Internal Server Error,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",938,764,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateUserWallet,303,0,0
+1707466479839,378,Create Company Wallet,200,OK,Valid cases 1-1,text,true,,1006,765,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateCompanyWallet,378,0,0
+1707466480220,295,Update Company Wallet,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",882,679,1,1,https://xapidev.xtrm.com/API/v4/Wallet/updatecompanywallet,295,0,0
+1707466480518,281,Create Company Wallet Accrual,200,OK,Valid cases 1-1,text,true,,1005,763,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateCompanyWallet,280,0,0
+1707466480800,336,Create Beneficiary Company Wallet Accrual,200,OK,Valid cases 1-1,text,true,,1016,788,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateBeneficiaryCompanyWallet,336,0,0
+1707466481138,283,Create Beneficiary Company Wallet,200,OK,Valid cases 1-1,text,true,,1017,790,1,1,https://xapidev.xtrm.com/API/v4/Wallet/CreateBeneficiaryCompanyWallet,283,0,0
+1707466481424,295,Update Beneficiary Company Wallet,200,OK,Valid cases 1-1,text,true,,995,823,1,1,https://xapidev.xtrm.com/API/v4/Wallet/updateBeneficiarycompanywallet,295,0,0
+1707466481721,324,Fetch User Wallet Balance,200,OK,Valid cases 1-1,text,true,,993,695,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletBalance,324,0,0
+1707466482047,7711,Fetch Company Wallets,200,OK,Valid cases 1-1,text,true,,3230,621,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWallets,7711,0,0
+1707466489760,318,Fetch Beneficiary Wallets,200,OK,Valid cases 1-1,text,true,,1586,662,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetBeneficiaryWallets,318,0,0
+1707466490081,290,Fetch User Wallets,200,OK,Valid cases 1-1,text,true,,1347,651,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWallets,290,0,0
+1707466490375,375,UserWallet transactions_case1,200,OK,Valid cases 1-1,text,true,,1022,995,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,375,0,0
+1707466490752,383,UserWallet transactions_case1_withoutfilter,200,OK,Valid cases 1-1,text,true,,2697,776,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,383,0,0
+1707466491138,340,UserWallet transactions_case2,200,OK,Valid cases 1-1,text,true,,1405,996,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,340,0,0
+1707466491481,298,UserWallet transactions_case2_withoutfilter,200,OK,Valid cases 1-1,text,true,,2697,776,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,298,0,0
+1707466491780,311,UserWallet transactions_case3,200,OK,Valid cases 1-1,text,true,,1022,992,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,310,0,0
+1707466492092,298,UserWallet transactions_case3_withoutfilter,200,OK,Valid cases 1-1,text,true,,2697,776,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,298,0,0
+1707466492392,408,UserWallet transactions_case4,200,OK,Valid cases 1-1,text,true,,1506,996,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,408,0,0
+1707466492804,304,UserWallet transactions_case4_withoutfilter,200,OK,Valid cases 1-1,text,true,,2697,776,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,303,0,0
+1707466493110,376,UserWallet transactions_case5,200,OK,Valid cases 1-1,text,true,,1027,1005,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,376,0,0
+1707466493487,292,UserWallet transactions_case5_withoutfilter,200,OK,Valid cases 1-1,text,true,,2697,776,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,292,0,0
+1707466493781,409,UserWallet transactions_case6,200,OK,Valid cases 1-1,text,true,,1419,991,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,408,0,0
+1707466494192,293,UserWallet transactions_case6_withoutfilter,200,OK,Valid cases 1-1,text,true,,2697,776,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,293,0,0
+1707466494488,315,UserWallet transactions_case7,200,OK,Valid cases 1-1,text,true,,1027,995,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,315,0,0
+1707466494805,301,UserWallet transactions_case7_withoutfilter,200,OK,Valid cases 1-1,text,true,,2697,776,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,300,0,0
+1707466495108,316,UserWallet transactions_case1,200,OK,Valid cases 1-1,text,true,,1027,995,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,315,0,0
+1707466495425,327,UserWallet transactions_case1_withoutfilter,200,OK,Valid cases 1-1,text,true,,2697,776,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,327,0,0
+1707466495754,331,UserWallet transactions_case2,200,OK,Valid cases 1-1,text,true,,1400,996,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,331,0,0
+1707466496087,303,UserWallet transactions_case2_withoutfilter,200,OK,Valid cases 1-1,text,true,,2697,776,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,303,0,0
+1707466496391,321,UserWallet transactions_case3,200,OK,Valid cases 1-1,text,true,,1022,992,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,321,0,0
+1707466496714,293,UserWallet transactions_case3_withoutfilter,200,OK,Valid cases 1-1,text,true,,2697,776,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,293,0,0
+1707466497009,485,CompanyWalletTransactions_case4,200,OK,Valid cases 1-1,text,true,,1029,968,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,484,0,0
+1707466497498,338,CompanyWalletTransactions_case4_withoutfilter,200,OK,Valid cases 1-1,text,true,,2987,753,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,338,0,0
+1707466497839,388,CompanyWalletTransactions_case5,200,OK,Valid cases 1-1,text,true,,1025,977,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,388,0,0
+1707466498229,316,CompanyWalletTransactions_case5_withoutfilter,200,OK,Valid cases 1-1,text,true,,2987,753,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,316,0,0
+1707466498549,406,CompanyWalletTransactions_case6,200,OK,Valid cases 1-1,text,true,,1456,963,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,406,0,0
+1707466498958,318,CompanyWalletTransactions_case6_withoutfilter,200,OK,Valid cases 1-1,text,true,,2992,753,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,318,0,0
+1707466499278,392,CompanyWalletTransactions_case7,200,OK,Valid cases 1-1,text,true,,1262,967,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,391,0,0
+1707466499671,311,CompanyWalletTransactions_case7_withoutfilter,200,OK,Valid cases 1-1,text,true,,2987,753,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,311,0,0
+1707466499984,394,CompanyWalletTransactions_case1,200,OK,Valid cases 1-1,text,true,,1267,967,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,393,0,0
+1707466500380,338,CompanyWalletTransactions_case1_withoutfilter,200,OK,Valid cases 1-1,text,true,,2987,753,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,338,0,0
+1707466500720,394,CompanyWalletTransactions_case2,200,OK,Valid cases 1-1,text,true,,1029,968,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,394,0,0
+1707466501116,307,CompanyWalletTransactions_case2_withoutfilter,200,OK,Valid cases 1-1,text,true,,2987,753,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,307,0,0
+1707466501426,394,CompanyWalletTransactions_case3,200,OK,Valid cases 1-1,text,true,,1451,964,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,394,0,0
+1707466501824,306,CompanyWalletTransactions_case3_withoutfilter,200,OK,Valid cases 1-1,text,true,,2987,753,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,306,0,0
+1707466502132,403,CompanyWalletTransactions_case4,200,OK,Valid cases 1-1,text,true,,1025,968,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,403,0,0
+1707466502536,308,CompanyWalletTransactions_case4_withoutfilter,200,OK,Valid cases 1-1,text,true,,2994,753,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,308,0,0
+1707466502845,403,CompanyWalletTransactions_case5,200,OK,Valid cases 1-1,text,true,,1025,977,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,402,0,0
+1707466503249,309,CompanyWalletTransactions_case5_withoutfilter,200,OK,Valid cases 1-1,text,true,,2987,753,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,308,0,0
+1707466503559,406,CompanyWalletTransactions_case6,200,OK,Valid cases 1-1,text,true,,1451,963,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,406,0,0
+1707466503967,315,CompanyWalletTransactions_case6_withoutfilter,200,OK,Valid cases 1-1,text,true,,2987,753,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,315,0,0
+1707466504398,311,Get Linked Bank Accounts,200,OK,Valid cases 1-1,text,true,,1419,673,1,1,https://xapidev.xtrm.com/API/v4/Bank/GetLinkedBankAccounts,311,0,0
+1707466504714,4640,Transfer to Other Accounts using Digital gift card,200,OK,Valid cases 1-1,text,true,,1603,2284,1,1,https://xapidev.xtrm.com/API/v4/Fund/TransferFund,4640,0,0
+1707466509361,310,User Wallet Transaction -Digital gift card,200,OK,Valid cases 1-1,text,false,Did not received TransactionID for digital gift card Transfer,2572,834,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,310,0,0
+1707466509675,335,User Wallet Transaction Details - Digital gift card,401,Unauthorized,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",898,714,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactionDetails,335,0,0
+1707466510014,617,Get company wallet transaction details - DGC,200,OK,Valid cases 1-1,text,false,"Parameter values is empty for {""Name"":""Budget Code"",""Value"":""
+
+Transfertype is not as expected, Expected to have Direct to Digital Gift Card But received DGC Direct",1344,689,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactionDetails,616,0,0
+1707466510638,304,Get Linked Bank Accounts,200,OK,Valid cases 1-1,text,true,,1419,673,1,1,https://xapidev.xtrm.com/API/v4/Bank/GetLinkedBankAccounts,304,0,0
+1707466510944,1663,Transfer to Other Accounts using Prepaid Virtual Debit Card,200,OK,Valid cases 1-1,text,true,,2288,2269,1,1,https://xapidev.xtrm.com/API/v4/Fund/TransferFund,1663,0,0
+1707466512614,295,User Wallet Transaction - Prepaid Virtual Debit Card,200,OK,Valid cases 1-1,text,true,,1270,834,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactions,294,0,0
+1707466512912,439,User Wallet Transaction Details - Prepaid Virtual Debit Card,200,OK,Valid cases 1-1,text,true,,2092,720,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetUserWalletTransactionDetails,439,0,0
+1707466513355,539,Get company wallet transaction details - PVC,200,OK,Valid cases 1-1,text,false,"Parameter values is empty for {""Name"":""Budget Code"",""Value"":""
+
+Transfertype is not as expected, Expected to have Direct to Digital Gift Card But received PVV Direct",1356,689,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactionDetails,539,0,0
+1707466514037,308,Fetch Linked Card for company account,200,OK,Valid cases 1-1,text,true,,1431,657,1,1,https://xapidev.xtrm.com/API/v4/Card/GetLinkedCards,308,0,0
+1707466514348,339,Transfer Fund to company using RBT,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",1106,1724,1,1,https://xapidev.xtrm.com/API/v4/Fund/TransferFundToCompany,339,0,0
+1707466514694,320,Get company wallet transactions - RBT,200,OK,Valid cases 1-1,text,false,Did not received TransactionID for AnyPay Company Transfer,1272,799,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,320,0,0
+1707466515017,281,Get company wallet transaction details - RBT,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",939,683,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactionDetails,281,0,0
+1707466515304,280,Fetch Linked Card for company account,200,OK,Valid cases 1-1,text,true,,1431,657,1,1,https://xapidev.xtrm.com/API/v4/Card/GetLinkedCards,279,0,0
+1707466515586,350,Get Linked Bank Accounts,200,OK,Valid cases 1-1,text,true,,1662,673,1,1,https://xapidev.xtrm.com/API/v4/Bank/GetLinkedBankAccounts,350,0,0
+1707466515940,2763,Transfer Fund to company using Bank check,200,OK,Valid cases 1-1,text,true,,1421,1761,1,1,https://xapidev.xtrm.com/API/v4/Fund/TransferFundToCompany,2763,0,0
+1707466518707,312,Get company wallet transactions - Bank Check,200,OK,Valid cases 1-1,text,true,,1288,799,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,312,0,0
+1707466519023,1469,Get company wallet transaction details - Bank Check,200,OK,Valid cases 1-1,text,false,"Parameter values is empty for {""Name"":""Budget Code"",""Value"":""
+
+",1527,689,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactionDetails,1469,0,0
+1707466520497,26983,Transfer Fund Dynamic Account Create User,200,OK,Valid cases 1-1,text,true,,1069,1011,1,1,https://xapidev.xtrm.com/API/v4/Fund/TransferFundDynamicAccountCreateUser,26983,0,0
+1707466547483,1120,Get company wallet transactions -  Dynamic Account Create User,200,OK,Valid cases 1-1,text,true,,1285,799,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,1120,0,43
+1707466548605,603,Get company wallet transaction details -  Dynamic Account Create User,200,OK,Valid cases 1-1,text,true,,1263,689,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactionDetails,603,0,0
+1707466549211,43318,Link Bank Beneficiary-Non US - SWIFTBIC,200,OK,Valid cases 1-1,text,true,,1059,1345,1,1,https://xapidev.xtrm.com/API/v4/Bank/LinkBankBeneficiary,43318,0,0
+1707466592533,350,Get a beneficiary’s linked bank accounts,200,OK,Valid cases 1-1,text,true,,1613,673,1,1,https://xapidev.xtrm.com/API/v4/Bank/GetLinkedBankAccounts,349,0,0
+1707466592887,348,Get bank withdraw types,200,OK,Valid cases 1-1,text,true,,990,659,1,1,https://xapidev.xtrm.com/API/v4/Bank/GetBankWithdrawTypes,348,0,0
+1707466593238,499,Search banks within a country,200,OK,Valid cases 1-1,text,true,,1016,803,1,1,https://xapidev.xtrm.com/API/v4/Bank/SearchBank,499,0,0
+1707466593740,10170,SearchBankByNationalID,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",915,752,1,1,https://xapidev.xtrm.com/API/v4/Bank/SearchBankByNationalID,10170,0,0
+1707466603913,14667,SearchBankbyBIC,200,OK,Valid cases 1-1,text,true,,1239,862,1,1,https://xapidev.xtrm.com/API/v4/Bank/SearchBankbyBIC,14667,0,0
+1707466618583,29420,ValidateIBAN,200,OK,Valid cases 1-1,text,true,,996,694,1,1,https://xapidev.xtrm.com/API/v4/Bank/ValidateIBAN,29420,0,45
+1707466648006,484,Fetch Programs,200,OK,Valid cases 1-1,text,true,,1192,730,1,1,https://xapidev.xtrm.com/API/v4/Programs/GetPrograms,483,0,0
+1707466648494,434,Program Category,200,OK,Valid cases 1-1,text,true,,1090,741,1,1,https://xapidev.xtrm.com/API/v4/Programs/ProgramCategory,434,0,0
+1707466648931,1066,Program Type,200,OK,Valid cases 1-1,text,true,,1106,765,1,1,https://xapidev.xtrm.com/API/v4/Programs/ProgramType,1066,0,0
+1707466650001,367,Create program,200,OK,Valid cases 1-1,text,true,,973,849,1,1,https://xapidev.xtrm.com/API/v4/Programs/CreateProgram,367,0,0
+1707466650371,356,Update Program,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",849,890,1,1,https://xapidev.xtrm.com/API/v4/Programs/UpdateProgram,355,0,0
+1707466650731,479,Fetch Personal Beneficiaries Copy,200,OK,Valid cases 1-1,text,true,,1514,717,1,1,https://xapidev.xtrm.com/API/v4/Beneficiary/GetPersonalBeneficiaries,478,0,0
+1707466651213,829,Send beneficiary tax information to registered email,200,OK,Valid cases 1-1,text,true,,998,812,1,1,https://xapidev.xtrm.com/API/v4/Report/TransferTaxInformation,829,0,0
+1707466652045,17086,Get Exchange Rate,200,OK,Valid cases 1-1,text,true,,1077,688,1,1,https://xapidev.xtrm.com/API/v4/Payment/GetExchangeRate,17086,0,0
+1707466669135,354,Countries,200,OK,Valid cases 1-1,text,false,Response contains null in its parameter values,5796,494,1,1,https://xapidev.xtrm.com/API/v4/General/GetCountry,353,0,0
+1707466669497,301,States,200,OK,Valid cases 1-1,text,true,,1360,637,1,1,https://xapidev.xtrm.com/API/v4/General/GetState,301,0,0
+1707466669800,11692,Get Advanced Contact State,200,OK,Valid cases 1-1,text,false,org.apache.jorphan.util.JMeterException: Error invoking bsh method: source	Sourced file: E:\Automation\testauto-xtrm-API\script.txt : Attempt to resolve method: PatternCheck() on undefined variable or class name: Checkassertions,1742,616,1,1,https://xapidev.xtrm.com/API/v4/Register/GetAdvancedContactState,11692,0,0
+1707466681513,12333,Get Advanced Contact Country,200,OK,Valid cases 1-1,text,true,,3710,510,1,1,https://xapidev.xtrm.com/API/v4/Register/GetAdvancedContactCountry,12333,0,46
+1707466693851,16880,Get Advanced Contact Job Titles,200,OK,Valid cases 1-1,text,false,org.apache.jorphan.util.JMeterException: Error invoking bsh method: source	Sourced file: E:\Automation\testauto-xtrm-API\script.txt : Attempt to resolve method: PatternCheck() on undefined variable or class name: Checkassertions,1219,512,1,1,https://xapidev.xtrm.com/API/v4/Register/GetAdvancedContactJobTitles,16880,0,0
+1707466710743,341,Company Advanced Profile_IsPublicallyTraded_Yes,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",867,3192,1,1,https://xapidev.xtrm.com/API/v4/Register/CompanyAdvancedProfile,341,0,0
+1707466711087,333,Company Advanced Profile_IsPublicallyTraded_No,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",867,3130,1,1,https://xapidev.xtrm.com/API/v4/Register/CompanyAdvancedProfile,333,0,0
+1707466711423,289,Adv profile-sbox,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",916,3154,1,1,https://xapidev.xtrm.com/API/v4/Register/CompanyAdvancedProfile,289,0,0
+1707466711715,350,Get Advanced Profile Status,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",879,694,1,1,https://xapidev.xtrm.com/API/v4/Register/CompanyAdvancedProfileStatus,350,0,0
+1707466712070,300,Get Advanced Profile Details,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",1042,699,1,1,https://xapidev.xtrm.com/API/v4/Register/GetCompanyAdvancedProfileDetails,300,0,0
+1707466712373,283,Fetch Linked Card for company account,200,OK,Valid cases 1-1,text,true,,1431,657,1,1,https://xapidev.xtrm.com/API/v4/Card/GetLinkedCards,283,0,0
+1707466712658,316,Link Card for company account,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",878,1254,1,1,https://xapidev.xtrm.com/API/v4/Card/LinkCard,316,0,0
+1707466712975,347,Fetch Linked Card for user account,200,OK,Valid cases 1-1,text,true,,1431,657,1,1,https://xapidev.xtrm.com/API/v4/Card/GetLinkedCards,347,0,0
+1707466713323,295,Delete Card for company account,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",824,672,1,1,https://xapidev.xtrm.com/API/v4/Card/DeleteCard,295,0,0
+1707466713622,284,Link Card for user account,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",873,1254,1,1,https://xapidev.xtrm.com/API/v4/Card/LinkCard,283,0,0
+1707466713909,343,Link Card for company,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",873,1254,1,1,https://xapidev.xtrm.com/API/v4/Card/LinkCard,343,0,0
+1707466714254,310,Delete Card for user account,400,Bad Request,Valid cases 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/",824,674,1,1,https://xapidev.xtrm.com/API/v4/Card/DeleteCard,310,0,0
+1707466714567,306,Fetch Linked Card for company account,200,OK,Valid cases 1-1,text,true,,1196,657,1,1,https://xapidev.xtrm.com/API/v4/Card/GetLinkedCards,306,0,0
+1707466714876,394,Fund_with existing card_USD,200,OK,Valid cases 1-1,text,true,,1048,1310,1,1,https://xapidev.xtrm.com/API/v4/Wallet/FundCompanyWalletUsingCreditCard,394,0,0
+1707466715274,314,Get company wallet transactions - Fund,200,OK,Valid cases 1-1,text,true,,1242,799,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactions,314,0,0
+1707466715592,391,Get company wallet transaction details - Fund,200,OK,Valid cases 1-1,text,true,,1257,689,1,1,https://xapidev.xtrm.com/API/v4/Wallet/GetCompanyWalletTransactionDetails,391,0,0

@@ -1,0 +1,132 @@
+Request method:	POST
+Request URI:	https://xapisandbox.xtrm.com/oAuth/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+grant_type=password&client_id=1930872_API_User&client_secret=8vSeWK1Ypz2H3NJBQM9lhDg5J2N7DkwOn3j0xhIpM3M=
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/json;charset=UTF-8
+Content-Encoding: gzip
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+Access-Control-Allow-Origin: *
+X-Powered-By: ASP.NET
+X-FRAME-OPTIONS: SAME-ORIGIN
+X-Content-Type-Options: nosniff
+Date: Wed, 02 Nov 2022 12:22:50 GMT
+Content-Length: 504
+Set-Cookie: visid_incap_2558715=Fsw3nD/RRJOtpfZpjA5ArhlhYmMAAAAAQUIPAAAAAAAZgVB81MAEcWxuupXUTpZ+; expires=Wed, 01 Nov 2023 15:27:17 GMT; HttpOnly; path=/; Domain=.xtrm.com
+Set-Cookie: incap_ses_1044_2558715=6YzcRWVNzijdY2tAMgl9DhlhYmMAAAAAFDpzMncwXzALdlNITcrBEA==; path=/; Domain=.xtrm.com
+Set-Cookie: ___utmvmKLBupSZEZ=AGgrjeOyJBc; path=/; Max-Age=900
+Set-Cookie: ___utmvaKLBupSZEZ=xvkJTiZ; path=/; Max-Age=900
+Set-Cookie: ___utmvbKLBupSZEZ=sZT XeQOUalZ: Ptm; path=/; Max-Age=900
+X-CDN: Imperva
+X-Iinfo: 5-12429305-12429349 nNNN RT(1667391768914 330) q(0 0 4 0) r(6 6) U6
+
+{
+    "access_token": "dL61OheyAIK1svOPKYotelPJd2aX3jNasLY5d5b7puCgZ+kGUQbzg+9DVw3QpbIyBg08oPRiRTyoJXX+KgXgcRctxz2Y6cvEftqOgN1eStK9W5rAI4GrRbeHWrYv2nxekeY5/Qm+NyfvMqKxPxunc3pw69Qg+h4YSY+6RXjsPzvHqqv3cjZcpCl3Yy4=",
+    "token_type": "bearer",
+    "expires_in": 80566,
+    "refresh_token": "5ce5e18879f24a9a977fdf4641012c65",
+    "client_id": "1930872_API_User",
+    ".issued": "Wed, 02 Nov 2022 10:45:37 GMT",
+    ".expires": "Thu, 03 Nov 2022 10:45:37 GMT"
+}
+Request method:	POST
+Request URI:	https://xapisandbox.xtrm.com/API/v4/Bank/LinkBankBeneficiary
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer dL61OheyAIK1svOPKYotelPJd2aX3jNasLY5d5b7puCgZ+kGUQbzg+9DVw3QpbIyBg08oPRiRTyoJXX+KgXgcRctxz2Y6cvEftqOgN1eStK9W5rAI4GrRbeHWrYv2nxekeY5/Qm+NyfvMqKxPxunc3pw69Qg+h4YSY+6RXjsPzvHqqv3cjZcpCl3Yy4=
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "LinkBankBeneficiary": {
+        "request": {
+            "IssuerAccountNumber": "SPN19134662",
+            "UserID": "SPN22139313",
+            "Beneficiary": {
+                "BeneficiaryDetails": {
+                    "BeneficiaryInformation": {
+                        "ContactName": "HariCP43",
+                        "PhoneNumber": "456789456",
+                        "AddressLine1": "Test Addr1",
+                        "City": "Belmont",
+                        "Region": "California",
+                        "PostalCode": "90001",
+                        "CountryISO2": "US",
+                        "AddressLine2": "Test Addr2"
+                    }
+                },
+                "BankDetails": {
+                    "BeneficiaryBankInformation": {
+                        "InstitutionName": "HSBC UK Bank Plc",
+                        "Currency": "GBP",
+                        "SWIFTBIC": "",
+                        "AccountNumber": "98987319",
+                        "RoutingNumber": "404761",
+                        "CountryISO2": "GB",
+                        "WithdrawType": "",
+                        "RemittanceLine3": "",
+                        "RemittanceLine4": "",
+                        "RegulatoryFields": [
+                            
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Pragma: no-cache
+Transfer-Encoding: chunked
+Content-Type: application/json; charset=utf-8
+Content-Encoding: gzip
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+api-supported-versions: 1.0, 2.0, 3.0, 4.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+X-FRAME-OPTIONS: SAME-ORIGIN
+X-Content-Type-Options: nosniff
+Date: Wed, 02 Nov 2022 12:22:58 GMT
+Set-Cookie: visid_incap_2558715=Fsw3nD/RRJOtpfZpjA5ArhlhYmMAAAAAQUIPAAAAAAAZgVB81MAEcWxuupXUTpZ+; expires=Wed, 01 Nov 2023 15:27:17 GMT; HttpOnly; path=/; Domain=.xtrm.com
+Set-Cookie: incap_ses_1044_2558715=fYw7I9f/LnXdY2tAMgl9DiNhYmMAAAAA87C91hE0YMQLGb29bbjz5g==; path=/; Domain=.xtrm.com
+Set-Cookie: ___utmvmKLBupSZEZ=HwJcLGpuqqa; path=/; Max-Age=900
+Set-Cookie: ___utmvaKLBupSZEZ=bErYosu; path=/; Max-Age=900
+Set-Cookie: ___utmvbKLBupSZEZ=gZy XiCOnald: Xtd; path=/; Max-Age=900
+X-CDN: Imperva
+X-Iinfo: 7-10333125-10210153 pNNN RT(1667391770563 96) q(0 0 0 1) r(84 84) U6
+
+{
+    "LinkBankBeneficiaryResponse": {
+        "LinkBankBeneficiaryResult": {
+            "BeneficiaryId": "0832197167734bde84c6a3d3c48c9d09",
+            "BankBeneficiaryStatus": "Approved",
+            "AccountIdentityLevel": "Advanced",
+            "ACHDebitApprovalStatus": null,
+            "OperationStatus": {
+                "Errors": null,
+                "Success": true
+            }
+        }
+    }
+}

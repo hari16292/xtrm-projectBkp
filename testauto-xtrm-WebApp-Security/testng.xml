@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <listener class-name="resource.Listeners"/>
+        <!-- listener class-name="resource.AnnotationTransformer"/ -->
+    </listeners>
+    <!-- Testcase1 -->
+    <test name="Functional Test Cases">
+        <packages>
+            <package name="functionalTestCases.*"/>
+        </packages>
+    </test>
+</suite> <!-- Suite -->

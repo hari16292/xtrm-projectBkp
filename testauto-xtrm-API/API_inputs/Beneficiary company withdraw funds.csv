@@ -1,0 +1,14 @@
+case;IssuerAccountNumber;Currency;Amount;PaymentMethodID;BeneficiaryAccountNumber;BeneficiaryWalletID;BeneficiaryLinkedBankID;OTP;SendTransferCodetoEmail;SendTransferCodetoMobile;BeneficiaryCardToken;errormessage
+case1;SPN1987678;USD;10;XTR94505;SPN1986817;83084;;;TRUE;FALSE;8DA1F205BA68485 ;XTR94505 - Invalid Payment Method Id,83084 - Invalid beneficiary wallet id,Current funds are insufficient to process request
+case2;SPN1987678;USD;123456789;XTR94505;SPN1986817;83084;;;TRUE;FALSE;8DA1F205BA68485 ;XTR94505 - Invalid Payment Method Id,83084 - Invalid beneficiary wallet id,Current funds are insufficient to process request
+case3;SPN1987678;dsadasdsa;20;;SPN1986817;86293;;;;;8DA1F205BA68485 ;Currency must be a string with a maximum length of 3,Payment MethodId is Mandatory
+case4;SPN1987678;USD;0.11;XTR94508;SPN1986817;83084;;;TRUE;FALSE;8DA1F205BA68485 ;83084 - Invalid beneficiary wallet id,SPN1986817 - card token is invalid,Current funds are insufficient to process request
+case5;SPN1987678;USD;20;XTR94505;SPN1986817;8358083;;;TRUE;FALSE;8DA1F205BA68485 ;XTR94505 - Invalid Payment Method Id,8358083 - Invalid beneficiary wallet id,Current funds are insufficient to process request
+case6;SPN1987678;USD;5;XTR94507;SPN1986817;83083;;;TRUE;FALSE;8DA1F205BA68485 ;XTR94507 - Invalid Payment Method Id
+case7;SPN1987678;USD;5;XTR94500;SPN1986817;83083;;;TRUE;FALSE;8DA1F205BA68485 ;Beneficiary Linked BankID is mandatory
+case8;SPN1987678;USD;5;XTR94505;SPN1986817;83083;;;TRUE;FALSE;8DA1F205BA68485 ;XTR94505 - Invalid Payment Method Id
+case9;SPN1987678;USD;5;XTR94503;SPN1986817;83083;;;TRUE;FALSE;8DA1F205BA68485 ;XTR94503 - Invalid Payment Method Id
+case10;SPN1987678;USD;5;XTR94504;SPN1986817;83083;;;TRUE;FALSE;8DA1F205BA68485 ;XTR94504 - Invalid Payment Method Id
+case11;;;;;;;;;;;8DA1F205BA68485 ;Not authorized to access this resource.
+case12;SPN1987678;;5;XTR94504;PAT1986818;83083;;;TRUE;FALSE;8DA1F205BA68485 ;Currency is Mandatory
+case13;;;;;;;;;;;;Not authorized to access this resource.

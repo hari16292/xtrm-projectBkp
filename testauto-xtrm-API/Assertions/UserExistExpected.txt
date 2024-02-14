@@ -1,0 +1,1 @@
+{"CheckUserExistResponse":{"CheckUserExistResult":{"Beneficiary":[{"AccountNo":"PAT2290630","Name":"TestUser1_edited add1_edit","State":"Tamil Nadu","Country":"India","Employer":"","Status":"Active","AccountIdentityLevel":"Basic"}],"OperationStatus":{"Success":true,"Errors":null}}}}

@@ -1,0 +1,7 @@
+case;StartUTC;EndUTC;TransactionType;SearchParam;errormessage
+case1;;02/10/22;Pending;afex;DateRange : StartUTC is invalid
+case2;02/10/21;;Credits;afex;DateRange : EndUTC is invalid,DateRange : StartUTC must be less than EndUTC
+case3;02/10/21;02/10/22;dasasdasdasd;afex;Invalid transaction type. Please only use: All,Credits,Debits,Transfer,Currency Exchange,Pending
+case4;02/10/21;02/10/22;;afex;Invalid transaction type. Please only use: All,Credits,Debits,Transfer,Currency Exchange,Pending
+case5;01.01.1900;02/10/22;All;afex;DateRange : StartUTC is invalid
+case6;02/10/21;01.01.1900;All;afex;DateRange : EndUTC is invalid,DateRange : StartUTC must be less than EndUTC

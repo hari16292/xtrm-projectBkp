@@ -1,0 +1,82 @@
+import java.io.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import com.xtrm.webapi.Checkassertions;
+import com.xtrm.webapi.CommonFunctions;
+import com.xtrm.webapi.ValidationUtils;
+
+
+
+  if (Parameters.contains("setAssertionForFailure")) {
+  String assertionParameter = Parameters.split("\\(")[0];
+  assertionParameter=assertionParameter.replace("setAssertionForFailure:Checkassertions.", "");
+    prev.setDataEncoding("UTF-8");
+    String response = prev.getResponseDataAsString();
+	
+    String sErrLog = "";
+	String verificationLog = "";
+	boolean ISJson;
+  
+   	// Assert the test to fail in case the response contains any exception
+			if (response.contains("Connection refused")) {
+				sErrLog += "Connection got refused : \n\n" + response;
+			} else if (response.equals("")) {
+				sErrLog += "There is no response for this request";
+			} else {
+				try {
+					switch(assertionParameter) {
+					
+					 // Checking the patterns and also the expected text
+                case "PatternandexpectedCheck" :
+                	if(Parameters.contains("PatternandexpectedCheck")){
+                   sErrLog += Checkassertions.PatternCheck(Parameters,response);
+				 }
+						else
+						{
+							sErrLog += ("Failed to check assertion for " + Parameters );
+						}
+						break;
+				 case "PatternCheck" :
+								   // Checking the patterns and also the expected text
+                if(Parameters.contains("PatternCheck")){
+                   sErrLog += Checkassertions.checkPattern(Parameters,response);
+				               
+							   }else
+						{
+							sErrLog += ("Failed to check assertion for " + Parameters );
+						}
+						break;
+						
+					default :
+						sErrLog += "\n The given text "+assertionParameter+" does not match with any test to check for assertions";
+						break;
+							   
+                }
+				} catch (Throwable ex) {
+					if (String.valueOf(ex).contains("empty String")) {
+						sErrLog += ("Failed to check assertion for " + assertionParameter + " : " + ex
+								+ ". Please check if the results are empty");
+					} else {
+						sErrLog += ("Failed to check assertion for " + assertionParameter + " : " + ex);
+					}
+				}
+			}
+
+			if (!sErrLog.equals("") ||sErrLog.contains("FileNotFoundException")){
+				if (sErrLog.contains("success")) {
+					Failure = true;
+					FailureMessage = sErrLog;
+				} else {
+					Failure = true;
+					FailureMessage = sErrLog;
+				}
+			} else {
+
+			}
+
+			if (!verificationLog.equals("")) {
+				Failure = false;
+				FailureMessage = verificationLog;
+			}
+
+		}

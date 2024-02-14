@@ -1,0 +1,8 @@
+case;StartUTC;EndUTC;TransactionType;SearchParam
+case1;04/12/22;04/12/22;Pending;
+case2;04/05/22;04/05/22;Received;
+case3;04/12/22;04/12/22;Sent;
+case4;04/12/22;04/12/22;Transfer;
+case5;04/12/22;04/12/22;Currency Exchange;
+case6;04/12/22;04/12/22;All;
+case7;04/12/22;04/12/22;Pending;

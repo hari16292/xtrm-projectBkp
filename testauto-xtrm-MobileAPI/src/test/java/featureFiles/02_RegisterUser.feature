@@ -1,0 +1,38 @@
+@UserRegistration @Regression
+Feature: Validate Register User API call
+
+  @RegisterUser
+  Scenario Outline: Validate new user registration with "<Comments>"
+    Given Following valid and invalid data in request body "<PAT>" "<first_name>" "<last_name>" "<email>" "<password>" "<mobile_no>" "<country_calling_flag>" "<calling_code>" "<date_of_birth>" "<device_ip>" "<device_browser>" "<device_type>" "<country>" "<state>" "<zip_code>"
+    When "Post" the request to "registerUser" UserRegistration API method
+    Then UserRegistration response got success with status code <StatusCode>
+    And deserialize the response with desired RegisterUser Pojo class
+
+    Examples: Set of request parameters for RegisterUser API call
+      | TC_No | Comments                  | PAT           | first_name | last_name | email         | password | mobile_no  | country_calling_flag | calling_code | date_of_birth | device_ip | device_browser | device_type | country | state      | zip_code | StatusCode |
+      | 01    | Valid request             | Global Value  | Hari       | Test      | Valid Email   | Xtrm123! | 7894561230 | IN                   | +91          | 1995-05-25    | 127.0.0.0 |                |             | India   | Tamil Nadu | 641041   | 200        |
+      | 02    | Invalid PAT               | Invalid Value | Hari       | Test      | Valid Email   | Xtrm123! | 7894561230 | IN                   | +91          | 1995-05-25    | 127.0.0.0 |                |             | India   | Tamil Nadu | 641041   | 401        |
+      | 03    | Empty PAT                 | Empty Value   | Hari       | Test      | Valid Email   | Xtrm123! | 7894561230 | IN                   | +91          | 1995-05-25    | 127.0.0.0 |                |             | India   | Tamil Nadu | 641041   | 401        |
+      | 04    | Invalid First Name        | Global Value  | 123.0@     | Test      | Valid Email   | Xtrm123! | 7894561230 | IN                   | +91          | 1995-05-25    | 127.0.0.0 |                |             | India   | Tamil Nadu | 641041   | 400        |
+      | 05    | Empty First Name          | Global Value  |            | Test      | Valid Email   | Xtrm123! | 7894561230 | IN                   | +91          | 1995-05-25    | 127.0.0.0 |                |             | India   | Tamil Nadu | 641041   | 400        |
+      | 06    | Invalid Last Name         | Global Value  | Hari       | .0616*(   | Valid Email   | Xtrm123! | 7894561230 | IN                   | +91          | 1995-05-25    | 127.0.0.0 |                |             | India   | Tamil Nadu | 641041   | 400        |
+      | 07    | Empty Last Name           | Global Value  | Hari       |           | Valid Email   | Xtrm123! | 7894561230 | IN                   | +91          | 1995-05-25    | 127.0.0.0 |                |             | India   | Tamil Nadu | 641041   | 400        |
+      | 08    | Invalid Email             | Global Value  | Hari       | Test      | Invalid Email | Xtrm123! | 7894561230 | IN                   | +91          | 1995-05-25    | 127.0.0.0 |                |             | India   | Tamil Nadu | 641041   | 400        |
+      | 09    | Empty Email               | Global Value  | Hari       | Test      | Empty Email   | Xtrm123! | 7894561230 | IN                   | +91          | 1995-05-25    | 127.0.0.0 |                |             | India   | Tamil Nadu | 641041   | 400        |
+      | 10    | Invalid Password          | Global Value  | Hari       | Test      | Valid Email   | 1203     | 7894561230 | IN                   | +91          | 1995-05-25    | 127.0.0.0 |                |             | India   | Tamil Nadu | 641041   | 400        |
+      | 11    | Empty Password            | Global Value  | Hari       | Test      | Valid Email   |          | 7894561230 | IN                   | +91          | 1995-05-25    | 127.0.0.0 |                |             | India   | Tamil Nadu | 641041   | 400        |
+      | 12    | Invalid Mobile number     | Global Value  | Hari       | Test      | Valid Email   | Xtrm123! | asdsa      | IN                   | +91          | 1995-05-25    | 127.0.0.0 |                |             | India   | Tamil Nadu | 641041   | 400        |
+      | 13    | Empty Mobile number       | Global Value  | Hari       | Test      | Valid Email   | Xtrm123! |            | IN                   | +91          | 1995-05-25    | 127.0.0.0 |                |             | India   | Tamil Nadu | 641041   | 400        |
+      | 14    | Invalid Country Flag      | Global Value  | Hari       | Test      | Valid Email   | Xtrm123! | 7894561230 | IND                  | +91          | 1995-05-25    | 127.0.0.0 |                |             | India   | Tamil Nadu | 641041   | 400        |
+      | 15    | Empty Country Flag        | Global Value  | Hari       | Test      | Valid Email   | Xtrm123! | 7894561230 |                      | +91          | 1995-05-25    | 127.0.0.0 |                |             | India   | Tamil Nadu | 641041   | 400        |
+      | 16    | Empty Calling code        | Global Value  | Hari       | Test      | Valid Email   | Xtrm123! | 7894561230 | IN                   |              | 1995-05-25    | 127.0.0.0 |                |             | India   | Tamil Nadu | 641041   | 400        |
+      | 17    | Invalid DOB               | Global Value  | Hari       | Test      | Valid Email   | Xtrm123! | 7894561230 | IN                   | +91          | 2095-05-25    | 127.0.0.0 |                |             | India   | Tamil Nadu | 641041   | 400        |
+      | 18    | Empty DOB                 | Global Value  | Hari       | Test      | Valid Email   | Xtrm123! | 7894561230 | IN                   | +91          |               | 127.0.0.0 |                |             | India   | Tamil Nadu | 641041   | 400        |
+      | 19    | Empty IP                  | Global Value  | Hari       | Test      | Valid Email   | Xtrm123! | 7894561230 | IN                   | +91          | 1995-05-25    |           |                |             | India   | Tamil Nadu | 641041   | 400        |
+      | 20    | Invalid Country           | Global Value  | Hari       | Test      | Valid Email   | Xtrm123! | 7894561230 | IN                   | +91          | 1995-05-25    | 127.0.0.0 |                |             | IND     | Tamil Nadu | 641041   | 400        |
+      | 21    | Empty Country             | Global Value  | Hari       | Test      | Valid Email   | Xtrm123! | 7894561230 | IN                   | +91          | 1995-05-25    | 127.0.0.0 |                |             |         | Tamil Nadu | 641041   | 400        |
+      | 22    | Invalid State             | Global Value  | Hari       | Test      | Valid Email   | Xtrm123! | 7894561230 | IN                   | +91          | 1995-05-25    | 127.0.0.0 |                |             | India   | TN         | 641041   | 400        |
+      | 23    | Empty State               | Global Value  | Hari       | Test      | Valid Email   | Xtrm123! | 7894561230 | IN                   | +91          | 1995-05-25    | 127.0.0.0 |                |             | India   |            | 641041   | 400        |
+      | 24    | Empty Zipcode             | Global Value  | Hari       | Test      | Valid Email   | Xtrm123! | 7894561230 | IN                   | +91          | 1995-05-25    | 127.0.0.0 |                |             | India   | Tamil Nadu |          | 400        |
+      | 25    | Valid request - DK mobile | Global Value  | Hari       | Test      | Valid Email   | Xtrm123! | 20506950   | DK                   | +45          | 1995-05-25    | 127.0.0.0 |                |             | Denmark | Syddanmark | 641041   | 200        |
+

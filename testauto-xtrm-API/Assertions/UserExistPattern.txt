@@ -1,0 +1,1 @@
+{"CheckUserExistResponse":{"CheckUserExistResult":{"Beneficiary":[{"AccountNo":"*.?","Name":"*.?","State":"*.?","Country":"*.?","Employer":"","Status":"*.?","AccountIdentityLevel":"*.?"}],"OperationStatus":{"Success":*.?,"Errors":*.?}}}}

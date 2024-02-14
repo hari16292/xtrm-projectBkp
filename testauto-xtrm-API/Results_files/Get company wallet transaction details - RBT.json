@@ -1,0 +1,1 @@
+{"GetCompanyTransactionDetailsResponse":{"GetCompanyTransactionDetailsResult":{"Field":null,"PayDirectTransactionDetails":null,"OperationStatus":{"Success":false,"Errors":["TransactionID is Mandatory and must be an integer"]}}}}

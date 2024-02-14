@@ -1,0 +1,8 @@
+case;issuerAccountNumber;Description;TransactionCategoryID;TransactionSubCategoryID;IsClaim;ClaimAmount;CurrencyCode;experror
+case1;S6PN1987678;TestCreationProgram;1;16;FALSE;;USD;Not authorized to access this resource.
+case2;SPN1987678;;111;16;FALSE;;USD;Description ID is Mandatory
+case3;SPN1987678;TestCreationProgram;;216;FALSE;;USD;TransactionCategoryID is Mandatory and must be an integer
+case4;SPN1987678;TestCreationProgram;1;;FALSE;;USD;TransactionSubCategoryID is Mandatory and must be an integer
+case5;SPN1987678;TestCreationProgram;1;16;;;USD;IsClaim is Mandatory
+case6;SPN1987678;TestCreationProgram;1;16;TRUE;;USD12585;Claim Amount is Mandatory and must be a valid amount,Currency code must be a string with a maximum length of 3
+case7;SPN1987678;TestCreationProgram;1;16;TRUE;2333333;USD12585;Currency code must be a string with a maximum length of 3

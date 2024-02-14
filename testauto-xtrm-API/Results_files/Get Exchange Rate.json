@@ -1,0 +1,1 @@
+{"GetExchangeRateMethodsResponse":{"ExchangeRateMethodResult":{"ExchangeRateMethods":{"ExchangeRateMethodsDetail":[{"IssuerAccountNumber":"SPN1987678","FromCurrency":"USD","ToCurrency":"INR","Amount":1.0,"ExchangeRate":80.99133392}]},"OperationStatus":{"Success":true,"Errors":null}}}}

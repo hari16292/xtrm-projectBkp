@@ -1,0 +1,1 @@
+{"LinkCardResponse":{"LinkCardResult":{"CardToken":null,"CardStatus":null,"AccountIdentityLevel":null,"OperationStatus":{"Errors":["Invalid expiration year"],"Success":false}}}}

@@ -1,0 +1,2304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.4.1">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
+      <stringProp name="TestPlan.comments"></stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="basepath_sandbox" elementType="Argument">
+            <stringProp name="Argument.name">basepath_sandbox</stringProp>
+            <stringProp name="Argument.value">D:\Automation\jmeter scripts\API_inputs_sandbox</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="token" elementType="Argument">
+            <stringProp name="Argument.name">token</stringProp>
+            <stringProp name="Argument.value">os3JRr02arfy0G4wPq7ebsFrjzvoq2uMGKT1BPwOfT/nT71vzyviJ9L90Ja63NovjxbTFWU5ac1+Fv/y1/2ibiOAUpskTIW75Hv7nwNHjndcdF3SjCicaAc3eQTFpuQ2rBwaBa9UyKIgPaCXg+2dGKhFdo7dVqXiVYD8r1VxmyWIFHHdrsOV46OBXNo=</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="basepath" elementType="Argument">
+            <stringProp name="Argument.name">basepath</stringProp>
+            <stringProp name="Argument.value">D:\Automation\jmeter scripts\API_inputs</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="false">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="url" elementType="Argument">
+            <stringProp name="Argument.name">url</stringProp>
+            <stringProp name="Argument.value">https://xapisandbox.xtrm.com/API/v4</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="protocol" elementType="Argument">
+            <stringProp name="Argument.name">protocol</stringProp>
+            <stringProp name="Argument.value">https</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="transferfund" elementType="Argument">
+            <stringProp name="Argument.name">transferfund</stringProp>
+            <stringProp name="Argument.value">${basepath_sandbox}\Transfer funds.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TransferFundtoCompany" elementType="Argument">
+            <stringProp name="Argument.name">TransferFundtoCompany</stringProp>
+            <stringProp name="Argument.value">${basepath_sandbox}\Tranfer Fund to Company.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="userwithdraw" elementType="Argument">
+            <stringProp name="Argument.name">userwithdraw</stringProp>
+            <stringProp name="Argument.value">${basepath_sandbox}\User Withdraw Fund.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="companywithdraw" elementType="Argument">
+            <stringProp name="Argument.name">companywithdraw</stringProp>
+            <stringProp name="Argument.value">${basepath_sandbox}\Beneficiary company withdraw funds.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="reportPath" elementType="Argument">
+            <stringProp name="Argument.name">reportPath</stringProp>
+            <stringProp name="Argument.value">${basepath_sandbox}\resport.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="linkcard" elementType="Argument">
+            <stringProp name="Argument.name">linkcard</stringProp>
+            <stringProp name="Argument.value">${basepath_sandbox}\Linkcard.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="createuser" elementType="Argument">
+            <stringProp name="Argument.name">createuser</stringProp>
+            <stringProp name="Argument.value">${basepath_sandbox}\CreateUser.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="UpdateUser" elementType="Argument">
+            <stringProp name="Argument.name">UpdateUser</stringProp>
+            <stringProp name="Argument.value">${basepath_sandbox}\UpdateUser.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="program" elementType="Argument">
+            <stringProp name="Argument.name">program</stringProp>
+            <stringProp name="Argument.value">${basepath_sandbox}\Programs.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="Linkbank" elementType="Argument">
+            <stringProp name="Argument.name">Linkbank</stringProp>
+            <stringProp name="Argument.value">${basepath_sandbox}\Linkbank.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="count_transfer company" elementType="Argument">
+            <stringProp name="Argument.name">count_transfer company</stringProp>
+            <stringProp name="Argument.value">25</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="count_transferuser" elementType="Argument">
+            <stringProp name="Argument.name">count_transferuser</stringProp>
+            <stringProp name="Argument.value">24</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="countuserwithdraw" elementType="Argument">
+            <stringProp name="Argument.name">countuserwithdraw</stringProp>
+            <stringProp name="Argument.value">13</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="countbenwithdraw" elementType="Argument">
+            <stringProp name="Argument.name">countbenwithdraw</stringProp>
+            <stringProp name="Argument.value">13</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="countlinkcard" elementType="Argument">
+            <stringProp name="Argument.name">countlinkcard</stringProp>
+            <stringProp name="Argument.value">21</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="createusercount" elementType="Argument">
+            <stringProp name="Argument.name">createusercount</stringProp>
+            <stringProp name="Argument.value">19</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="UpdateUsercount" elementType="Argument">
+            <stringProp name="Argument.name">UpdateUsercount</stringProp>
+            <stringProp name="Argument.value">10</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="Programscount" elementType="Argument">
+            <stringProp name="Argument.name">Programscount</stringProp>
+            <stringProp name="Argument.value">7</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="Linkbankcount" elementType="Argument">
+            <stringProp name="Argument.name">Linkbankcount</stringProp>
+            <stringProp name="Argument.value">11</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="LinkbankACH" elementType="Argument">
+            <stringProp name="Argument.name">LinkbankACH</stringProp>
+            <stringProp name="Argument.value">${basepath_sandbox}\LinkbankACH.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="LinkbankACHcount" elementType="Argument">
+            <stringProp name="Argument.name">LinkbankACHcount</stringProp>
+            <stringProp name="Argument.value">13</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="Wallets" elementType="Argument">
+            <stringProp name="Argument.name">Wallets</stringProp>
+            <stringProp name="Argument.value">${basepath_sandbox}\UserWallets.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="Walletscount" elementType="Argument">
+            <stringProp name="Argument.name">Walletscount</stringProp>
+            <stringProp name="Argument.value">5</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="CompanyWallets" elementType="Argument">
+            <stringProp name="Argument.name">CompanyWallets</stringProp>
+            <stringProp name="Argument.value">${basepath_sandbox}\CompanyWallets.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="BeneficiaryWallets" elementType="Argument">
+            <stringProp name="Argument.name">BeneficiaryWallets</stringProp>
+            <stringProp name="Argument.value">${basepath_sandbox}\BeneficiaryWallets.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="CompanyWalletscount" elementType="Argument">
+            <stringProp name="Argument.name">CompanyWalletscount</stringProp>
+            <stringProp name="Argument.value">7</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="counttax" elementType="Argument">
+            <stringProp name="Argument.name">counttax</stringProp>
+            <stringProp name="Argument.value">10</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="tax" elementType="Argument">
+            <stringProp name="Argument.name">tax</stringProp>
+            <stringProp name="Argument.value">${basepath_sandbox}\taxinformation.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </Arguments>
+      <hashTree/>
+      <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="false">
+        <collectionProp name="HeaderManager.headers">
+          <elementProp name="Authorization" elementType="Header">
+            <stringProp name="Header.name">Authorization</stringProp>
+            <stringProp name="Header.value">Bearer ${token}</stringProp>
+          </elementProp>
+          <elementProp name="Postman-Token" elementType="Header">
+            <stringProp name="Header.name">Postman-Token</stringProp>
+            <stringProp name="Header.value">865ca7a2-3196-40a5-b2a2-a7a522642386</stringProp>
+          </elementProp>
+          <elementProp name="Content-Type" elementType="Header">
+            <stringProp name="Header.name">Content-Type</stringProp>
+            <stringProp name="Header.value">application/json</stringProp>
+          </elementProp>
+          <elementProp name="Accept-Encoding" elementType="Header">
+            <stringProp name="Header.name">Accept-Encoding</stringProp>
+            <stringProp name="Header.value">gzip, deflate, br</stringProp>
+          </elementProp>
+          <elementProp name="User-Agent" elementType="Header">
+            <stringProp name="Header.name">User-Agent</stringProp>
+            <stringProp name="Header.value">PostmanRuntime/7.28.4</stringProp>
+          </elementProp>
+          <elementProp name="Accept" elementType="Header">
+            <stringProp name="Header.name">Accept</stringProp>
+            <stringProp name="Header.value">*/*</stringProp>
+          </elementProp>
+        </collectionProp>
+      </HeaderManager>
+      <hashTree/>
+      <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager_dev" enabled="true">
+        <collectionProp name="HeaderManager.headers">
+          <elementProp name="Authorization" elementType="Header">
+            <stringProp name="Header.name">Authorization</stringProp>
+            <stringProp name="Header.value">Bearer ${token}</stringProp>
+          </elementProp>
+          <elementProp name="Postman-Token" elementType="Header">
+            <stringProp name="Header.name">Postman-Token</stringProp>
+            <stringProp name="Header.value">865ca7a2-3196-40a5-b2a2-a7a522642386</stringProp>
+          </elementProp>
+          <elementProp name="Content-Type" elementType="Header">
+            <stringProp name="Header.name">Content-Type</stringProp>
+            <stringProp name="Header.value">application/json</stringProp>
+          </elementProp>
+          <elementProp name="Accept-Encoding" elementType="Header">
+            <stringProp name="Header.name">Accept-Encoding</stringProp>
+            <stringProp name="Header.value">gzip, deflate, br</stringProp>
+          </elementProp>
+          <elementProp name="User-Agent" elementType="Header">
+            <stringProp name="Header.name">User-Agent</stringProp>
+            <stringProp name="Header.value">PostmanRuntime/7.28.4</stringProp>
+          </elementProp>
+          <elementProp name="Accept" elementType="Header">
+            <stringProp name="Header.name">Accept</stringProp>
+            <stringProp name="Header.value">*/*</stringProp>
+          </elementProp>
+        </collectionProp>
+      </HeaderManager>
+      <hashTree/>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables_dev" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="url" elementType="Argument">
+            <stringProp name="Argument.name">url</stringProp>
+            <stringProp name="Argument.value">https://xapidev.xtrm.com/API/v4</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="protocol" elementType="Argument">
+            <stringProp name="Argument.name">protocol</stringProp>
+            <stringProp name="Argument.value">https</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="transferfund" elementType="Argument">
+            <stringProp name="Argument.name">transferfund</stringProp>
+            <stringProp name="Argument.value">${basepath}\Transfer funds.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TransferFundtoCompany" elementType="Argument">
+            <stringProp name="Argument.name">TransferFundtoCompany</stringProp>
+            <stringProp name="Argument.value">${basepath}\Tranfer Fund to Company.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="userwithdraw" elementType="Argument">
+            <stringProp name="Argument.name">userwithdraw</stringProp>
+            <stringProp name="Argument.value">${basepath}\User Withdraw Fund.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="companywithdraw" elementType="Argument">
+            <stringProp name="Argument.name">companywithdraw</stringProp>
+            <stringProp name="Argument.value">${basepath}\Beneficiary company withdraw funds.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="reportPath" elementType="Argument">
+            <stringProp name="Argument.name">reportPath</stringProp>
+            <stringProp name="Argument.value">${basepath}\resport.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="linkcard" elementType="Argument">
+            <stringProp name="Argument.name">linkcard</stringProp>
+            <stringProp name="Argument.value">${basepath}\Linkcard.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="createuser" elementType="Argument">
+            <stringProp name="Argument.name">createuser</stringProp>
+            <stringProp name="Argument.value">${basepath}\CreateUser.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="UpdateUser" elementType="Argument">
+            <stringProp name="Argument.name">UpdateUser</stringProp>
+            <stringProp name="Argument.value">${basepath}\UpdateUser.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="program" elementType="Argument">
+            <stringProp name="Argument.name">program</stringProp>
+            <stringProp name="Argument.value">${basepath}\Programs.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="Linkbank" elementType="Argument">
+            <stringProp name="Argument.name">Linkbank</stringProp>
+            <stringProp name="Argument.value">${basepath}\Linkbank.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="count_transfer company" elementType="Argument">
+            <stringProp name="Argument.name">count_transfer company</stringProp>
+            <stringProp name="Argument.value">25</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="count_transferuser" elementType="Argument">
+            <stringProp name="Argument.name">count_transferuser</stringProp>
+            <stringProp name="Argument.value">24</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="countuserwithdraw" elementType="Argument">
+            <stringProp name="Argument.name">countuserwithdraw</stringProp>
+            <stringProp name="Argument.value">13</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="countbenwithdraw" elementType="Argument">
+            <stringProp name="Argument.name">countbenwithdraw</stringProp>
+            <stringProp name="Argument.value">13</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="countlinkcard" elementType="Argument">
+            <stringProp name="Argument.name">countlinkcard</stringProp>
+            <stringProp name="Argument.value">21</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="createusercount" elementType="Argument">
+            <stringProp name="Argument.name">createusercount</stringProp>
+            <stringProp name="Argument.value">19</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="UpdateUsercount" elementType="Argument">
+            <stringProp name="Argument.name">UpdateUsercount</stringProp>
+            <stringProp name="Argument.value">10</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="Programscount" elementType="Argument">
+            <stringProp name="Argument.name">Programscount</stringProp>
+            <stringProp name="Argument.value">7</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="Linkbankcount" elementType="Argument">
+            <stringProp name="Argument.name">Linkbankcount</stringProp>
+            <stringProp name="Argument.value">11</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="LinkbankACH" elementType="Argument">
+            <stringProp name="Argument.name">LinkbankACH</stringProp>
+            <stringProp name="Argument.value">${basepath}\LinkbankACH.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="LinkbankACHcount" elementType="Argument">
+            <stringProp name="Argument.name">LinkbankACHcount</stringProp>
+            <stringProp name="Argument.value">13</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="Wallets" elementType="Argument">
+            <stringProp name="Argument.name">Wallets</stringProp>
+            <stringProp name="Argument.value">${basepath}\UserWallets.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="Walletscount" elementType="Argument">
+            <stringProp name="Argument.name">Walletscount</stringProp>
+            <stringProp name="Argument.value">5</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="CompanyWallets" elementType="Argument">
+            <stringProp name="Argument.name">CompanyWallets</stringProp>
+            <stringProp name="Argument.value">${basepath}\CompanyWallets.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="BeneficiaryWallets" elementType="Argument">
+            <stringProp name="Argument.name">BeneficiaryWallets</stringProp>
+            <stringProp name="Argument.value">${basepath}\BeneficiaryWallets.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="CompanyWalletscount" elementType="Argument">
+            <stringProp name="Argument.name">CompanyWalletscount</stringProp>
+            <stringProp name="Argument.value">7</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="counttax" elementType="Argument">
+            <stringProp name="Argument.name">counttax</stringProp>
+            <stringProp name="Argument.value">10</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="tax" elementType="Argument">
+            <stringProp name="Argument.name">tax</stringProp>
+            <stringProp name="Argument.value">${basepath}\taxinformation.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="count_wallet" elementType="Argument">
+            <stringProp name="Argument.name">count_wallet</stringProp>
+            <stringProp name="Argument.value">8</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="wallet" elementType="Argument">
+            <stringProp name="Argument.name">wallet</stringProp>
+            <stringProp name="Argument.value">${basepath}\Tranfertowallet.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="Dynamic" elementType="Argument">
+            <stringProp name="Argument.name">Dynamic</stringProp>
+            <stringProp name="Argument.value">${basepath}\dynamicaccount.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="count_Dynamic" elementType="Argument">
+            <stringProp name="Argument.name">count_Dynamic</stringProp>
+            <stringProp name="Argument.value">10</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </Arguments>
+      <hashTree/>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Web API" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <longProp name="ThreadGroup.start_time">1370726934000</longProp>
+        <longProp name="ThreadGroup.end_time">1370726934000</longProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
+      </ThreadGroup>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Key" enabled="false">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">grant_type=password&amp;client_id=1910107_API_User&amp;client_secret=L4UTH3r4E2IQT0cd0NtdEYueF9iuXWS34RU5Z/278=</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain"></stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">https://xmadev.xtrm.com/oAuth/Token</stringProp>
+          <stringProp name="HTTPSampler.method">GET</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+            <stringProp name="BeanShellAssertion.query">
+String response = prev.getResponseDataAsString();
+String token=vars.get(&quot;token&quot;);
+String token=&quot;&quot;;
+
+String  actuvaltoken=&quot;&quot;;
+	    actuvaltoken = response.substring(response.indexOf(&quot;access_token&quot;), response.lastIndexOf(&quot;\&quot;,\&quot;token_type&quot;)).replace(&quot;access_token&quot;, &quot;&quot;).replace(&quot;\&quot;&quot;, &quot;&quot;).replace(&quot;:&quot;, &quot;&quot;);
+	    
+    System.out.println(actuvaltoken);
+vars.put(&quot;token&quot;,actuvaltoken);</stringProp>
+            <stringProp name="BeanShellAssertion.filename"></stringProp>
+            <stringProp name="BeanShellAssertion.parameters"></stringProp>
+            <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+          </BeanShellAssertion>
+          <hashTree/>
+        </hashTree>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Beneficiary User" enabled="true"/>
+        <hashTree>
+          <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Create User" enabled="true">
+            <boolProp name="LoopController.continue_forever">true</boolProp>
+            <stringProp name="LoopController.loops">${createusercount}</stringProp>
+          </LoopController>
+          <hashTree>
+            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+              <stringProp name="delimiter">;</stringProp>
+              <stringProp name="fileEncoding"></stringProp>
+              <stringProp name="filename">${createuser}</stringProp>
+              <boolProp name="ignoreFirstLine">true</boolProp>
+              <boolProp name="quotedData">false</boolProp>
+              <boolProp name="recycle">true</boolProp>
+              <stringProp name="shareMode">shareMode.all</stringProp>
+              <boolProp name="stopThread">false</boolProp>
+              <stringProp name="variableNames">case,issuerAccountNumber,legalFirstName,legalLastName,emailAddress,emailNotification,mobilePhone,taxId,day,month,year,addressLine1,addressLine2,aptSuitNum,city,country,countryISO2,postalCode,region,experror</stringProp>
+            </CSVDataSet>
+            <hashTree/>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="${case}_CreateUser" enabled="true">
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">{&#xd;
+    &quot;createUser&quot;: {&#xd;
+        &quot;request&quot;: {&#xd;
+            &quot;issuerAccountNumber&quot; : &quot;${issuerAccountNumber}&quot;,&#xd;
+            &quot;legalFirstName&quot;: &quot;${legalFirstName}&quot;,&#xd;
+            &quot;legalLastName&quot;: &quot;${legalLastName}&quot;,&#xd;
+            &quot;emailAddress&quot;: &quot;${emailAddress}&quot;,&#xd;
+            &quot;emailNotification&quot; :&quot;${emailNotification}&quot;,&#xd;
+            &quot;mobilePhone&quot;: &quot;${mobilePhone}&quot;,&#xd;
+            &quot;taxId&quot;: &quot;${taxId}&quot;,&#xd;
+            &quot;dateOfBirth&quot;: {&#xd;
+                &quot;day&quot;: &quot;${day}&quot;,&#xd;
+                &quot;month&quot;: &quot;${month}&quot;,&#xd;
+                &quot;year&quot;: &quot;${year}&quot;&#xd;
+            },&#xd;
+            &quot;address&quot;: {&#xd;
+                &quot;addressLine1&quot;: &quot;${addressLine1}&quot;,&#xd;
+                &quot;addressLine2&quot;: &quot;${addressLine2}&quot;,&#xd;
+                &quot;aptSuitNum&quot;: &quot;${aptSuitNum}&quot;,&#xd;
+                &quot;city&quot;: &quot;${city}&quot;,&#xd;
+                &quot;country&quot;: &quot;${country}&quot;,&#xd;
+                &quot;countryISO2&quot;: &quot;${countryISO2}&quot;,&#xd;
+                &quot;postalCode&quot;: &quot;${postalCode}&quot;,&#xd;
+                &quot;region&quot;: &quot;${region}&quot;&#xd;
+            }&#xd;
+        }&#xd;
+    }&#xd;
+}</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">${xtrm_api_endpoint}</stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">${url}/Register/CreateUser</stringProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+                <stringProp name="BeanShellAssertion.query">
+String response = prev.getResponseDataAsString();
+String expmessage=vars.get(&quot;experror&quot;);
+String casename=vars.get(&quot;case&quot;);
+ String sErrLog = &quot;&quot;;
+ 
+String  actualerror=&quot;&quot;;
+	    actualerror = response.substring(response.indexOf(&quot;Errors\&quot;:[&quot;), response.lastIndexOf(&quot;]}}}}&quot;)).replace(&quot;Errors\&quot;:[&quot;, &quot;&quot;).replace(&quot;\&quot;&quot;, &quot;&quot;).replace(&quot;,&quot;, &quot;&quot;);
+
+
+  //System.out.println(actualerror);
+ // System.out.println(expmessage);
+    System.out.println(casename + &quot;$&quot; +actualerror);
+  
+if(actualerror.equals(expmessage)){
+
+ prev.setSuccessful(true);
+   prev.setResponseCodeOK();
+   prev.setResponseMessageOK();
+
+}
+else
+{
+		 Failure= true ;
+	
+	sErrLog=&quot;Error message expected to have:&quot;+expmessage+ &quot; but received &quot; +actualerror;
+	FailureMessage = sErrLog;
+}
+</stringProp>
+                <stringProp name="BeanShellAssertion.filename"></stringProp>
+                <stringProp name="BeanShellAssertion.parameters"></stringProp>
+                <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+              </BeanShellAssertion>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+          <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Update User" enabled="true">
+            <boolProp name="LoopController.continue_forever">true</boolProp>
+            <stringProp name="LoopController.loops">${UpdateUsercount}</stringProp>
+          </LoopController>
+          <hashTree>
+            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+              <stringProp name="delimiter">;</stringProp>
+              <stringProp name="fileEncoding"></stringProp>
+              <stringProp name="filename">${UpdateUser}</stringProp>
+              <boolProp name="ignoreFirstLine">true</boolProp>
+              <boolProp name="quotedData">false</boolProp>
+              <boolProp name="recycle">true</boolProp>
+              <stringProp name="shareMode">shareMode.all</stringProp>
+              <boolProp name="stopThread">false</boolProp>
+              <stringProp name="variableNames">case,issuerAccountNumber,legalFirstName,legalLastName,emailAddress,emailNotification,mobilePhone,taxId,day,month,year,addressLine1,addressLine2,aptSuitNum,city,country,countryISO2,postalCode,region,experror</stringProp>
+            </CSVDataSet>
+            <hashTree/>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="${case}_UpdateUser" enabled="true">
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">{&#xd;
+    &quot;updateUser&quot;: {&#xd;
+        &quot;request&quot;: {&#xd;
+            &quot;issuerAccountNumber&quot; : &quot;${issuerAccountNumber}&quot;,&#xd;
+            &quot;userId&quot;:&quot;PAT1986818&quot;,&#xd;
+            &quot;legalFirstName&quot;: &quot;${legalFirstName}&quot;,&#xd;
+            &quot;legalLastName&quot;: &quot;${legalLastName}&quot;,&#xd;
+            &quot;emailAddress&quot;: &quot;${emailAddress}&quot;,&#xd;
+            &quot;emailNotification&quot; :&quot;${emailNotification}&quot;,&#xd;
+            &quot;mobilePhone&quot;: &quot;${mobilePhone}&quot;,&#xd;
+            &quot;taxId&quot;: &quot;${taxId}&quot;,&#xd;
+            &quot;dateOfBirth&quot;: {&#xd;
+                &quot;day&quot;: &quot;${day}&quot;,&#xd;
+                &quot;month&quot;: &quot;${month}&quot;,&#xd;
+                &quot;year&quot;: &quot;${year}&quot;&#xd;
+            },&#xd;
+            &quot;address&quot;: {&#xd;
+                &quot;addressLine1&quot;: &quot;${addressLine1}&quot;,&#xd;
+                &quot;addressLine2&quot;: &quot;${addressLine2}&quot;,&#xd;
+                &quot;aptSuitNum&quot;: &quot;${aptSuitNum}&quot;,&#xd;
+                &quot;city&quot;: &quot;${city}&quot;,&#xd;
+                &quot;country&quot;: &quot;${country}&quot;,&#xd;
+                &quot;countryISO2&quot;: &quot;${countryISO2}&quot;,&#xd;
+                &quot;postalCode&quot;: &quot;${postalCode}&quot;,&#xd;
+                &quot;region&quot;: &quot;${region}&quot;&#xd;
+            }&#xd;
+        }&#xd;
+    }&#xd;
+}</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">${xtrm_api_endpoint}</stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">${url}/Register/UpdateUser</stringProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+                <stringProp name="BeanShellAssertion.query">
+String response = prev.getResponseDataAsString();
+String expmessage=vars.get(&quot;experror&quot;);
+String casename=vars.get(&quot;case&quot;);
+ String sErrLog = &quot;&quot;;
+ 
+String  actualerror=&quot;&quot;;
+	    actualerror = response.substring(response.indexOf(&quot;Errors\&quot;:[&quot;), response.lastIndexOf(&quot;]}}}}&quot;)).replace(&quot;Errors\&quot;:[&quot;, &quot;&quot;).replace(&quot;\&quot;&quot;, &quot;&quot;).replace(&quot;,&quot;, &quot;&quot;);
+
+
+  //System.out.println(actualerror);
+ // System.out.println(expmessage);
+    System.out.println(casename + &quot;$&quot; +actualerror);
+  
+if(actualerror.equals(expmessage)){
+
+ prev.setSuccessful(true);
+   prev.setResponseCodeOK();
+   prev.setResponseMessageOK();
+
+}
+else
+{
+		 Failure= true ;
+	
+	sErrLog=&quot;Error message expected to have:&quot;+expmessage+ &quot; but received &quot; +actualerror;
+	FailureMessage = sErrLog;
+}
+</stringProp>
+                <stringProp name="BeanShellAssertion.filename"></stringProp>
+                <stringProp name="BeanShellAssertion.parameters"></stringProp>
+                <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+              </BeanShellAssertion>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+        </hashTree>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Wallets" enabled="true"/>
+        <hashTree>
+          <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="UserWallets" enabled="true">
+            <boolProp name="LoopController.continue_forever">true</boolProp>
+            <stringProp name="LoopController.loops">${Walletscount}</stringProp>
+          </LoopController>
+          <hashTree>
+            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+              <stringProp name="delimiter">;</stringProp>
+              <stringProp name="fileEncoding"></stringProp>
+              <stringProp name="filename">${Wallets}</stringProp>
+              <boolProp name="ignoreFirstLine">true</boolProp>
+              <boolProp name="quotedData">false</boolProp>
+              <boolProp name="recycle">true</boolProp>
+              <stringProp name="shareMode">shareMode.all</stringProp>
+              <boolProp name="stopThread">false</boolProp>
+              <stringProp name="variableNames">case,issuerAccountNumber,UserID,WalletName,WalletCurrency,experror </stringProp>
+            </CSVDataSet>
+            <hashTree/>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="${case}_UserWallets" enabled="true">
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">{&#xd;
+  &quot;CreateUserWallet&quot;: {&#xd;
+    &quot;request&quot;: {&#xd;
+        &quot;issuerAccountNumber&quot;:&quot;${issuerAccountNumber}&quot;,&#xd;
+        &quot;UserID&quot;: &quot;${UserID}&quot;,&#xd;
+        &quot;WalletName&quot;: &quot;${WalletName}&quot;,&#xd;
+        &quot;WalletCurrency&quot;: &quot;${WalletCurrency}&quot;&#xd;
+    }&#xd;
+  }&#xd;
+}</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain"></stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">${url}/Wallet/CreateUserWallet</stringProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+                <stringProp name="BeanShellAssertion.query">
+String response = prev.getResponseDataAsString();
+String expmessage=vars.get(&quot;experror&quot;);
+String casename=vars.get(&quot;case&quot;);
+ String sErrLog = &quot;&quot;;
+ 
+String  actualerror=&quot;&quot;;
+	    actualerror =response.substring(response.indexOf(&quot;Errors\&quot;:[&quot;), response.lastIndexOf(&quot;]}}}}&quot;)).replace(&quot;Errors\&quot;:[&quot;, &quot;&quot;).replace(&quot;\&quot;&quot;, &quot;&quot;);
+
+  //System.out.println(actualerror);
+ // System.out.println(expmessage);
+   System.out.println(casename + &quot;_&quot; + actualerror);
+  
+if(actualerror.equals(expmessage)){
+
+ prev.setSuccessful(true);
+   prev.setResponseCodeOK();
+   prev.setResponseMessageOK();
+
+}
+else
+{
+		 Failure= true ;
+	
+	sErrLog=&quot;Error message expected to have:&quot;+ expmessage+ &quot; but received &quot; +actualerror;
+	FailureMessage = sErrLog;
+}
+</stringProp>
+                <stringProp name="BeanShellAssertion.filename"></stringProp>
+                <stringProp name="BeanShellAssertion.parameters"></stringProp>
+                <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+              </BeanShellAssertion>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+          <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="CompanyWallets" enabled="true">
+            <boolProp name="LoopController.continue_forever">true</boolProp>
+            <stringProp name="LoopController.loops">${CompanyWalletscount}</stringProp>
+          </LoopController>
+          <hashTree>
+            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+              <stringProp name="delimiter">;</stringProp>
+              <stringProp name="fileEncoding"></stringProp>
+              <stringProp name="filename">${CompanyWallets}</stringProp>
+              <boolProp name="ignoreFirstLine">true</boolProp>
+              <boolProp name="quotedData">false</boolProp>
+              <boolProp name="recycle">true</boolProp>
+              <stringProp name="shareMode">shareMode.all</stringProp>
+              <boolProp name="stopThread">false</boolProp>
+              <stringProp name="variableNames">case,issuerAccountNumber,UserID,WalletName,WalletCurrency,experror,WalletType</stringProp>
+            </CSVDataSet>
+            <hashTree/>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="${case}_CompanyWallets" enabled="true">
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">{&#xd;
+  &quot;CreateCompanyWallet&quot;: {&#xd;
+    &quot;request&quot;: {&#xd;
+    	 &quot;issuerAccountNumber&quot;:&quot;${issuerAccountNumber}&quot;,&#xd;
+    	 &quot;WalletName&quot;: &quot;${WalletName}&quot;,&#xd;
+        &quot;WalletCurrency&quot;: &quot;${WalletCurrency}&quot;,&#xd;
+        &quot;WalletType&quot;:&quot;${WalletType}&quot;,&#xd;
+        &quot;AllowAccessAccountNumber&quot;:&quot;${UserID}&quot;&#xd;
+    }&#xd;
+  }&#xd;
+}</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain"></stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">${url}/Wallet/CreateCompanyWallet</stringProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+                <stringProp name="BeanShellAssertion.query">
+String response = prev.getResponseDataAsString();
+String expmessage=vars.get(&quot;experror&quot;);
+String casename=vars.get(&quot;case&quot;);
+ String sErrLog = &quot;&quot;;
+ 
+String  actualerror=&quot;&quot;;
+	    actualerror =response.substring(response.indexOf(&quot;Errors\&quot;:[&quot;), response.lastIndexOf(&quot;]}}}}&quot;)).replace(&quot;Errors\&quot;:[&quot;, &quot;&quot;).replace(&quot;\&quot;&quot;, &quot;&quot;);
+
+  //System.out.println(actualerror);
+ // System.out.println(expmessage);
+   System.out.println(casename + &quot;_&quot; + actualerror);
+  
+if(actualerror.equals(expmessage)){
+
+ prev.setSuccessful(true);
+   prev.setResponseCodeOK();
+   prev.setResponseMessageOK();
+
+}
+else
+{
+		 Failure= true ;
+	
+	sErrLog=&quot;Error message expected to have:&quot;+ expmessage+ &quot; but received &quot; +actualerror;
+	FailureMessage = sErrLog;
+}
+</stringProp>
+                <stringProp name="BeanShellAssertion.filename"></stringProp>
+                <stringProp name="BeanShellAssertion.parameters"></stringProp>
+                <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+              </BeanShellAssertion>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+          <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="BeneficiaryWallets" enabled="true">
+            <boolProp name="LoopController.continue_forever">true</boolProp>
+            <stringProp name="LoopController.loops">${CompanyWalletscount}</stringProp>
+          </LoopController>
+          <hashTree>
+            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+              <stringProp name="delimiter">;</stringProp>
+              <stringProp name="fileEncoding"></stringProp>
+              <stringProp name="filename">${BeneficiaryWallets}</stringProp>
+              <boolProp name="ignoreFirstLine">true</boolProp>
+              <boolProp name="quotedData">false</boolProp>
+              <boolProp name="recycle">true</boolProp>
+              <stringProp name="shareMode">shareMode.all</stringProp>
+              <boolProp name="stopThread">false</boolProp>
+              <stringProp name="variableNames">case,issuerAccountNumber,UserID,WalletName,WalletCurrency,experror,WalletType</stringProp>
+            </CSVDataSet>
+            <hashTree/>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="${case}_BeneficiaryWallet" enabled="true">
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">{&#xd;
+  &quot;CreateBeneficiaryCompanyWallet&quot;: {&#xd;
+    &quot;request&quot;: {&#xd;
+    	&quot;issuerAccountNumber&quot;:&quot;${issuerAccountNumber}&quot;,&#xd;
+        &#xd;
+    	 &quot;WalletName&quot;: &quot;${WalletName}&quot;,&#xd;
+        &quot;WalletCurrency&quot;: &quot;${WalletCurrency}&quot;,&#xd;
+        &quot;WalletType&quot;:&quot;${WalletType}&quot;,&#xd;
+        &quot;BeneficiaryAccountNumber&quot;:&quot;${UserID}&quot;&#xd;
+    }&#xd;
+  }&#xd;
+}</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain"></stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">${url}/Wallet/CreateBeneficiaryCompanyWallet</stringProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+                <stringProp name="BeanShellAssertion.query">
+String response = prev.getResponseDataAsString();
+String expmessage=vars.get(&quot;experror&quot;);
+String casename=vars.get(&quot;case&quot;);
+ String sErrLog = &quot;&quot;;
+ 
+String  actualerror=&quot;&quot;;
+	    actualerror =response.substring(response.indexOf(&quot;Errors\&quot;:[&quot;), response.lastIndexOf(&quot;]}}}}&quot;)).replace(&quot;Errors\&quot;:[&quot;, &quot;&quot;).replace(&quot;\&quot;&quot;, &quot;&quot;);
+
+  //System.out.println(actualerror);
+ // System.out.println(expmessage);
+   System.out.println(casename + &quot;_&quot; + actualerror);
+  
+if(actualerror.equals(expmessage)){
+
+ prev.setSuccessful(true);
+   prev.setResponseCodeOK();
+   prev.setResponseMessageOK();
+
+}
+else
+{
+		 Failure= true ;
+	
+	sErrLog=&quot;Error message expected to have:&quot;+ expmessage+ &quot; but received &quot; +actualerror;
+	FailureMessage = sErrLog;
+}
+</stringProp>
+                <stringProp name="BeanShellAssertion.filename"></stringProp>
+                <stringProp name="BeanShellAssertion.parameters"></stringProp>
+                <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+              </BeanShellAssertion>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+        </hashTree>
+        <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Transfer fund company to user" enabled="true">
+          <boolProp name="LoopController.continue_forever">true</boolProp>
+          <stringProp name="LoopController.loops">${count_transferuser}</stringProp>
+        </LoopController>
+        <hashTree>
+          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Transfer fund" enabled="true"/>
+          <hashTree>
+            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+              <stringProp name="delimiter">;</stringProp>
+              <stringProp name="fileEncoding"></stringProp>
+              <stringProp name="filename">${transferfund}</stringProp>
+              <boolProp name="ignoreFirstLine">true</boolProp>
+              <boolProp name="quotedData">false</boolProp>
+              <boolProp name="recycle">true</boolProp>
+              <stringProp name="shareMode">shareMode.all</stringProp>
+              <boolProp name="stopThread">false</boolProp>
+              <stringProp name="variableNames">case,IssuerAccountNumber,PaymentType,PaymentMethodID,ProgramID,WalletID,PaymentDescription,PaymentCurrency,EmailNotification,IssuerTransactionId,PaymentAmount,PartnerAccountNumber,RecipientUserID,BeneficiaryCheckAddresss1,BeneficiaryCheckAddresss2,BeneficiaryCheckCity,BeneficiaryCheckCountryCodeISO2,BeneficiaryCheckMemo,BeneficiaryCheckName,BeneficiaryCheckPostalCode,BeneficiaryCheckReference,BeneficiaryCheckState,CardToken,Comment,DealRegId,SKU,UserGiftCardEmailID,UserLinkedBankID,UserPrepaidVisaEmailID,experror</stringProp>
+            </CSVDataSet>
+            <hashTree/>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="${case}_ToUser" enabled="true">
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">{&#xd;
+    &quot;TransferFund&quot;: {&#xd;
+        &quot;request&quot;: {&#xd;
+            &quot;Transaction&quot;: {&#xd;
+                &quot;IssuerAccountNumber&quot;: &quot;${IssuerAccountNumber}&quot;,&#xd;
+                &quot;PaymentType&quot;: &quot;${PaymentType}&quot;,&#xd;
+                &quot;PaymentMethodID&quot;: &quot;${PaymentMethodID}&quot;,&#xd;
+                &quot;ProgramID&quot;: &quot;${ProgramID}&quot;,&#xd;
+                &quot;WalletID&quot;: &quot;${WalletID}&quot;,&#xd;
+                &quot;PaymentDescription&quot;: &quot;${PaymentDescription}&quot;,&#xd;
+                &quot;PaymentCurrency&quot;: &quot;${PaymentCurrency}&quot;,&#xd;
+                &quot;EmailNotification&quot;: &quot;${EmailNotification}&quot;,&#xd;
+                &quot;TransactionDetails&quot;: [&#xd;
+                    {&#xd;
+                        &quot;IssuerTransactionId&quot;: &quot;${IssuerTransactionId}&quot;,&#xd;
+                        &quot;PaymentAmount&quot;: &quot;${PaymentAmount}&quot;,&#xd;
+                        &quot;PartnerAccountNumber&quot;: &quot;${PartnerAccountNumber}&quot;,&#xd;
+                        &quot;RecipientUserId&quot;: &quot;${RecipientUserID}&quot;,&#xd;
+                        &quot;UserLinkedBankID&quot;: &quot;${UserLinkedBankID}&quot;,&#xd;
+                       &quot;UserPrepaidVisaEmailID&quot;: &quot;${UserPrepaidVisaEmailID}&quot;,&#xd;
+                        &quot;UserGiftCardEmailID&quot;: &quot;${UserGiftCardEmailID}&quot;,&#xd;
+                        &quot;sku&quot;: &quot;${SKU}&quot;,&#xd;
+                        &quot;DealRegId&quot;: &quot;${DealRegId}&quot;,&#xd;
+                        &quot;Comment&quot;: &quot;${Comment}&quot;,&#xd;
+                        &quot;BeneficiaryCheckCountryCodeISO2&quot;: &quot;${BeneficiaryCheckCountryCodeISO2}&quot;,&#xd;
+                        &quot;BeneficiaryCheckName&quot;: &quot;${BeneficiaryCheckName}&quot;,&#xd;
+                        &quot;BeneficiaryCheckCity&quot;: &quot;${BeneficiaryCheckCity}&quot;,&#xd;
+                        &quot;BeneficiaryCheckState&quot;: &quot;${BeneficiaryCheckState}&quot;,&#xd;
+                        &quot;BeneficiaryCheckAddresss1&quot;: &quot;${BeneficiaryCheckAddresss1}&quot;,&#xd;
+                        &quot;BeneficiaryCheckAddresss2&quot;: &quot;${BeneficiaryCheckAddresss2}&quot;,&#xd;
+                        &quot;BeneficiaryCheckPostalCode&quot;: &quot;${BeneficiaryCheckPostalCode}&quot;,&#xd;
+                        &quot;BeneficiaryCheckMemo&quot;: &quot;${BeneficiaryCheckMemo}&quot;,&#xd;
+                        &quot;BeneficiaryCheckReference&quot;: &quot;${BeneficiaryCheckReference}&quot;,&#xd;
+                        &quot;CardToken&quot;: &quot;${CardToken}&quot;&#xd;
+                    }]&#xd;
+            }&#xd;
+        }&#xd;
+    }&#xd;
+}</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain"></stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">${url}/Fund/TransferFund</stringProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+                <stringProp name="BeanShellAssertion.query">
+String response = prev.getResponseDataAsString();
+String expmessage=vars.get(&quot;experror&quot;);
+String casename=vars.get(&quot;case&quot;);
+ String sErrLog = &quot;&quot;;
+ 
+String  actualerror=&quot;&quot;;
+	    actualerror = response.substring(response.indexOf(&quot;\&quot;Errors\&quot;:[&quot;), response.lastIndexOf(&quot;]}}}}&quot;)).replace(&quot;\&quot;Errors\&quot;:[&quot;, &quot;&quot;).replace(&quot;\&quot;&quot;,&quot;&quot;);
+
+
+  //System.out.println(actualerror);
+ // System.out.println(expmessage);
+   // System.out.println(casename + actualerror);
+  
+if(actualerror.equals(expmessage)){
+
+ prev.setSuccessful(true);
+   prev.setResponseCodeOK();
+   prev.setResponseMessageOK();
+
+}
+else
+{
+		 Failure= true ;
+	
+	sErrLog=&quot;Error message expected to have:&quot;+expmessage+ &quot; but received &quot; +actualerror;
+	FailureMessage = sErrLog;
+}
+</stringProp>
+                <stringProp name="BeanShellAssertion.filename"></stringProp>
+                <stringProp name="BeanShellAssertion.parameters"></stringProp>
+                <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+              </BeanShellAssertion>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+        </hashTree>
+        <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Transfer fund company to company" enabled="true">
+          <boolProp name="LoopController.continue_forever">true</boolProp>
+          <stringProp name="LoopController.loops">${count_transfer company}</stringProp>
+        </LoopController>
+        <hashTree>
+          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Transfer fund to company" enabled="true"/>
+          <hashTree>
+            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+              <stringProp name="delimiter">;</stringProp>
+              <stringProp name="fileEncoding"></stringProp>
+              <stringProp name="filename">${TransferFundtoCompany}</stringProp>
+              <boolProp name="ignoreFirstLine">true</boolProp>
+              <boolProp name="quotedData">false</boolProp>
+              <boolProp name="recycle">true</boolProp>
+              <stringProp name="shareMode">shareMode.all</stringProp>
+              <boolProp name="stopThread">false</boolProp>
+              <stringProp name="variableNames">case,issuerAccountNumber,PaymentType,PaymentMethodId,ProgramId,WalletID,Description,Currency,Amount,EmailNotification,IssuerTransactionId,BeneficiaryAccountNumber,BeneficiaryWalletID,BeneficiaryLinkedBankID,BeneficiaryPayPalEmailID,BeneficiaryCheckCountryCodeISO2,BeneficiaryCheckName,BeneficiaryCheckCity,BeneficiaryCheckState,BeneficiaryCheckAddresss1,BeneficiaryCheckAddresss2,BeneficiaryCheckPostalCode,BeneficiaryCheckMemo,BeneficiaryCheckReference,CardToken,experror</stringProp>
+            </CSVDataSet>
+            <hashTree/>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="${case}_ToCompany" enabled="true">
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">{&#xd;
+	&quot;TransferFundtoCompany&quot;: {&#xd;
+		&quot;request&quot;: {&#xd;
+			&quot;issuerAccountNumber&quot;: &quot;${issuerAccountNumber}&quot;,&#xd;
+			&quot;PaymentType&quot;: &quot;${PaymentType}&quot;,&#xd;
+			&quot;PaymentMethodId&quot;: &quot;${PaymentMethodId}&quot;,&#xd;
+			&quot;ProgramId&quot;: &quot;${ProgramId}&quot;,&#xd;
+			&quot;WalletID&quot;: &quot;${WalletID}&quot;,&#xd;
+			&quot;Description&quot;: &quot;${Description}&quot;,&#xd;
+			&quot;Currency&quot;: &quot;${Currency}&quot;,&#xd;
+			&quot;Amount&quot;: &quot;${Amount}&quot;,&#xd;
+			&quot;EmailNotification&quot;: &quot;${EmailNotification}&quot;,&#xd;
+			&quot;IssuerTransactionId&quot;: &quot;${IssuerTransactionId}&quot;,&#xd;
+			&quot;BeneficiaryAccountNumber&quot;: &quot;${BeneficiaryAccountNumber}&quot;,&#xd;
+			&quot;BeneficiaryWalletID&quot;: &quot;${BeneficiaryWalletID}&quot;,&#xd;
+			&quot;BeneficiaryLinkedBankID&quot;: &quot;${BeneficiaryLinkedBankID}&quot;,&#xd;
+			&quot;BeneficiaryPayPalEmailID&quot;: &quot;${BeneficiaryPayPalEmailID}&quot;,&#xd;
+			&quot;BeneficiaryCheckCountryCodeISO2&quot;: &quot;${BeneficiaryCheckCountryCodeISO2}&quot;,&#xd;
+			&quot;BeneficiaryCheckName&quot;: &quot;${BeneficiaryCheckName}&quot;,&#xd;
+			&quot;BeneficiaryCheckCity&quot;: &quot;${BeneficiaryCheckCity}&quot;,&#xd;
+			&quot;BeneficiaryCheckState&quot;: &quot;${BeneficiaryCheckState}&quot;,&#xd;
+			&quot;BeneficiaryCheckAddresss1&quot;: &quot;${BeneficiaryCheckAddresss1}&quot;,&#xd;
+			&quot;BeneficiaryCheckAddresss2&quot;: &quot;${BeneficiaryCheckAddresss2}&quot;,&#xd;
+			&quot;BeneficiaryCheckPostalCode&quot;: &quot;${BeneficiaryCheckPostalCode}&quot;,&#xd;
+			&quot;BeneficiaryCheckMemo&quot;: &quot;${BeneficiaryCheckMemo}&quot;,&#xd;
+			&quot;BeneficiaryCheckReference&quot;: &quot;${BeneficiaryCheckReference}&quot;,&#xd;
+			&quot;CardToken&quot;: &quot;${CardToken}&quot;&#xd;
+		}&#xd;
+	}&#xd;
+}</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain"></stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">${url}/Fund/TransferFundtoCompany</stringProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+                <stringProp name="BeanShellAssertion.query">
+String response = prev.getResponseDataAsString();
+String expmessage=vars.get(&quot;experror&quot;);
+String casename=vars.get(&quot;case&quot;);
+ String sErrLog = &quot;&quot;;
+ 
+String  actualerror=&quot;&quot;;
+	    actualerror = response.substring(response.indexOf(&quot;\&quot;Errors\&quot;:[&quot;), response.lastIndexOf(&quot;]}}}}&quot;)).replace(&quot;\&quot;Errors\&quot;:[&quot;, &quot;&quot;).replace(&quot;\&quot;&quot;,&quot;&quot;);
+
+
+  //System.out.println(actualerror);
+ // System.out.println(expmessage);
+    System.out.println(casename + &quot;_&quot; + actualerror);
+  
+if(actualerror.equals(expmessage)){
+
+ prev.setSuccessful(true);
+   prev.setResponseCodeOK();
+   prev.setResponseMessageOK();
+
+}
+else
+{
+		 Failure= true ;
+	
+	sErrLog=&quot;Error message expected to have:&quot;+expmessage+ &quot; but received &quot; +actualerror;
+	FailureMessage = sErrLog;
+}
+</stringProp>
+                <stringProp name="BeanShellAssertion.filename"></stringProp>
+                <stringProp name="BeanShellAssertion.parameters"></stringProp>
+                <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+              </BeanShellAssertion>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+        </hashTree>
+        <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Userwithdraw" enabled="true">
+          <boolProp name="LoopController.continue_forever">true</boolProp>
+          <stringProp name="LoopController.loops">${countuserwithdraw}</stringProp>
+        </LoopController>
+        <hashTree>
+          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="User withdraw fund" enabled="true"/>
+          <hashTree>
+            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+              <stringProp name="delimiter">;</stringProp>
+              <stringProp name="fileEncoding"></stringProp>
+              <stringProp name="filename">${userwithdraw}</stringProp>
+              <boolProp name="ignoreFirstLine">true</boolProp>
+              <boolProp name="quotedData">false</boolProp>
+              <boolProp name="recycle">true</boolProp>
+              <stringProp name="shareMode">shareMode.all</stringProp>
+              <boolProp name="stopThread">false</boolProp>
+              <stringProp name="variableNames">case,IssuerAccountNumber,UserID,Amount,Currency,PaymentMethodID,OTP,SKU,SendTransferCodetoEmail,SendTransferCodetoMobile,UserGiftCardEmailID,UserLinkedBankID,UserPayPalEmailID,UserPrepaidVisaEmailID,CardToken,experror</stringProp>
+            </CSVDataSet>
+            <hashTree/>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="${case}_userwithdraw" enabled="true">
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">{&#xd;
+    &quot;UserWithdrawFund&quot;: {&#xd;
+        &quot;request&quot;: {&#xd;
+            &quot;IssuerAccountNumber&quot;: &quot;${IssuerAccountNumber}&quot;,&#xd;
+            &quot;UserID&quot;: &quot;${UserID} &quot;,&#xd;
+            &quot;Amount&quot;: &quot;${Amount}&quot;,&#xd;
+            &quot;Currency&quot;: &quot;${Currency}&quot;,&#xd;
+            &quot;PaymentMethodID&quot;: &quot;${PaymentMethodID}&quot;,&#xd;
+            &quot;OTP&quot;: &quot;797385&quot;,&#xd;
+            &quot;SKU&quot;: &quot;${SKU}&quot;,&#xd;
+            &quot;SendTransferCodetoEmail&quot;: &quot;${SendTransferCodetoEmail}&quot;,&#xd;
+            &quot;SendTransferCodetoMobile&quot;: &quot;${SendTransferCodetoMobile}&quot;,&#xd;
+			&quot;UserGiftCardEmailID&quot;: &quot;${UserGiftCardEmailID}&quot;,&#xd;
+            &quot;UserLinkedBankID&quot;: &quot;${UserLinkedBankID}&quot;,&#xd;
+            &quot;UserPayPalEmailID&quot;: &quot;${UserPayPalEmailID}&quot;,&#xd;
+            &quot;UserPrepaidVisaEmailID&quot;: &quot;${UserPrepaidVisaEmailID}&quot;,&#xd;
+             &quot;CardToken&quot;: &quot;${CardToken}&quot;,&#xd;
+        }&#xd;
+    }&#xd;
+}</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain"></stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">${url}/Fund/UserWithdrawFund</stringProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+                <stringProp name="BeanShellAssertion.query">
+String response = prev.getResponseDataAsString();
+String expmessage=vars.get(&quot;experror&quot;);
+String casename=vars.get(&quot;case&quot;);
+ String sErrLog = &quot;&quot;;
+ 
+String  actualerror=&quot;&quot;;
+	    actualerror = response.substring(response.indexOf(&quot;\&quot;Errors\&quot;:[&quot;), response.lastIndexOf(&quot;]}}}}&quot;)).replace(&quot;\&quot;Errors\&quot;:[&quot;, &quot;&quot;).replace(&quot;\&quot;&quot;,&quot;&quot;);
+
+
+  //System.out.println(actualerror);
+ // System.out.println(expmessage);
+   System.out.println(casename + &quot;_&quot; + actualerror);
+  
+if(actualerror.equals(expmessage)){
+
+ prev.setSuccessful(true);
+   prev.setResponseCodeOK();
+   prev.setResponseMessageOK();
+
+}
+else
+{
+		 Failure= true ;
+	
+	sErrLog=&quot;Error message expected to have:&quot;+ expmessage+ &quot; but received &quot; +actualerror;
+	FailureMessage = sErrLog;
+}
+</stringProp>
+                <stringProp name="BeanShellAssertion.filename"></stringProp>
+                <stringProp name="BeanShellAssertion.parameters"></stringProp>
+                <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+              </BeanShellAssertion>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+        </hashTree>
+        <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Beneficiary company withdraw funds" enabled="true">
+          <boolProp name="LoopController.continue_forever">true</boolProp>
+          <stringProp name="LoopController.loops">${countbenwithdraw}</stringProp>
+        </LoopController>
+        <hashTree>
+          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Company  withdraw fund" enabled="true"/>
+          <hashTree>
+            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+              <stringProp name="delimiter">;</stringProp>
+              <stringProp name="fileEncoding"></stringProp>
+              <stringProp name="filename">${companywithdraw}</stringProp>
+              <boolProp name="ignoreFirstLine">true</boolProp>
+              <boolProp name="quotedData">false</boolProp>
+              <boolProp name="recycle">true</boolProp>
+              <stringProp name="shareMode">shareMode.all</stringProp>
+              <boolProp name="stopThread">false</boolProp>
+              <stringProp name="variableNames">case,IssuerAccountNumber,Currency,Amount,PaymentMethodID,BeneficiaryAccountNumber,BeneficiaryWalletID,BeneficiaryLinkedBankID,OTP,SendTransferCodetoEmail,SendTransferCodetoMobile,BeneficiaryCardToken,experror </stringProp>
+            </CSVDataSet>
+            <hashTree/>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="${case}_companywithdraw" enabled="true">
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">{&#xd;
+    &quot;BeneficiaryCompanyWithdrawFund&quot;: {&#xd;
+        &quot;request&quot;: {&#xd;
+            &quot;IssuerAccountNumber&quot;: &quot;${IssuerAccountNumber}&quot;,&#xd;
+            &quot;Currency&quot;: &quot;${Currency}&quot;,&#xd;
+            &quot;Amount&quot;: &quot;${Amount}&quot;,&#xd;
+            &quot;PaymentMethodID&quot;: &quot;${PaymentMethodID}&quot;,&#xd;
+            &quot;BeneficiaryAccountNumber&quot;: &quot;${BeneficiaryAccountNumber}&quot;,&#xd;
+            &quot;BeneficiaryWalletID&quot;: &quot;${BeneficiaryWalletID}&quot;,&#xd;
+            &quot;BeneficiaryLinkedBankID&quot;: &quot;${BeneficiaryLinkedBankID}&quot;,&#xd;
+            &quot;OTP&quot;: &quot;${OTP}&quot;,&#xd;
+            &quot;BeneficiaryCardToken&quot;: &quot;${BeneficiaryCardToken}&quot;,&#xd;
+            &quot;SendTransferCodetoEmail&quot;: &quot;${SendTransferCodetoEmail}&quot;,&#xd;
+            &quot;SendTransferCodetoMobile&quot;: &quot;${SendTransferCodetoMobile}&quot;&#xd;
+        }&#xd;
+    }&#xd;
+}</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain"></stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">${url}/Fund/BeneficiaryCompanyWithdrawFund</stringProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+                <stringProp name="BeanShellAssertion.query">
+String response = prev.getResponseDataAsString();
+String expmessage=vars.get(&quot;experror&quot;);
+String casename=vars.get(&quot;case&quot;);
+ String sErrLog = &quot;&quot;;
+ 
+String  actualerror=&quot;&quot;;
+	    actualerror = response.substring(response.indexOf(&quot;\&quot;Errors\&quot;:[&quot;), response.lastIndexOf(&quot;]}}}}&quot;)).replace(&quot;\&quot;Errors\&quot;:[&quot;, &quot;&quot;).replace(&quot;\&quot;&quot;,&quot;&quot;);
+
+
+  //System.out.println(actualerror);
+ // System.out.println(expmessage);
+   System.out.println(casename + &quot;_&quot; + actualerror);
+  
+if(actualerror.equals(expmessage)){
+
+ prev.setSuccessful(true);
+   prev.setResponseCodeOK();
+   prev.setResponseMessageOK();
+
+}
+else
+{
+		 Failure= true ;
+	
+	sErrLog=&quot;Error message expected to have:&quot;+ expmessage+ &quot; but received &quot; +actualerror;
+	FailureMessage = sErrLog;
+}
+</stringProp>
+                <stringProp name="BeanShellAssertion.filename"></stringProp>
+                <stringProp name="BeanShellAssertion.parameters"></stringProp>
+                <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+              </BeanShellAssertion>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+        </hashTree>
+        <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Transfer Fund Wallet to Wallet - user" enabled="true">
+          <boolProp name="LoopController.continue_forever">true</boolProp>
+          <stringProp name="LoopController.loops">${count_wallet}</stringProp>
+        </LoopController>
+        <hashTree>
+          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Transfer fund Wallet to wallet" enabled="true"/>
+          <hashTree>
+            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+              <stringProp name="delimiter">;</stringProp>
+              <stringProp name="fileEncoding"></stringProp>
+              <stringProp name="filename">${wallet}</stringProp>
+              <boolProp name="ignoreFirstLine">true</boolProp>
+              <boolProp name="quotedData">false</boolProp>
+              <boolProp name="recycle">true</boolProp>
+              <stringProp name="shareMode">shareMode.all</stringProp>
+              <boolProp name="stopThread">false</boolProp>
+              <stringProp name="variableNames">case,issuerAccountNumber,FromAccountNumber,FromWalletID,ToAccountNumber,ToWalletID,Currency,Amount,OTP,Description,experror </stringProp>
+            </CSVDataSet>
+            <hashTree/>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="${case}_Towallet" enabled="true">
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">{&#xd;
+    &quot;TransferFundWallettoWallet&quot;: {&#xd;
+        &quot;Request&quot;: {&#xd;
+            &quot;issuerAccountNumber&quot;: &quot;${issuerAccountNumber}&quot;,&#xd;
+            &quot;FromAccountNumber&quot;: &quot;${FromAccountNumber}&quot;,&#xd;
+            &quot;FromWalletID&quot;: &quot;${FromWalletID}&quot;,&#xd;
+            &quot;ToAccountNumber&quot;: &quot;${ToAccountNumber}&quot;,&#xd;
+            &quot;ToWalletID&quot;: &quot;${ToWalletID}&quot;,&#xd;
+            &quot;Currency&quot;: &quot;${Currency}&quot;,&#xd;
+            &quot;Amount&quot;: &quot;${Amount}&quot;,&#xd;
+            &quot;OTP&quot;: &quot;${OTP}&quot;,&#xd;
+            &quot;Description&quot;: &quot;${Description}&quot;&#xd;
+        }&#xd;
+    }&#xd;
+}</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain"></stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">${url}/Fund/TransferFundWallettoWallet</stringProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+                <stringProp name="BeanShellAssertion.query">
+String response = prev.getResponseDataAsString();
+String expmessage=vars.get(&quot;experror&quot;);
+String casename=vars.get(&quot;case&quot;);
+ String sErrLog = &quot;&quot;;
+ 
+String  actualerror=&quot;&quot;;
+	    actualerror = response.substring(response.indexOf(&quot;\&quot;Errors\&quot;:[&quot;), response.lastIndexOf(&quot;]}}}}&quot;)).replace(&quot;\&quot;Errors\&quot;:[&quot;, &quot;&quot;).replace(&quot;\&quot;&quot;,&quot;&quot;);
+
+
+  //System.out.println(actualerror);
+ // System.out.println(expmessage);
+    System.out.println(casename +&quot;,&quot;+ actualerror);
+  
+if(actualerror.equals(expmessage)){
+
+ prev.setSuccessful(true);
+   prev.setResponseCodeOK();
+   prev.setResponseMessageOK();
+
+}
+else
+{
+		 Failure= true ;
+	
+	sErrLog=&quot;Error message expected to have:&quot;+expmessage+ &quot; but received &quot; +actualerror;
+	FailureMessage = sErrLog;
+}
+</stringProp>
+                <stringProp name="BeanShellAssertion.filename"></stringProp>
+                <stringProp name="BeanShellAssertion.parameters"></stringProp>
+                <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+              </BeanShellAssertion>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+        </hashTree>
+        <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Transfer Fund Dynamic Account Create User" enabled="true">
+          <boolProp name="LoopController.continue_forever">true</boolProp>
+          <stringProp name="LoopController.loops">${count_Dynamic}</stringProp>
+        </LoopController>
+        <hashTree>
+          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Transfer fund Dynamic Account" enabled="true"/>
+          <hashTree>
+            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+              <stringProp name="delimiter">;</stringProp>
+              <stringProp name="fileEncoding"></stringProp>
+              <stringProp name="filename">${Dynamic}</stringProp>
+              <boolProp name="ignoreFirstLine">true</boolProp>
+              <boolProp name="quotedData">false</boolProp>
+              <boolProp name="recycle">true</boolProp>
+              <stringProp name="shareMode">shareMode.all</stringProp>
+              <boolProp name="stopThread">false</boolProp>
+              <stringProp name="variableNames">case,issuerAccountNumber,FromAccountNumber,FromWalletID,RecipientFirstName,RecipientLastName,RecipientEmail,Currency,Amount,Description,experror </stringProp>
+            </CSVDataSet>
+            <hashTree/>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="${case}_ToDynamicaccount" enabled="true">
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">{&#xd;
+    &quot;TransferFundToDynamicAccountUser&quot;: {&#xd;
+        &quot;Request&quot;: {&#xd;
+            &quot;issuerAccountNumber&quot;: &quot;${issuerAccountNumber}&quot;,&#xd;
+            &quot;FromAccountNumber&quot;: &quot;${FromAccountNumber}&quot;,&#xd;
+            &quot;FromWalletID&quot;: &quot;${FromWalletID}&quot;,&#xd;
+            &quot;RecipientFirstName&quot;: &quot;${RecipientFirstName}&quot;,&#xd;
+            &quot;RecipientLastName&quot;: &quot;${RecipientLastName}&quot;,&#xd;
+            &quot;RecipientEmail&quot;: &quot;${RecipientEmail}&quot;,&#xd;
+            &quot;Currency&quot;: &quot;${Currency}&quot;,&#xd;
+            &quot;Amount&quot;: &quot;${Amount}&quot;,&#xd;
+            &quot;Description&quot;: &quot;${Description}&quot;&#xd;
+        }&#xd;
+    }&#xd;
+}</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain"></stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">${url}/Fund/TransferFundDynamicAccountCreateUser</stringProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+                <stringProp name="BeanShellAssertion.query">
+String response = prev.getResponseDataAsString();
+String expmessage=vars.get(&quot;experror&quot;);
+String casename=vars.get(&quot;case&quot;);
+ String sErrLog = &quot;&quot;;
+ 
+String  actualerror=&quot;&quot;;
+	    actualerror = response.substring(response.indexOf(&quot;\&quot;Errors\&quot;:[&quot;), response.lastIndexOf(&quot;]}}}}&quot;)).replace(&quot;\&quot;Errors\&quot;:[&quot;, &quot;&quot;).replace(&quot;\&quot;&quot;,&quot;&quot;);
+
+
+  //System.out.println(actualerror);
+ // System.out.println(expmessage);
+    System.out.println(casename +&quot;,&quot;+ actualerror);
+  
+if(actualerror.equals(expmessage)){
+
+ prev.setSuccessful(true);
+   prev.setResponseCodeOK();
+   prev.setResponseMessageOK();
+
+}
+else
+{
+		 Failure= true ;
+	
+	sErrLog=&quot;Error message expected to have:&quot;+expmessage+ &quot; but received &quot; +actualerror;
+	FailureMessage = sErrLog;
+}
+</stringProp>
+                <stringProp name="BeanShellAssertion.filename"></stringProp>
+                <stringProp name="BeanShellAssertion.parameters"></stringProp>
+                <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+              </BeanShellAssertion>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+        </hashTree>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Bank" enabled="true"/>
+        <hashTree>
+          <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="LinkBank" enabled="true">
+            <boolProp name="LoopController.continue_forever">true</boolProp>
+            <stringProp name="LoopController.loops">${Linkbankcount}</stringProp>
+          </LoopController>
+          <hashTree>
+            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+              <stringProp name="delimiter">;</stringProp>
+              <stringProp name="fileEncoding"></stringProp>
+              <stringProp name="filename">${Linkbank}</stringProp>
+              <boolProp name="ignoreFirstLine">true</boolProp>
+              <boolProp name="quotedData">false</boolProp>
+              <boolProp name="recycle">true</boolProp>
+              <stringProp name="shareMode">shareMode.all</stringProp>
+              <boolProp name="stopThread">false</boolProp>
+              <stringProp name="variableNames">case,issuerAccountNumber,UserID,BeneficiaryName,PhoneNumber,BankAddress1,BankAddress2,BeneficiaryCity,BeneficiaryRegion,BeneficiaryPostalCode,ShipToCountryCode,BeneficiaryName,Currency,BankSWIFTBIC,BankAccountNumber,BankRoutingCode,BankCountryCode,Remittance Line3,Remittance Line4,experror </stringProp>
+            </CSVDataSet>
+            <hashTree/>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="${case}_Linkbank" enabled="true">
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">{  &#xd;
+  &quot;LinkBankBeneficiary&quot;:{  &#xd;
+    &quot;request&quot;:{  &#xd;
+      &quot;issuerAccountNumber&quot;:&quot;${issuerAccountNumber}&quot;,&#xd;
+      &quot;UserID&quot;:&quot;${UserID}&quot;,&#xd;
+      &quot;Beneficiary&quot;:{  &#xd;
+        &quot;BeneficiaryDetails&quot;:{  &#xd;
+          &quot;BeneficiaryInformation&quot;:{  &#xd;
+            &quot;ContactName&quot;:&quot;${BeneficiaryName}&quot;,&#xd;
+            &quot;PhoneNumber&quot;:&quot;${PhoneNumber}&quot;,&#xd;
+            &quot;AddressLine1&quot;:&quot;${BankAddress1}&quot;,&#xd;
+            &quot;AddressLine2&quot;:&quot;${BankAddress2}&quot;,&#xd;
+            &quot;City&quot;:&quot;${BeneficiaryCity}&quot;,&#xd;
+            &quot;Region&quot;:&quot;${BeneficiaryRegion}&quot;,&#xd;
+            &quot;PostalCode&quot;:&quot;${BeneficiaryPostalCode}&quot;,&#xd;
+            &quot;CountryISO2&quot;:&quot;${ShipToCountryCode}&quot;&#xd;
+          }&#xd;
+        },&#xd;
+        &quot;BankDetails&quot;:{  &#xd;
+          &quot;BeneficiaryBankInformation&quot;:{  &#xd;
+            &quot;InstitutionName&quot;:&quot;${BeneficiaryName}&quot;,&#xd;
+            &quot;WithdrawType&quot;:&quot;&quot;,&#xd;
+            &quot;Currency&quot;:&quot;${Currency}&quot;,&#xd;
+            &quot;SWIFTBIC&quot;:&quot;${BankSWIFTBIC}&quot;,&#xd;
+            &quot;AccountNumber&quot;:&quot;${BankAccountNumber}&quot;,&#xd;
+            &quot;RoutingNumber&quot;:&quot;${BankRoutingCode}&quot;,&#xd;
+            &quot;CountryISO2&quot;:&quot;${BankCountryCode}&quot;,&#xd;
+            &quot;RemittanceLine3&quot;:&quot;Remittance Line3&quot;,&#xd;
+            &quot;RemittanceLine4&quot;:&quot;Remittance Line4&quot;&#xd;
+          }&#xd;
+        }&#xd;
+      }&#xd;
+    }&#xd;
+  }&#xd;
+}</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain"></stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">${url}/Bank/LinkBankBeneficiary</stringProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+                <stringProp name="BeanShellAssertion.query">
+String response = prev.getResponseDataAsString();
+String expmessage=vars.get(&quot;experror&quot;);
+String casename=vars.get(&quot;case&quot;);
+ String sErrLog = &quot;&quot;;
+ 
+String  actualerror=&quot;&quot;;
+	    actualerror =response.substring(response.indexOf(&quot;Errors\&quot;:[&quot;), response.lastIndexOf(&quot;]&quot;)).replace(&quot;Errors\&quot;:[&quot;, &quot;&quot;).replace(&quot;\&quot;&quot;, &quot;&quot;);
+
+  //System.out.println(actualerror);
+ // System.out.println(expmessage);
+   System.out.println(casename + &quot;_&quot; + actualerror);
+  
+if(actualerror.equals(expmessage)){
+
+ prev.setSuccessful(true);
+   prev.setResponseCodeOK();
+   prev.setResponseMessageOK();
+
+}
+else
+{
+		 Failure= true ;
+	
+	sErrLog=&quot;Error message expected to have:&quot;+ expmessage+ &quot; but received &quot; +actualerror;
+	FailureMessage = sErrLog;
+}
+</stringProp>
+                <stringProp name="BeanShellAssertion.filename"></stringProp>
+                <stringProp name="BeanShellAssertion.parameters"></stringProp>
+                <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+              </BeanShellAssertion>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+          <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="LinkbankACH" enabled="true">
+            <boolProp name="LoopController.continue_forever">true</boolProp>
+            <stringProp name="LoopController.loops">${LinkbankACHcount}</stringProp>
+          </LoopController>
+          <hashTree>
+            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+              <stringProp name="delimiter">;</stringProp>
+              <stringProp name="fileEncoding"></stringProp>
+              <stringProp name="filename">${LinkbankACH}</stringProp>
+              <boolProp name="ignoreFirstLine">true</boolProp>
+              <boolProp name="quotedData">false</boolProp>
+              <boolProp name="recycle">true</boolProp>
+              <stringProp name="shareMode">shareMode.all</stringProp>
+              <boolProp name="stopThread">false</boolProp>
+              <stringProp name="variableNames">case,issuerAccountNumber,UserID,ContactName,PhoneNumber,AddressLine1,AddressLine2,City,Region,PostalCode,CountryISO2,InstitutionName,Currency,SWIFTBIC,AccountNumber,RoutingNumber,bankCountryISO2,RemittanceLine3,RemittanceLine4,experror </stringProp>
+            </CSVDataSet>
+            <hashTree/>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="${case}_LinkbankACH" enabled="true">
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">{  &#xd;
+  &quot;LinkACHDebitBankBeneficiary&quot;:{  &#xd;
+    &quot;request&quot;:{  &#xd;
+      &quot;issuerAccountNumber&quot;:&quot;${issuerAccountNumber}&quot;,&#xd;
+      &quot;UserID&quot;:&quot;${UserID}&quot;,&#xd;
+      &quot;Beneficiary&quot;:{  &#xd;
+        &quot;BeneficiaryDetails&quot;:{  &#xd;
+          &quot;BeneficiaryInformation&quot;:{  &#xd;
+            &quot;ContactName&quot;:&quot;${ContactName}&quot;,&#xd;
+            &quot;PhoneNumber&quot;:&quot;${PhoneNumber}&quot;,&#xd;
+            &quot;AddressLine1&quot;:&quot;${AddressLine1}&quot;,&#xd;
+            &quot;AddressLine2&quot;:&quot;${AddressLine2}&quot;,&#xd;
+            &quot;City&quot;:&quot;${City}&quot;,&#xd;
+            &quot;Region&quot;:&quot;${Region}&quot;,&#xd;
+            &quot;PostalCode&quot;:&quot;${PostalCode}&quot;,&#xd;
+            &quot;CountryISO2&quot;:&quot;${CountryISO2}&quot;&#xd;
+          }&#xd;
+        },&#xd;
+        &quot;BankDetails&quot;:{  &#xd;
+          &quot;BeneficiaryBankInformation&quot;:{  &#xd;
+            &quot;InstitutionName&quot;:&quot;${InstitutionName}&quot;,&#xd;
+            &quot;Currency&quot;:&quot;${Currency}&quot;,&#xd;
+            &quot;SWIFTBIC&quot;:&quot;${SWIFTBIC}&quot;,&#xd;
+            &quot;AccountNumber&quot;:&quot;${AccountNumber}&quot;,&#xd;
+            &quot;RoutingNumber&quot;:&quot;${RoutingNumber}&quot;,&#xd;
+            &quot;CountryISO2&quot;:&quot;${bankCountryISO2}&quot;,&#xd;
+            &quot;RemittanceLine3&quot;:&quot;${RemittanceLine3}&quot;,&#xd;
+            &quot;RemittanceLine4&quot;:&quot;${RemittanceLine4}&quot;&#xd;
+          }&#xd;
+        }&#xd;
+      }&#xd;
+    }&#xd;
+  }&#xd;
+}</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain"></stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">${url}/Bank/LinkACHDebitBankBeneficiary</stringProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+                <stringProp name="BeanShellAssertion.query">
+String response = prev.getResponseDataAsString();
+String expmessage=vars.get(&quot;experror&quot;);
+String casename=vars.get(&quot;case&quot;);
+ String sErrLog = &quot;&quot;;
+ 
+String  actualerror=&quot;&quot;;
+	    actualerror =response.substring(response.indexOf(&quot;Errors\&quot;:[&quot;), response.lastIndexOf(&quot;]&quot;)).replace(&quot;Errors\&quot;:[&quot;, &quot;&quot;).replace(&quot;\&quot;&quot;, &quot;&quot;);
+
+  //System.out.println(actualerror);
+ // System.out.println(expmessage);
+  // System.out.println(casename + &quot;_&quot; + actualerror);
+  
+if(actualerror.equals(expmessage)){
+
+ prev.setSuccessful(true);
+   prev.setResponseCodeOK();
+   prev.setResponseMessageOK();
+
+}
+else
+{
+		 Failure= true ;
+	
+	sErrLog=&quot;Error message expected to have:&quot;+ expmessage+ &quot; but received &quot; +actualerror;
+	FailureMessage = sErrLog;
+}
+</stringProp>
+                <stringProp name="BeanShellAssertion.filename"></stringProp>
+                <stringProp name="BeanShellAssertion.parameters"></stringProp>
+                <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+              </BeanShellAssertion>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+        </hashTree>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Cards" enabled="true"/>
+        <hashTree>
+          <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Linkcard" enabled="true">
+            <boolProp name="LoopController.continue_forever">true</boolProp>
+            <stringProp name="LoopController.loops">${countlinkcard}</stringProp>
+          </LoopController>
+          <hashTree>
+            <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Linkcard" enabled="true"/>
+            <hashTree>
+              <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+                <stringProp name="delimiter">;</stringProp>
+                <stringProp name="fileEncoding"></stringProp>
+                <stringProp name="filename">${linkcard}</stringProp>
+                <boolProp name="ignoreFirstLine">true</boolProp>
+                <boolProp name="quotedData">false</boolProp>
+                <boolProp name="recycle">true</boolProp>
+                <stringProp name="shareMode">shareMode.all</stringProp>
+                <boolProp name="stopThread">false</boolProp>
+                <stringProp name="variableNames">case,issueraccountnumber,userid,linkcardtype,firstname,lastname,addressline1,addressline2,city,state,countrycode2,postalcode,nameoncard,cardtype,cardno,expmonth,expyear,cvv,experror </stringProp>
+              </CSVDataSet>
+              <hashTree/>
+              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="${case}_card" enabled="true">
+                <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+                <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                  <collectionProp name="Arguments.arguments">
+                    <elementProp name="" elementType="HTTPArgument">
+                      <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                      <stringProp name="Argument.value">{&#xd;
+&quot;LinkCard&quot;:{&#xd;
+    &quot;request&quot;: {&#xd;
+        &quot;issueraccountnumber&quot;: &quot;${issueraccountnumber}&quot;,&#xd;
+        &quot;userid&quot;: &quot;${userid}&quot;,&#xd;
+        &quot;linkcardtype&quot;:&quot;${linkcardtype}&quot;,&#xd;
+            &quot;card&quot;: {&#xd;
+                &quot;firstname&quot;: &quot;${firstname}&quot;,&#xd;
+                &quot;lastname&quot;: &quot;${lastname}&quot;,&#xd;
+                &quot;addressline1&quot;:&quot;${addressline1}&quot;,&#xd;
+                &quot;addressline2&quot;:&quot;${addressline2}&quot;,&#xd;
+                &quot;city&quot;:&quot;${city}&quot;,&#xd;
+                &quot;state&quot;:&quot;${state}&quot;,&#xd;
+                &quot;countrycode2&quot;:&quot;${countrycode2}&quot;,&#xd;
+                &quot;postalcode&quot;:&quot;${postalcode}&quot;,&#xd;
+                &quot;nameoncard&quot;:&quot;${nameoncard}&quot;,&#xd;
+                &quot;cardtype&quot;:&quot;${cardtype}&quot;,&#xd;
+                &quot;cardno&quot;:&quot;${cardno}&quot;,&#xd;
+                &quot;expmonth&quot;:&quot;${expmonth}&quot;,&#xd;
+                &quot;expyear&quot;:&quot;${expyear}&quot;,&#xd;
+                &quot;cvv&quot;:&quot;${cvv}&quot;&#xd;
+				}&#xd;
+        }&#xd;
+    }&#xd;
+}</stringProp>
+                      <stringProp name="Argument.metadata">=</stringProp>
+                    </elementProp>
+                  </collectionProp>
+                </elementProp>
+                <stringProp name="HTTPSampler.domain"></stringProp>
+                <stringProp name="HTTPSampler.port"></stringProp>
+                <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
+                <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+                <stringProp name="HTTPSampler.path">${url}/Card/LinkCard</stringProp>
+                <stringProp name="HTTPSampler.method">POST</stringProp>
+                <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+                <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+                <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+                <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+                <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+                <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+                <stringProp name="HTTPSampler.response_timeout"></stringProp>
+              </HTTPSamplerProxy>
+              <hashTree>
+                <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+                  <stringProp name="BeanShellAssertion.query">
+String response = prev.getResponseDataAsString();
+String expmessage=vars.get(&quot;experror&quot;);
+String casename=vars.get(&quot;case&quot;);
+ String sErrLog = &quot;&quot;;
+ 
+String  actualerror=&quot;&quot;;
+	    actualerror = response.substring(response.indexOf(&quot;\&quot;Errors\&quot;:[&quot;), response.lastIndexOf(&quot;],&quot;)).replace(&quot;\&quot;Errors\&quot;:[&quot;, &quot;&quot;).replace(&quot;\&quot;&quot;,&quot;&quot;);
+
+
+  //System.out.println(actualerror);
+ // System.out.println(expmessage);
+   System.out.println(casename + &quot;_&quot; + actualerror);
+  
+if(actualerror.equals(expmessage)){
+
+ prev.setSuccessful(true);
+   prev.setResponseCodeOK();
+   prev.setResponseMessageOK();
+
+}
+else
+{
+		 Failure= true ;
+	
+	sErrLog=&quot;Error message expected to have:&quot;+ expmessage+ &quot; but received &quot; +actualerror;
+	FailureMessage = sErrLog;
+}
+</stringProp>
+                  <stringProp name="BeanShellAssertion.filename"></stringProp>
+                  <stringProp name="BeanShellAssertion.parameters"></stringProp>
+                  <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+                </BeanShellAssertion>
+                <hashTree/>
+              </hashTree>
+            </hashTree>
+          </hashTree>
+        </hashTree>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Programs" enabled="true"/>
+        <hashTree>
+          <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Programs" enabled="true">
+            <boolProp name="LoopController.continue_forever">true</boolProp>
+            <stringProp name="LoopController.loops">${Programscount}</stringProp>
+          </LoopController>
+          <hashTree>
+            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+              <stringProp name="delimiter">;</stringProp>
+              <stringProp name="fileEncoding"></stringProp>
+              <stringProp name="filename">${program}</stringProp>
+              <boolProp name="ignoreFirstLine">true</boolProp>
+              <boolProp name="quotedData">false</boolProp>
+              <boolProp name="recycle">true</boolProp>
+              <stringProp name="shareMode">shareMode.all</stringProp>
+              <boolProp name="stopThread">false</boolProp>
+              <stringProp name="variableNames">case,issuerAccountNumber,Description,TransactionCategoryID,TransactionSubCategoryID,IsClaim,ClaimAmount,CurrencyCode,experror</stringProp>
+            </CSVDataSet>
+            <hashTree/>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="${case}_Programs" enabled="true">
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">{&#xd;
+    &quot;CreateProgram&quot;: {&#xd;
+        &quot;request&quot;: {&#xd;
+            &quot;issuerAccountNumber&quot;: &quot;${issuerAccountNumber}&quot;,&#xd;
+            &quot;Description&quot;:&quot;${Description}&quot;,&#xd;
+            &quot;TransactionCategoryID&quot;:&quot;${TransactionCategoryID}&quot;,&#xd;
+            &quot;TransactionSubCategoryID&quot;:&quot;${TransactionSubCategoryID}&quot;,&#xd;
+            &quot;IsClaim&quot;:&quot;${IsClaim}&quot;,&#xd;
+            &quot;ClaimAmount&quot;:&quot;${ClaimAmount}&quot;,&#xd;
+            &quot;CurrencyCode&quot;:&quot;${CurrencyCode}&quot;&#xd;
+        }&#xd;
+    }&#xd;
+}</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain"></stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">${url}/Programs/CreateProgram</stringProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+                <stringProp name="BeanShellAssertion.query">
+String response = prev.getResponseDataAsString();
+String expmessage=vars.get(&quot;experror&quot;);
+String casename=vars.get(&quot;case&quot;);
+ String sErrLog = &quot;&quot;;
+ 
+String  actualerror=&quot;&quot;;
+	    actualerror =response.substring(response.indexOf(&quot;Errors\&quot;:[&quot;), response.lastIndexOf(&quot;]}}}}&quot;)).replace(&quot;Errors\&quot;:[&quot;, &quot;&quot;).replace(&quot;\&quot;&quot;, &quot;&quot;);
+
+  //System.out.println(actualerror);
+ // System.out.println(expmessage);
+   //System.out.println(casename + &quot;_&quot; + actualerror);
+  
+if(actualerror.equals(expmessage)){
+
+ prev.setSuccessful(true);
+   prev.setResponseCodeOK();
+   prev.setResponseMessageOK();
+
+}
+else
+{
+		 Failure= true ;
+	
+	sErrLog=&quot;Error message expected to have:&quot;+ expmessage+ &quot; but received &quot; +actualerror;
+	FailureMessage = sErrLog;
+}
+</stringProp>
+                <stringProp name="BeanShellAssertion.filename"></stringProp>
+                <stringProp name="BeanShellAssertion.parameters"></stringProp>
+                <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+              </BeanShellAssertion>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+        </hashTree>
+        <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Tax information" enabled="true">
+          <boolProp name="LoopController.continue_forever">true</boolProp>
+          <stringProp name="LoopController.loops">${counttax}</stringProp>
+        </LoopController>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+          <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+            <stringProp name="delimiter">;</stringProp>
+            <stringProp name="fileEncoding"></stringProp>
+            <stringProp name="filename">${tax}</stringProp>
+            <boolProp name="ignoreFirstLine">true</boolProp>
+            <boolProp name="quotedData">false</boolProp>
+            <boolProp name="recycle">true</boolProp>
+            <stringProp name="shareMode">shareMode.all</stringProp>
+            <boolProp name="stopThread">false</boolProp>
+            <stringProp name="variableNames">case,issuerAccountNumber,BeneficiaryAccountNumber,MonthStarts,TaxYear,EmailBody,experror</stringProp>
+          </CSVDataSet>
+          <hashTree/>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="${case}_tax" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&#xd;
+    &quot;TransferTaxInformation&quot;: {&#xd;
+        &quot;Request&quot;: {&#xd;
+            &quot;IssuerAccountNumber&quot;: &quot;${issuerAccountNumber}&quot;,&#xd;
+            &quot;BeneficiaryAccountNumber&quot;: &quot;${BeneficiaryAccountNumber}&quot;,&#xd;
+            &quot;TaxYearStartMonth&quot;: &quot;${MonthStarts}&quot;,&#xd;
+            &quot;TaxYear&quot;: &quot;${TaxYear}&quot;,&#xd;
+            &quot;EmailBody&quot;: &quot;${EmailBody}&quot;&#xd;
+        }&#xd;
+    }&#xd;
+}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">${url}/Report/TransferTaxInformation</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+              <stringProp name="BeanShellAssertion.query">
+String response = prev.getResponseDataAsString();
+String expmessage=vars.get(&quot;experror&quot;);
+String casename=vars.get(&quot;case&quot;);
+ String sErrLog = &quot;&quot;;
+ 
+String  actualerror=&quot;&quot;;
+	    actualerror = response.substring(response.indexOf(&quot;\&quot;Errors\&quot;:[&quot;), response.lastIndexOf(&quot;]}}}}&quot;)).replace(&quot;\&quot;Errors\&quot;:[&quot;, &quot;&quot;).replace(&quot;\&quot;&quot;,&quot;&quot;);
+
+
+  //System.out.println(actualerror);
+ // System.out.println(expmessage);
+ //  System.out.println(casename + &quot;_&quot; + actualerror);
+  
+if(actualerror.equals(expmessage)){
+
+ prev.setSuccessful(true);
+   prev.setResponseCodeOK();
+   prev.setResponseMessageOK();
+
+}
+else
+{
+		 Failure= true ;
+	
+	sErrLog=&quot;Error message expected to have:&quot;+ expmessage+ &quot; but received &quot; +actualerror;
+	FailureMessage = sErrLog;
+}
+</stringProp>
+              <stringProp name="BeanShellAssertion.filename"></stringProp>
+              <stringProp name="BeanShellAssertion.parameters"></stringProp>
+              <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+            </BeanShellAssertion>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="${case}_withoutmonth" enabled="false">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&#xd;
+    &quot;TransferTaxInformation&quot;: {&#xd;
+        &quot;Request&quot;: {&#xd;
+            &quot;IssuerAccountNumber&quot;: &quot;${issuerAccountNumber}&quot;,&#xd;
+            &quot;BeneficiaryAccountNumber&quot;: &quot;${BeneficiaryAccountNumber}&quot;,&#xd;
+            &quot;TaxYear&quot;: &quot;${TaxYear}&quot;,&#xd;
+            &quot;EmailBody&quot;: &quot;${EmailBody}&quot;&#xd;
+        }&#xd;
+    }&#xd;
+}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">${url}/Report/TransferTaxInformation</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+              <stringProp name="BeanShellAssertion.query">
+String response = prev.getResponseDataAsString();
+String expmessage=vars.get(&quot;experror&quot;);
+String casename=vars.get(&quot;case&quot;);
+ String sErrLog = &quot;&quot;;
+ 
+String  actualerror=&quot;&quot;;
+	    actualerror = response.substring(response.indexOf(&quot;\&quot;Errors\&quot;:[&quot;), response.lastIndexOf(&quot;]}}}}&quot;)).replace(&quot;\&quot;Errors\&quot;:[&quot;, &quot;&quot;).replace(&quot;\&quot;&quot;,&quot;&quot;);
+
+
+  //System.out.println(actualerror);
+ // System.out.println(expmessage);
+ //  System.out.println(casename + &quot;_&quot; + actualerror);
+  
+if(actualerror.equals(expmessage)){
+
+ prev.setSuccessful(true);
+   prev.setResponseCodeOK();
+   prev.setResponseMessageOK();
+
+}
+else
+{
+		 Failure= true ;
+	
+	sErrLog=&quot;Error message expected to have:&quot;+ expmessage+ &quot; but received &quot; +actualerror;
+	FailureMessage = sErrLog;
+}
+</stringProp>
+              <stringProp name="BeanShellAssertion.filename"></stringProp>
+              <stringProp name="BeanShellAssertion.parameters"></stringProp>
+              <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+            </BeanShellAssertion>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+            </value>
+          </objProp>
+          <objProp>
+            <name></name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>false</latency>
+              <timestamp>false</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>false</threadName>
+              <dataType>false</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>false</subresults>
+              <responseData>true</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <url>true</url>
+            </value>
+          </objProp>
+          <stringProp name="filename">${reportPath}</stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="false">
+          <collectionProp name="Asserion.test_strings">
+            <stringProp name="67232232">Error</stringProp>
+            <stringProp name="-809373649">Exception</stringProp>
+          </collectionProp>
+          <stringProp name="Assertion.custom_message"></stringProp>
+          <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+          <boolProp name="Assertion.assume_success">false</boolProp>
+          <intProp name="Assertion.test_type">6</intProp>
+        </ResponseAssertion>
+        <hashTree/>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

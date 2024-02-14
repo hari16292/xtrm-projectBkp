@@ -1,0 +1,301 @@
+2023-10-30 14:13:42,144 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-10-30 14:13:42,164 INFO o.a.j.JMeter: Loading user properties from: D:\Jmeter\apache-jmeter-5.6.2\bin\user.properties
+2023-10-30 14:13:42,164 INFO o.a.j.JMeter: Loading system properties from: D:\Jmeter\apache-jmeter-5.6.2\bin\system.properties
+2023-10-30 14:13:42,164 INFO o.a.j.JMeter: Setting JMeter property: users=50
+2023-10-30 14:13:42,164 INFO o.a.j.JMeter: Setting JMeter property: rampUp=1
+2023-10-30 14:13:42,164 INFO o.a.j.JMeter: Setting JMeter property: loopCount=1
+2023-10-30 14:13:42,169 INFO o.a.j.JMeter: Copyright (c) 1998-2023 The Apache Software Foundation
+2023-10-30 14:13:42,169 INFO o.a.j.JMeter: Version 5.6.2
+2023-10-30 14:13:42,169 INFO o.a.j.JMeter: java.version=11.0.18
+2023-10-30 14:13:42,169 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2023-10-30 14:13:42,169 INFO o.a.j.JMeter: os.name=Windows 11
+2023-10-30 14:13:42,169 INFO o.a.j.JMeter: os.arch=amd64
+2023-10-30 14:13:42,169 INFO o.a.j.JMeter: os.version=10.0
+2023-10-30 14:13:42,169 INFO o.a.j.JMeter: file.encoding=Cp1252
+2023-10-30 14:13:42,169 INFO o.a.j.JMeter: java.awt.headless=true
+2023-10-30 14:13:42,169 INFO o.a.j.JMeter: Max memory     =1073741824
+2023-10-30 14:13:42,169 INFO o.a.j.JMeter: Available Processors =8
+2023-10-30 14:13:42,174 INFO o.a.j.JMeter: Default Locale=English (EN)
+2023-10-30 14:13:42,174 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2023-10-30 14:13:42,174 INFO o.a.j.JMeter: JMeterHome=D:\Jmeter\apache-jmeter-5.6.2
+2023-10-30 14:13:42,174 INFO o.a.j.JMeter: user.dir  =E:\Automation\XAPI_Load_Test
+2023-10-30 14:13:42,174 INFO o.a.j.JMeter: PWD       =E:\Automation\XAPI_Load_Test
+2023-10-30 14:13:42,174 INFO o.a.j.JMeter: IP: 192.168.0.103 Name: DESKTOP-JM6GQC4 FullName: DESKTOP-JM6GQC4
+2023-10-30 14:13:44,931 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'E:\Automation\XAPI_Load_Test\Results'
+2023-10-30 14:13:44,934 INFO o.a.j.s.FileServer: Default base='E:\Automation\XAPI_Load_Test'
+2023-10-30 14:13:44,934 INFO o.a.j.s.FileServer: Set new base='E:\Automation\XAPI_Load_Test'
+2023-10-30 14:13:45,094 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-10-30 14:13:45,138 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-10-30 14:13:45,144 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-10-30 14:13:45,144 INFO o.a.j.s.SaveService: Loading file: XAPI.jmx
+2023-10-30 14:13:45,524 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-10-30 14:13:45,524 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-10-30 14:13:45,524 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-10-30 14:13:45,524 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-10-30 14:13:45,524 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-10-30 14:13:45,524 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-10-30 14:13:45,744 INFO o.a.j.JMeter: Creating summariser <summary>
+2023-10-30 14:13:45,744 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2023-10-30 14:13:45,744 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: ResultData.csv
+2023-10-30 14:13:45,744 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: D:\Jmeter\apache-jmeter-5.6.2\bin\reportgenerator.properties
+2023-10-30 14:13:45,764 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2023-10-30 14:13:45,784 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2023-10-30 14:13:45,784 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2023-10-30 14:13:45,784 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2023-10-30 14:13:45,784 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2023-10-30 14:13:45,784 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2023-10-30 14:13:45,784 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2023-10-30 14:13:45,784 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2023-10-30 14:13:45,784 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2023-10-30 14:13:45,784 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2023-10-30 14:13:45,794 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2023-10-30 14:13:45,794 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-10-30 14:13:45,794 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2023-10-30 14:13:45,794 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2023-10-30 14:13:45,794 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2023-10-30 14:13:45,794 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2023-10-30 14:13:45,794 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-10-30 14:13:45,794 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-10-30 14:13:45,794 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-10-30 14:13:45,794 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-10-30 14:13:45,794 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2023-10-30 14:13:45,794 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2023-10-30 14:13:45,794 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2023-10-30 14:13:45,794 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2023-10-30 14:13:45,794 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2023-10-30 14:13:45,794 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2023-10-30 14:13:45,814 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-10-30 14:13:45,814 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-10-30 14:13:45,814 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-10-30 14:13:45,824 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-10-30 14:13:45,824 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2023-10-30 14:13:45,904 INFO o.a.j.r.ClassFinder: Will scan jar D:\Jmeter\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-casutg-2.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-10-30 14:13:45,917 INFO o.a.j.r.ClassFinder: Will scan jar D:\Jmeter\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-csvars-0.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-10-30 14:13:45,917 INFO o.a.j.r.ClassFinder: Will scan jar D:\Jmeter\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-webdriver-4.10.0.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-10-30 14:13:45,954 INFO o.a.j.r.ClassFinder: Will scan jar D:\Jmeter\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-10-30 14:13:46,119 INFO o.a.j.r.ClassFinder: Will scan jar D:\Jmeter\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-tst-2.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-10-30 14:13:46,125 INFO o.a.j.r.ClassFinder: Will scan jar D:\Jmeter\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-graphs-basic-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-10-30 14:13:46,125 INFO o.a.j.r.ClassFinder: Will scan jar D:\Jmeter\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-10-30 14:13:46,125 INFO o.a.j.r.ClassFinder: Will scan jar D:\Jmeter\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-graphs-additional-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-10-30 14:13:46,304 INFO o.a.j.JMeter: Running test (1698655426304)
+2023-10-30 14:13:46,324 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Authorization
+2023-10-30 14:13:46,324 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Authorization.
+2023-10-30 14:13:46,324 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-10-30 14:13:46,324 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-10-30 14:13:46,334 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-10-30 14:13:46,334 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Authorization to finish before starting next group
+2023-10-30 14:13:46,334 INFO o.a.j.t.JMeterThread: Thread started: Authorization 1-1
+2023-10-30 14:13:47,002 INFO o.a.j.t.JMeterThread: Thread is done: Authorization 1-1
+2023-10-30 14:13:47,002 INFO o.a.j.t.JMeterThread: Thread finished: Authorization 1-1
+2023-10-30 14:13:47,002 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Load Test
+2023-10-30 14:13:47,002 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group Load Test.
+2023-10-30 14:13:47,002 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-10-30 14:13:47,002 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=50 ramp-up=1 delayedStart=false
+2023-10-30 14:13:47,104 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-1
+2023-10-30 14:13:47,145 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-JM6GQC4
+2023-10-30 14:13:47,178 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2023-10-30 14:13:47,178 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-10-30 14:13:47,178 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2023-10-30 14:13:47,178 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-10-30 14:13:47,178 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-10-30 14:13:47,264 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-2
+2023-10-30 14:13:47,361 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2023-10-30 14:13:47,367 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2023-10-30 14:13:47,367 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2023-10-30 14:13:47,374 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-3
+2023-10-30 14:13:47,446 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2023-10-30 14:13:47,454 INFO o.a.j.u.SSLManager: KeyStore created OK
+2023-10-30 14:13:47,454 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2023-10-30 14:13:47,465 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-4
+2023-10-30 14:13:47,564 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-5
+2023-10-30 14:13:47,656 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-6
+2023-10-30 14:13:47,754 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-7
+2023-10-30 14:13:47,869 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-8
+2023-10-30 14:13:47,934 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-9
+2023-10-30 14:13:47,994 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-10
+2023-10-30 14:13:48,084 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-11
+2023-10-30 14:13:48,154 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-12
+2023-10-30 14:13:48,279 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-13
+2023-10-30 14:13:48,337 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-14
+2023-10-30 14:13:48,400 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-15
+2023-10-30 14:13:48,464 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-16
+2023-10-30 14:13:48,518 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-17
+2023-10-30 14:13:48,584 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-18
+2023-10-30 14:13:48,634 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-19
+2023-10-30 14:13:48,679 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-20
+2023-10-30 14:13:48,723 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-21
+2023-10-30 14:13:48,774 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-22
+2023-10-30 14:13:48,814 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-23
+2023-10-30 14:13:48,864 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-24
+2023-10-30 14:13:48,909 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-25
+2023-10-30 14:13:48,961 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-26
+2023-10-30 14:13:49,004 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-27
+2023-10-30 14:13:49,044 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-28
+2023-10-30 14:13:49,084 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-29
+2023-10-30 14:13:49,134 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-30
+2023-10-30 14:13:49,178 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-31
+2023-10-30 14:13:49,214 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-32
+2023-10-30 14:13:49,275 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-33
+2023-10-30 14:13:49,371 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-34
+2023-10-30 14:13:49,454 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-35
+2023-10-30 14:13:49,534 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-36
+2023-10-30 14:13:49,604 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-37
+2023-10-30 14:13:49,664 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-38
+2023-10-30 14:13:49,767 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-39
+2023-10-30 14:13:49,815 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-1
+2023-10-30 14:13:49,815 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-1
+2023-10-30 14:13:49,815 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-4
+2023-10-30 14:13:49,815 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-3
+2023-10-30 14:13:49,815 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-6
+2023-10-30 14:13:49,815 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-6
+2023-10-30 14:13:49,815 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-7
+2023-10-30 14:13:49,815 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-9
+2023-10-30 14:13:49,815 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-12
+2023-10-30 14:13:49,815 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-9
+2023-10-30 14:13:49,815 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-12
+2023-10-30 14:13:49,815 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-10
+2023-10-30 14:13:49,815 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-3
+2023-10-30 14:13:49,815 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-7
+2023-10-30 14:13:49,815 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-10
+2023-10-30 14:13:49,815 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-4
+2023-10-30 14:13:49,815 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-11
+2023-10-30 14:13:49,815 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-11
+2023-10-30 14:13:49,844 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-40
+2023-10-30 14:13:49,846 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-13
+2023-10-30 14:13:49,846 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-13
+2023-10-30 14:13:49,846 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-16
+2023-10-30 14:13:49,846 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-16
+2023-10-30 14:13:49,854 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-15
+2023-10-30 14:13:49,854 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-15
+2023-10-30 14:13:49,854 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-14
+2023-10-30 14:13:49,854 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-14
+2023-10-30 14:13:49,909 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-41
+2023-10-30 14:13:49,956 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-23
+2023-10-30 14:13:49,956 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-23
+2023-10-30 14:13:49,974 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-42
+2023-10-30 14:13:50,024 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-43
+2023-10-30 14:13:50,035 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-2
+2023-10-30 14:13:50,035 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-2
+2023-10-30 14:13:50,074 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-44
+2023-10-30 14:13:50,124 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-45
+2023-10-30 14:13:50,124 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-25
+2023-10-30 14:13:50,124 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-25
+2023-10-30 14:13:50,134 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-17
+2023-10-30 14:13:50,134 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-5
+2023-10-30 14:13:50,134 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-17
+2023-10-30 14:13:50,134 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-5
+2023-10-30 14:13:50,144 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-22
+2023-10-30 14:13:50,144 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-22
+2023-10-30 14:13:50,146 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-24
+2023-10-30 14:13:50,146 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-24
+2023-10-30 14:13:50,150 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-8
+2023-10-30 14:13:50,150 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-8
+2023-10-30 14:13:50,153 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-19
+2023-10-30 14:13:50,153 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-19
+2023-10-30 14:13:50,178 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-46
+2023-10-30 14:13:50,214 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-47
+2023-10-30 14:13:50,254 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-48
+2023-10-30 14:13:50,294 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-49
+2023-10-30 14:13:50,334 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-10-30 14:13:50,334 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-10-30 14:13:50,334 INFO o.a.j.t.JMeterThread: Thread started: Load Test 2-50
+2023-10-30 14:13:50,434 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-28
+2023-10-30 14:13:50,434 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-28
+2023-10-30 14:13:50,504 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-26
+2023-10-30 14:13:50,504 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-26
+2023-10-30 14:13:50,534 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-20
+2023-10-30 14:13:50,534 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-20
+2023-10-30 14:13:50,544 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-27
+2023-10-30 14:13:50,544 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-27
+2023-10-30 14:13:50,546 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-29
+2023-10-30 14:13:50,546 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-29
+2023-10-30 14:13:50,574 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-18
+2023-10-30 14:13:50,574 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-18
+2023-10-30 14:13:50,577 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-31
+2023-10-30 14:13:50,577 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-31
+2023-10-30 14:13:50,594 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-21
+2023-10-30 14:13:50,594 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-21
+2023-10-30 14:13:50,657 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-37
+2023-10-30 14:13:50,657 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-37
+2023-10-30 14:13:50,804 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-33
+2023-10-30 14:13:50,804 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-33
+2023-10-30 14:13:50,804 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-39
+2023-10-30 14:13:50,804 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-39
+2023-10-30 14:13:50,816 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-34
+2023-10-30 14:13:50,816 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-34
+2023-10-30 14:13:50,909 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-36
+2023-10-30 14:13:50,909 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-36
+2023-10-30 14:13:50,911 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-32
+2023-10-30 14:13:50,911 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-35
+2023-10-30 14:13:50,911 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-32
+2023-10-30 14:13:50,911 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-35
+2023-10-30 14:13:51,014 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-40
+2023-10-30 14:13:51,014 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-40
+2023-10-30 14:13:51,137 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-42
+2023-10-30 14:13:51,137 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-42
+2023-10-30 14:13:51,184 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-41
+2023-10-30 14:13:51,184 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-41
+2023-10-30 14:13:51,184 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-45
+2023-10-30 14:13:51,184 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-45
+2023-10-30 14:13:51,216 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-44
+2023-10-30 14:13:51,216 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-44
+2023-10-30 14:13:51,284 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-48
+2023-10-30 14:13:51,284 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-48
+2023-10-30 14:13:51,284 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-38
+2023-10-30 14:13:51,284 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-38
+2023-10-30 14:13:51,304 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-47
+2023-10-30 14:13:51,304 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-47
+2023-10-30 14:13:51,304 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-49
+2023-10-30 14:13:51,304 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-49
+2023-10-30 14:13:51,304 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-46
+2023-10-30 14:13:51,304 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-46
+2023-10-30 14:13:51,424 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-50
+2023-10-30 14:13:51,424 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-50
+2023-10-30 14:13:51,696 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-30
+2023-10-30 14:13:51,696 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-30
+2023-10-30 14:13:51,784 INFO o.a.j.t.JMeterThread: Thread is done: Load Test 2-43
+2023-10-30 14:13:51,784 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 2-43
+2023-10-30 14:13:51,784 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-10-30 14:13:51,794 INFO o.a.j.r.Summariser: summary =    150 in 00:00:05 =   27.3/s Avg:   497 Min:   274 Max:  1563 Err:     0 (0.00%)
+2023-10-30 14:13:51,794 INFO o.a.j.JMeter: Generating Dashboard
+2023-10-30 14:13:51,794 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2023-10-30 14:13:51,814 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2023-10-30 14:13:51,954 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2023-10-30 14:13:51,954 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2023-10-30 14:13:51,964 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2023-10-30 14:13:51,964 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2023-10-30 14:13:51,967 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2023-10-30 14:13:51,967 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2023-10-30 14:13:51,967 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2023-10-30 14:13:51,967 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2023-10-30 14:13:51,974 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2023-10-30 14:13:51,974 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2023-10-30 14:13:51,974 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2023-10-30 14:13:51,974 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2023-10-30 14:13:51,984 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2023-10-30 14:13:51,984 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 1050 samples
+2023-10-30 14:13:51,984 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2023-10-30 14:13:51,984 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2023-10-30 14:13:51,984 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2023-10-30 14:13:51,984 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2023-10-30 14:13:51,984 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2023-10-30 14:13:51,984 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2023-10-30 14:13:51,984 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2023-10-30 14:13:51,984 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2023-10-30 14:13:51,984 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2023-10-30 14:13:51,994 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2023-10-30 14:13:51,994 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 2250 samples
+2023-10-30 14:13:51,994 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 450 samples
+2023-10-30 14:13:51,994 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 150 samples
+2023-10-30 14:13:51,994 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 150 samples produced in 160ms on channel 0
+2023-10-30 14:13:51,994 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2023-10-30 14:13:52,134 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2023-10-30 14:13:52,134 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2023-10-30 14:13:52,134 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2023-10-30 14:13:52,134 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2023-10-30 14:13:52,134 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to E:\Automation\XAPI_Load_Test\Results\statistics.json
+2023-10-30 14:13:52,174 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2023-10-30 14:13:52,174 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: E:\Automation\XAPI_Load_Test\Results
+2023-10-30 14:13:52,404 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: E:\Automation\XAPI_Load_Test\Results, creating folder structure
+2023-10-30 14:13:52,404 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'D:\Jmeter\apache-jmeter-5.6.2\bin\report-template' to 'E:\Automation\XAPI_Load_Test\Results', got message: E:\Automation\XAPI_Load_Test\Results, found non empty folder with following content [E:\Automation\XAPI_Load_Test\Results\statistics.json], will be ignored
+2023-10-30 14:13:53,234 INFO o.a.j.JMeter: Dashboard generated

@@ -1,0 +1,11 @@
+case;issuerAccountNumber;FromAccountNumber;FromWalletID;RecipientFirstName;RecipientLastName;RecipientEmail;Currency;Amount;Description;experror
+case1;;PAT21138887;86293;Test;User1;test@mailinator.com;USD;3;wrong account;Not authorized to access this resource.
+case2;SPN19134662;;86293;Test;User1;test@mailinator.com;USD;3;wrong account;From Account Number is mandatory
+case3;SPN19134662;PAT21138887;;Test;User1;test@mailinator.com;USD;3;no wallet;FromWalletID is Mandatory and must be an integer,From Wallet ID  is Mandatory
+case4;SPN19134662;PAT21138887;86293;;User1;test@mailinator.com;USD;3;no recipient firstname;86293 - Invalid from wallet id,Insufficient funds to process payment
+case5;SPN19134662;PAT21138887;86293;;;test@mailinator.com;USD;3;no lastname;86293 - Invalid from wallet id,Insufficient funds to process payment
+case6;SPN19134662;PAT21138887;86293;;User1;;USD;3;no mail;Recipient Email is Mandatory
+case7;SPN19134662;PAT21138887;86293;test3;User1;test@mailinator.com;fadfasdfa;3;wrong currency;Currency code must be a string with a maximum length of 3
+case8;SPN19134662;PAT21138887;86293;test3;User1;test@mailinator.com;USD;;no amount;Amount should be greater than zero
+case9;SPN19134662;PAT21138887;86293;tesdtasda;User1;test@mailinator.com;;afasd3;wrong amount;Amount should be greater than zero,Currency is Mandatory
+case10;SPN19134662;PAT21138887;86293;tesdtasda;User1;test@mailinator.com;;12345668988;wrong amount;Currency is dasdsdsadMandatory

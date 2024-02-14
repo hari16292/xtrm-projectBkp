@@ -1,0 +1,2 @@
+rem jmeter -n -t “location of test file” -l “location of your result file” -e -o “location of reports folder”
+jmeter -n -t "C:\Users\siris\OneDrive\Documents\GitHub\Test%20Automation\testauto-xtrm-API\Web API.jmx" -l "C:\Users\siris\OneDrive\Documents\GitHub\Test%20Automation\testauto-xtrm-API\reportWebAPIError.xml" -e -o "C:\Users\siris\OneDrive\Documents\GitHub\Test%20Automation\testauto-xtrm-API\Result"

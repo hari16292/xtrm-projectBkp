@@ -1,0 +1,10 @@
+case;BankName;BankCountryISO2;City;NationalID;ExpError
+case1;;IN;Chennai;PUNB0034300;null
+case2;%$^%;IN;Chennai;PUNB0034300;null
+case3;INDUSIND;;Chennai;PUNB0034300;[Bank Country ISO2 is mandatory]
+case4;PUNJAB;INA;Chennai;PUNB0034300;[Invalid Bank Country ISO2,Country_Code2 is invalid]
+case5;BANK;123156;Chennai;PUNB0034300;[Invalid Bank Country ISO2,Country_Code2 is invalid]
+case6;BANK;123156;Chennai;PUNB0034300;[Invalid Bank Country ISO2,Country_Code2 is invalid]
+case7;INDUSIND;UK;;PUNB0034300;[Country_Code2 is invalid]
+case8;PUNJAB;IN;798513;;null
+case9;BANK;IN;Chennai;98761@$%^;null

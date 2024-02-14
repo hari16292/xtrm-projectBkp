@@ -1,0 +1,13 @@
+case;account_number;amount;from_currency;to_currency;payment_method_id;user_giftcard_email_id;user_rewardcard_email_id;user_linked_bank_id;user_paypal_email_id;user_prepaid_visa_email_id;user_card_token;SKU;AlwaysUseThisEmail;otp;verification_method;errormessage
+case1;PAT2190536;1.26;USD;USD;XTR94508;;;;;;FFDB4877B95640C;;FALSE;158537;email;User Linked Card Token is missing
+case2;PAT2190536;10;USDdasd;USD;XTR94508;;;;;;FFDB4877B95640C;;FALSE;158537;email;from_currency must be less than 4 characters. You entered 7 characters.,Invalid from currency
+case3;PAT2190536;10;USD;USDdasd;XTR94508;;;;;;FFDB4877B95640C;;FALSE;158537;email;to_currency must be less than 4 characters. You entered 7 characters.,Invalid to currency
+case4;PAT2190536;10;USD;USD;XTR94505;;;;;;FFDB4877B95640C;;FALSE;158537;email;Prepaid Visa EmailID is missing
+case5;PAT2190536;10;USD;USD;XTR94503;;;;;;FFDB4877B95640C;;FALSE;158537;email;Prepaid Visa EmailID is missing
+case6;PAT2190536;10;USD;USD;XTR945067 ;;;;;;FFDB4877B95640C;;FALSE;158537;email;Invalid Payment Method. Please only use: XTR94500,XTR94505,XTR94503,XTR94506,XTR94507,XTR94508
+case7;PAT2190536;10;USD;USD;XTR94500;;;;;;FFDB4877B95640C;;FALSE;158537;email;Invalid User Linked Bank ID
+case8;PAT2190536;10;USD;USD;XTR94500;;test;;;;FFDB4877B95640C;;FALSE;158537;email;Invalid User Linked Bank ID
+case9;PAT2190536;10;USD;USD;XTR94500;;;2991;;;FFDB4877B95640C;;FALSE;158537;email;Invalid User Linked Bank ID.
+case10;PAT2190536;10;USD;USD;XTR94506;test;;2991;;;FFDB4877B95640C;;FALSE;158537;email;vSKU cannot be empty.
+case11;PAT2190536;10;USD;USD;XTR94500;test;;;test;;FFDB4877B95640C;;;158537;emi;Invalid User Linked Bank ID
+case12;PAT2190536;10;USD;USD;XTR94506;test;;2991;;;FFDB4877B95640C;U935268;FALSE;158537;email;Reward card email id cannot be empty.

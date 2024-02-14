@@ -1,0 +1,294 @@
+Request method:	POST
+Request URI:	https://xmadev.xtrm.com/oAuth/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+grant_type=password&client_id=2110038_API_User&client_secret=vo8cs6X4vYoWB4HaUhAfSba9qltSAOcoN4w9zN/CE=
+HTTP/1.1 200 OK
+Date: Fri, 09 Feb 2024 05:07:32 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 521
+Connection: keep-alive
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Encoding: gzip
+Expires: -1
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+X-Powered-By: ASP.NET
+X-FRAME-OPTIONS: SAME-ORIGIN
+X-Content-Type-Options: nosniff
+CF-Cache-Status: DYNAMIC
+Set-Cookie: __cf_bm=ug6KTKzGGlWF8n2F580UapnfTUbrpOkRyXJOcCpeE6c-1707455252-1-ATKvaQ8jVcvqL6xkLDK+1yNle77iOV4OdmiJ5gm2DWGZ6lRUi3CK0yPXikpPe2znBAvedtUrh3bOlkty7heIhJQ=; path=/; expires=Fri, 09-Feb-24 05:37:32 GMT; domain=.xtrm.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+CF-RAY: 852996d76f55910a-FRA
+
+{
+    "access_token": "oJv4ul94kHHV9z9sEOTvnxTYByKZATR4RPGxjGo4k+AuCQq5xo4bQNxNxZZqVUiVWbNllJYV+3NODhQW0oyjl275aX8zeeL9Jc4yMBfXAvGAWZdd3MUrD68oaPJYIz1MKTquNikdv8/PgBn5bKY3KGNeSfLSExXMZFt4PcqgW9Y0uQjQWPwnRm+/qvdQQVQyMTkwNTU0",
+    "token_type": "bearer",
+    "expires_in": 86399,
+    "refresh_token": "0cbb3ef3e5c54d8d9e98a14e2fca5a6a",
+    "client_id": "2110038_API_User",
+    ".issued": "Fri, 09 Feb 2024 05:07:32 GMT",
+    ".expires": "Sat, 10 Feb 2024 05:07:32 GMT"
+}
+Request method:	POST
+Request URI:	https://xmadev.xtrm.com/api/v1/Payment/FundTransfer
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer oJv4ul94kHHV9z9sEOTvnxTYByKZATR4RPGxjGo4k+AuCQq5xo4bQNxNxZZqVUiVWbNllJYV+3NODhQW0oyjl275aX8zeeL9Jc4yMBfXAvGAWZdd3MUrD68oaPJYIz1MKTquNikdv8/PgBn5bKY3KGNeSfLSExXMZFt4PcqgW9Y0uQjQWPwnRm+/qvdQQVQyMTkwNTU0
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amount": "3",
+    "currency_code": "USD",
+    "description": "Test Auto Description - 09-02-2024 10:37:27",
+    "from_account_number": "PAT2190554",
+    "to_account_number": "SPN2190533",
+    "to_email_id": ""
+}
+HTTP/1.1 200 OK
+Date: Fri, 09 Feb 2024 05:08:02 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Encoding: gzip
+Expires: -1
+Vary: Accept-Encoding
+api-supported-versions: 1.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+X-FRAME-OPTIONS: SAME-ORIGIN
+X-Content-Type-Options: nosniff
+CF-Cache-Status: DYNAMIC
+Set-Cookie: __cf_bm=BlSfZD5N_fcTsB0yNddb..Kl5WfaIAOIPlKn81ZaMDk-1707455282-1-AWXEmLA2GO5WNlDNGcbs58wBqthenNeKnbPjTy0vYAlUZSGzYmBYsOXRzpHUBHsPYf6D5m0zdT53QumpPkqOHMM=; path=/; expires=Fri, 09-Feb-24 05:38:02 GMT; domain=.xtrm.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+CF-RAY: 852996e8ae9b910a-FRA
+
+{
+    "Status": {
+        "error": false,
+        "code": 200,
+        "type": "Success",
+        "message": "Success"
+    },
+    "data": {
+        "TransactionID": 341361
+    }
+}
+Request method:	POST
+Request URI:	https://xmadev.xtrm.com/api/v1/Wallet/GetUserWalletsTransactions
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer oJv4ul94kHHV9z9sEOTvnxTYByKZATR4RPGxjGo4k+AuCQq5xo4bQNxNxZZqVUiVWbNllJYV+3NODhQW0oyjl275aX8zeeL9Jc4yMBfXAvGAWZdd3MUrD68oaPJYIz1MKTquNikdv8/PgBn5bKY3KGNeSfLSExXMZFt4PcqgW9Y0uQjQWPwnRm+/qvdQQVQyMTkwNTU0
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "account_number": "PAT2190554",
+    "currency": "USD",
+    "current_page": "1",
+    "items_per_page": "5",
+    "transaction_type": "All",
+    "search_param": ""
+}
+HTTP/1.1 200 OK
+Date: Fri, 09 Feb 2024 05:08:05 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Encoding: gzip
+Expires: -1
+Vary: Accept-Encoding
+api-supported-versions: 1.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+X-FRAME-OPTIONS: SAME-ORIGIN
+X-Content-Type-Options: nosniff
+CF-Cache-Status: DYNAMIC
+Set-Cookie: __cf_bm=8d06Xlxr22TgG4gXvdPaR9Ld6.N.0oYuPStSZwyYcDU-1707455285-1-Afp+qoTMckqz0syCAom1My1rxV/f6kcN7iKJUTYGJvmgmfJH/wVscNV6PGMnl2SSBF9yEUCXozzhuURuNs1/NNw=; path=/; expires=Fri, 09-Feb-24 05:38:05 GMT; domain=.xtrm.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+CF-RAY: 852997a0bfc5910a-FRA
+
+{
+    "Status": {
+        "error": false,
+        "code": 200,
+        "type": "Success",
+        "message": "Success"
+    },
+    "data": [
+        {
+            "transaction_id": 341361,
+            "name": "TestAPICompany",
+            "email": "Company - testapicompany1@mailinator.com",
+            "transaction_icon": "Payment Sent",
+            "transaction_type": "Money Sent",
+            "transaction_date": "2024-02-08T23:08:01.28",
+            "description": "Test Auto Description - 09-02-2024 10:37:27",
+            "amount": 5.80,
+            "balance": 8546.76,
+            "type": -1,
+            "currency_symbol": "$",
+            "countryflag": "https://dev.xtrm.com/web/assets/img/flags/united-states-of-america-flag-round-medium.png",
+            "currency_name": "USD",
+            "TotalRecords": 2436
+        },
+        {
+            "transaction_id": 302241,
+            "name": "TestAPICompany",
+            "email": "Company - testapicompany1@mailinator.com",
+            "transaction_icon": "Payment Sent",
+            "transaction_type": "Money Received",
+            "transaction_date": "2023-11-29T05:04:00.543",
+            "description": "Test in postman",
+            "amount": 10.00,
+            "balance": 8552.56,
+            "type": 1,
+            "currency_symbol": "$",
+            "countryflag": "https://dev.xtrm.com/web/assets/img/flags/united-states-of-america-flag-round-medium.png",
+            "currency_name": "USD",
+            "TotalRecords": 2436
+        },
+        {
+            "transaction_id": 243476,
+            "name": "TestAPICompany",
+            "email": "Company - testapicompany1@mailinator.com",
+            "transaction_icon": "Payment Sent",
+            "transaction_type": "Money Received",
+            "transaction_date": "2023-11-24T00:27:38.46",
+            "description": "Test in postman",
+            "amount": 10.00,
+            "balance": 8542.56,
+            "type": 1,
+            "currency_symbol": "$",
+            "countryflag": "https://dev.xtrm.com/web/assets/img/flags/united-states-of-america-flag-round-medium.png",
+            "currency_name": "USD",
+            "TotalRecords": 2436
+        },
+        {
+            "transaction_id": 240714,
+            "name": "TestAPICompany",
+            "email": "Company - testapicompany1@mailinator.com",
+            "transaction_icon": "Payment Sent",
+            "transaction_type": "Money Received",
+            "transaction_date": "2023-11-20T01:50:53.59",
+            "description": "Test in postman",
+            "amount": 10.00,
+            "balance": 8532.56,
+            "type": 1,
+            "currency_symbol": "$",
+            "countryflag": "https://dev.xtrm.com/web/assets/img/flags/united-states-of-america-flag-round-medium.png",
+            "currency_name": "USD",
+            "TotalRecords": 2436
+        },
+        {
+            "transaction_id": 240710,
+            "name": "harimobtest1@mailinator.com",
+            "email": "Digital Gift Card",
+            "transaction_icon": "Transferred",
+            "transaction_type": "Money Transferred",
+            "transaction_date": "2023-11-16T23:25:37.44",
+            "description": "Transfer to  digital gift card",
+            "amount": 10.00,
+            "balance": 8522.56,
+            "type": -1,
+            "currency_symbol": "$",
+            "countryflag": "https://dev.xtrm.com/web/assets/img/flags/united-states-of-america-flag-round-medium.png",
+            "currency_name": "USD",
+            "TotalRecords": 2436
+        }
+    ],
+    "current_page": 1,
+    "items_per_page": 5,
+    "records_total": 2436
+}
+Request method:	POST
+Request URI:	https://xmadev.xtrm.com/api/v1/Wallet/GetUserWalletTransactionDetails
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer oJv4ul94kHHV9z9sEOTvnxTYByKZATR4RPGxjGo4k+AuCQq5xo4bQNxNxZZqVUiVWbNllJYV+3NODhQW0oyjl275aX8zeeL9Jc4yMBfXAvGAWZdd3MUrD68oaPJYIz1MKTquNikdv8/PgBn5bKY3KGNeSfLSExXMZFt4PcqgW9Y0uQjQWPwnRm+/qvdQQVQyMTkwNTU0
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "account_number": "PAT2190554",
+    "transaction_id": "341361"
+}
+HTTP/1.1 200 OK
+Date: Fri, 09 Feb 2024 05:08:06 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Encoding: gzip
+Expires: -1
+Vary: Accept-Encoding
+api-supported-versions: 1.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+X-FRAME-OPTIONS: SAME-ORIGIN
+X-Content-Type-Options: nosniff
+CF-Cache-Status: DYNAMIC
+Set-Cookie: __cf_bm=KimmGUOm9rywalCBBKgvJhdZnFBE4teM3EY8EyWR5j4-1707455286-1-AcGkEWqgacS1l1eoRLqRoUsK+hxuaguhWRDKTZ1/hTP9VOkN9Gr8QCilSOx6vY+AcLUavF6oC+ncYCHnTKM/kyQ=; path=/; expires=Fri, 09-Feb-24 05:38:06 GMT; domain=.xtrm.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+CF-RAY: 852997b25bf5910a-FRA
+
+{
+    "Status": {
+        "error": false,
+        "code": 200,
+        "type": "Success",
+        "message": "Success"
+    },
+    "data": {
+        "From": "Hari Test (harimobtest1@mailinator.com)",
+        "To": "TestAPICompany (testapicompany1@mailinator.com)",
+        "TransactionType": "Wallet",
+        "TransactionStatus": "Completed",
+        "Amount": "$3.00 USD",
+        "Fees": "$2.80 USD",
+        "Total": "$5.80 USD",
+        "Type": "Debit",
+        "TransactionDate": "08 February 2024 23:08:01"
+    },
+    "keys": [
+        "From",
+        "To",
+        "TransactionType",
+        "TransactionStatus",
+        "Amount",
+        "Fees",
+        "Total",
+        "Type",
+        "TransactionDate"
+    ]
+}

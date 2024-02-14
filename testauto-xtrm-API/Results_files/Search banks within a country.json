@@ -1,0 +1,1 @@
+{"SearchBankResponse":{"SearchBankResponseResult":{"Banks":[],"OperationStatus":{"Errors":null,"Success":true},"PaginationTotal":[{"RecordsTotal":0,"RecordsToSkip":1,"RecordsToTake":25}]}}}

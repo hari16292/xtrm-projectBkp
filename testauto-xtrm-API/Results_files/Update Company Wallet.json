@@ -1,0 +1,1 @@
+{"UpdateCompanyWalletResponse":{"UpdateCompanyWalletResult":{"Status":null,"OperationStatus":{"Success":false,"Errors":["WalletID is Mandatory and must be an integer"]}}}}

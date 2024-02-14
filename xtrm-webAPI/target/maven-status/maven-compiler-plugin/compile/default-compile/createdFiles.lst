@@ -1,0 +1,6 @@
+pojoClasses\token\ResSuccessAuthorization.class
+payloadRequest\LinkBankBeneficiary.class
+payloadRequest\Auth.class
+pojoClasses\commonClasses\ResFailedAuth.class
+pojoClasses\commonClasses\ResFailedoAuth.class
+pojoClasses\token\ResFailedAuthorization.class

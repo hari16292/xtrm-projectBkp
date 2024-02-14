@@ -1,0 +1,1 @@
+{"TransferFundToDynamicAccountUserResponse":{"TransferFundToDynamicAccountUserResult":{"TransactionID":"904881","Amount":"3.00","Fee":"4.00","TotalAmount":"7.00","Currency":"USD","RecipientAccountNumber":"PAT2291903","OperationStatus":{"Success":true,"Errors":null}}}}
